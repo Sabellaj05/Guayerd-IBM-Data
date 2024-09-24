@@ -1,0 +1,374 @@
+,Teléfono,Ciudad
+0,1234-5678,Buenos Aires
+1,2345-6789,Cordoba
+2,3456-7890,Rosario
+3,AR4567-8901,Mendoza
+4,5678-9012,Buenos Aires
+5,5678-9012,Buenos Aires
+6,6789-0123,San Miguel de Tucumán
+7,7890-1234,Mar del Plata
+8,8901-2345,La Plata
+9,8901-2345,La Plata
+10,9012-3456,Mendoza
+11,9012-3456,Mendoza
+12,0123-4567,Mar del Plata
+13,0123-4567,Mar del Plata
+14,1234-5678,Mar del Plata
+15,2345-6789,Salta
+16,2345-6789,Salta
+17,3456-7890,Santa Fe
+18,3456-7890,Santa Fe
+19,4567-8901,San Juan
+20,4567-8901,San Juan
+21,5678-9012,Buenos Aires
+22,5678-9012,Buenos Aires
+23,AR6789-0123,Neuquén
+24,AR6789-0123,Neuquén
+25,7890-1234,Rio Gallegos
+26,7890-1234,Rio Gallegos
+27,8901-2345,San Rafael
+28,8901-2345,San Rafael
+29,0111-2345,Buenos Aires
+30,0111-2345,Buenos Aires
+31,0111-2345,Buenos Aires
+32,0111-2345,Buenos Aires
+33,0111-2345,Buenos Aires
+34,0111-2345,Buenos Aires
+35,0111-2345,Buenos Aires
+36,0123-5678,Bahía Blanca
+37,0123-5678,Bahía Blanca
+38,0123-5678,Bahía Blanca
+39,0123-5678,Bahía Blanca
+40,0123-5678,Bahía Blanca
+41,0123-5678,Bahía Blanca
+42,0123-5678,Bahía Blanca
+43,0345-6789,Buenos Aires
+44,0345-6789,Buenos Aires
+45,0345-6789,Buenos Aires
+46,0345-6789,Buenos Aires
+47,0345-6789,Buenos Aires
+48,0345-6789,Buenos Aires
+49,0345-6789,Buenos Aires
+50,0678-3456,Buenos Aires
+51,0678-3456,Buenos Aires
+52,0678-3456,Buenos Aires
+53,0678-3456,Buenos Aires
+54,0765-4321,Santiago del Estero
+55,0765-4321,Santiago del Estero
+56,0765-4321,Santiago del Estero
+57,0765-4321,Santiago del Estero
+58,0889-7654,Río Cuarto
+59,0889-7654,Río Cuarto
+60,0889-7654,Río Cuarto
+61,0889-7654,Río Cuarto
+62,0999-1234,San Fernando del Valle de Catamarca
+63,0999-1234,San Fernando del Valle de Catamarca
+64,0999-1234,San Fernando del Valle de Catamarca
+65,0999-1234,San Fernando del Valle de Catamarca
+66,0777-5678,Villa María
+67,0777-5678,Villa María
+68,0777-5678,Villa María
+69,0777-5678,Villa María
+70,0555-4321,San Luis
+71,0555-4321,San Luis
+72,0555-4321,San Luis
+73,0555-4321,San Luis
+74,0666-2345,Chaco
+75,0666-2345,Chaco
+76,0666-2345,Chaco
+77,0666-2345,Chaco
+78,0666-2345,Chaco
+79,0666-2345,Chaco
+80,0123-9876,Buenos Aires
+81,0123-9876,Buenos Aires
+82,0123-9876,Buenos Aires
+83,0123-9876,Buenos Aires
+84,0123-9876,Buenos Aires
+85,0123-9876,Buenos Aires
+86,0999-2345,San Nicolás
+87,0999-2345,San Nicolás
+88,0999-2345,San Nicolás
+89,0999-2345,San Nicolás
+90,0999-2345,San Nicolás
+91,0999-2345,San Nicolás
+92,0555-9876,Luján
+93,0555-9876,Luján
+94,0555-9876,Luján
+95,0555-9876,Luján
+96,0555-9876,Luján
+97,0555-9876,Luján
+98,0555-9876,Luján
+99,0555-9876,Luján
+100,0555-9876,Luján
+101,0765-3456,Jujuy
+102,0765-3456,Jujuy
+103,0765-3456,Jujuy
+104,0765-3456,Jujuy
+105,0765-3456,Jujuy
+106,0765-3456,Jujuy
+107,0765-3456,Jujuy
+108,0765-3456,Jujuy
+109,0889-6543,Buenos Aires
+110,0889-6543,Buenos Aires
+111,0889-6543,Buenos Aires
+112,0889-6543,Buenos Aires
+113,0889-6543,Buenos Aires
+114,0889-6543,Buenos Aires
+115,0889-6543,Buenos Aires
+116,0889-6543,Buenos Aires
+117,0777-7654,Buenos Aires
+118,0777-7654,Buenos Aires
+119,0777-7654,Buenos Aires
+120,0777-7654,Buenos Aires
+121,0777-7654,Buenos Aires
+122,0777-7654,Buenos Aires
+123,0777-7654,Buenos Aires
+124,0777-7654,Buenos Aires
+125,0345-9998,Trelew
+126,0345-9998,Trelew
+127,0345-9998,Trelew
+128,0345-9998,Trelew
+129,0345-9998,Trelew
+130,0345-9998,Trelew
+131,0345-9998,Trelew
+132,0345-9998,Trelew
+133,0555-2345,Mendoza
+134,0555-2345,Mendoza
+135,0555-2345,Mendoza
+136,0555-2345,Mendoza
+137,0555-2345,Mendoza
+138,0555-2345,Mendoza
+139,0555-2345,Mendoza
+140,0555-2345,Mendoza
+141,0123-7654,San Fernando
+142,0123-7654,San Fernando
+143,0123-7654,San Fernando
+144,0123-7654,San Fernando
+145,0123-7654,San Fernando
+146,0123-7654,San Fernando
+147,0123-7654,San Fernando
+148,0123-7654,San Fernando
+149,0123-7654,San Fernando
+150,0123-7654,San Fernando
+151,0999-9876,Merlo
+152,0999-9876,Merlo
+153,0999-9876,Merlo
+154,0999-9876,Merlo
+155,0999-9876,Merlo
+156,0999-9876,Merlo
+157,0999-9876,Merlo
+158,0999-9876,Merlo
+159,0999-9876,Merlo
+160,0999-9876,Merlo
+161,0999-9876,Merlo
+162,0999-9876,Merlo
+163,0999-9876,Merlo
+164,0999-9876,Merlo
+165,0999-9876,Merlo
+166,0999-9876,Merlo
+167,0123-6789,San Martín
+168,0123-6789,San Martín
+169,0123-6789,San Martín
+170,0123-6789,San Martín
+171,0123-6789,San Martín
+172,0123-6789,San Martín
+173,0123-6789,San Martín
+174,0123-6789,San Martín
+175,0345-6789,Viedma
+176,0345-6789,Viedma
+177,0345-6789,Viedma
+178,0345-6789,Viedma
+179,0345-6789,Viedma
+180,0345-6789,Viedma
+181,0345-6789,Viedma
+182,0345-6789,Viedma
+183,0456-7890,Rawson
+184,0456-7890,Rawson
+185,0456-7890,Rawson
+186,0456-7890,Rawson
+187,0456-7890,Rawson
+188,0456-7890,Rawson
+189,0456-7890,Rawson
+190,0567-8901,Oberá
+191,0567-8901,Oberá
+192,0567-8901,Oberá
+193,0567-8901,Oberá
+194,0567-8901,Oberá
+195,0567-8901,Oberá
+196,0678-9012,Calafate
+197,0678-9012,Calafate
+198,0678-9012,Calafate
+199,0678-9012,Calafate
+200,0678-9012,Calafate
+201,0678-9012,Calafate
+202,0789-0123,Gualeguaychú
+203,0789-0123,Gualeguaychú
+204,0789-0123,Gualeguaychú
+205,0789-0123,Gualeguaychú
+206,0789-0123,Gualeguaychú
+207,0789-0123,Gualeguaychú
+208,0890-1234,Río Grande
+209,0890-1234,Río Grande
+210,0890-1234,Río Grande
+211,0890-1234,Río Grande
+212,0890-1234,Río Grande
+213,0890-1234,Río Grande
+214,0912-3456,Buenos Aires
+215,0912-3456,Buenos Aires
+216,0912-3456,Buenos Aires
+217,0912-3456,Buenos Aires
+218,0912-3456,Buenos Aires
+219,0912-3456,Buenos Aires
+220,0123-4567,Villa Carlos Paz
+221,0123-4567,Villa Carlos Paz
+222,0123-4567,Villa Carlos Paz
+223,0123-4567,Villa Carlos Paz
+224,0123-4567,Villa Carlos Paz
+225,0123-4567,Villa Carlos Paz
+226,0345-6789,Villa Allende
+227,0345-6789,Villa Allende
+228,0345-6789,Villa Allende
+229,0345-6789,Villa Allende
+230,0345-6789,Villa Allende
+231,0345-6789,Villa Allende
+232,0456-7890,San Pedro
+233,0456-7890,San Pedro
+234,0456-7890,San Pedro
+235,0456-7890,San Pedro
+236,0456-7890,San Pedro
+237,0456-7890,San Pedro
+238,0567-8901,General Roca
+239,0567-8901,General Roca
+240,0567-8901,General Roca
+241,0567-8901,General Roca
+242,0567-8901,General Roca
+243,0567-8901,General Roca
+244,0567-8901,General Roca
+245,0678-9012,Junín
+246,0678-9012,Junín
+247,0678-9012,Junín
+248,0678-9012,Junín
+249,0678-9012,Junín
+250,0678-9012,Junín
+251,0678-9012,Junín
+252,0789-0123,Buenos Aires
+253,0789-0123,Buenos Aires
+254,0789-0123,Buenos Aires
+255,0789-0123,Buenos Aires
+256,0789-0123,Buenos Aires
+257,0789-0123,Buenos Aires
+258,0789-0123,Buenos Aires
+259,0789-0123,Buenos Aires
+260,0890-1234,Rafaela
+261,0890-1234,Rafaela
+262,0890-1234,Rafaela
+263,0890-1234,Rafaela
+264,0890-1234,Rafaela
+265,0890-1234,Rafaela
+266,0890-1234,Rafaela
+267,0890-1234,Rafaela
+268,0912-3456,Rio Gallegos
+269,0912-3456,Rio Gallegos
+270,0912-3456,Rio Gallegos
+271,0912-3456,Rio Gallegos
+272,0912-3456,Rio Gallegos
+273,0912-3456,Rio Gallegos
+274,0912-3456,Rio Gallegos
+275,0123-4567,Buenos Aires
+276,0123-4567,Buenos Aires
+277,0123-4567,Buenos Aires
+278,0123-4567,Buenos Aires
+279,0123-4567,Buenos Aires
+280,0123-4567,Buenos Aires
+281,0123-4567,Buenos Aires
+282,0345-6789,Mendoza
+283,0345-6789,Mendoza
+284,0345-6789,Mendoza
+285,0345-6789,Mendoza
+286,0345-6789,Mendoza
+287,0345-6789,Mendoza
+288,0345-6789,Mendoza
+289,0456-7890,Cordoba
+290,0456-7890,Cordoba
+291,0456-7890,Cordoba
+292,0456-7890,Cordoba
+293,0456-7890,Cordoba
+294,0456-7890,Cordoba
+295,0456-7890,Cordoba
+296,0567-8901,Rosario
+297,0567-8901,Rosario
+298,0567-8901,Rosario
+299,0567-8901,Rosario
+300,0567-8901,Rosario
+301,0567-8901,Rosario
+302,0567-8901,Rosario
+303,0678-9012,San Juan
+304,0678-9012,San Juan
+305,0678-9012,San Juan
+306,0678-9012,San Juan
+307,0678-9012,San Juan
+308,0678-9012,San Juan
+309,0678-9012,San Juan
+310,0789-0123,San Rafael
+311,0789-0123,San Rafael
+312,0789-0123,San Rafael
+313,0789-0123,San Rafael
+314,0789-0123,San Rafael
+315,0789-0123,San Rafael
+316,0789-0123,San Rafael
+317,0890-1234,Posadas
+318,0890-1234,Posadas
+319,0890-1234,Posadas
+320,0890-1234,Posadas
+321,0890-1234,Posadas
+322,0890-1234,Posadas
+323,0890-1234,Posadas
+324,0912-3456,Bahía Blanca
+325,0912-3456,Bahía Blanca
+326,0912-3456,Bahía Blanca
+327,0912-3456,Bahía Blanca
+328,0912-3456,Bahía Blanca
+329,0912-3456,Bahía Blanca
+330,0912-3456,Bahía Blanca
+331,0123-6789,Resistencia
+332,0123-6789,Resistencia
+333,0123-6789,Resistencia
+334,0123-6789,Resistencia
+335,0123-6789,Resistencia
+336,0123-6789,Resistencia
+337,0123-6789,Resistencia
+338,0345-6789,Formosa
+339,0345-6789,Formosa
+340,0345-6789,Formosa
+341,0345-6789,Formosa
+342,0345-6789,Formosa
+343,0345-6789,Formosa
+344,0345-6789,Formosa
+345,0456-7890,Santiago del Estero
+346,0456-7890,Santiago del Estero
+347,0456-7890,Santiago del Estero
+348,0456-7890,Santiago del Estero
+349,0456-7890,Santiago del Estero
+350,0456-7890,Santiago del Estero
+351,0456-7890,Santiago del Estero
+352,0567-8901,Río Cuarto
+353,0567-8901,Río Cuarto
+354,0567-8901,Río Cuarto
+355,0567-8901,Río Cuarto
+356,0567-8901,Río Cuarto
+357,0567-8901,Río Cuarto
+358,0567-8901,Río Cuarto
+359,0678-9012,Buenos Aires
+360,0678-9012,Buenos Aires
+361,0678-9012,Buenos Aires
+362,0678-9012,Buenos Aires
+363,0678-9012,Buenos Aires
+364,0678-9012,Buenos Aires
+365,0678-9012,Buenos Aires
+366,0789-0123,Villa María
+367,0789-0123,Villa María
+368,0789-0123,Villa María
+369,0789-0123,Villa María
+370,0789-0123,Villa María
+371,0789-0123,Villa María
+372,0789-0123,Villa María

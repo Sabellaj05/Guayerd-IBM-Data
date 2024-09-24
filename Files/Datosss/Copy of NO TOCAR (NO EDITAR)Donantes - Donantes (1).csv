@@ -1,0 +1,110 @@
+Número;Nombre;Tipo;Contacto;Cargo;Correo Electrónico;Teléfono;Observaciones;Razon Social;Tipo de Contribuyente;CUIT;Alta;Baja;Activo;Frecuencia;Importe;Nro de Cuenta
+D00001;TechNova Solutions;Empresa;Contacto A;-;TechNova Solutions@example.com;(011) 5000-0001;Observación 1;S.R.L;Responsable Inscripto;20-12345678-9;45348;45383;NO;Mensual;292732;402101
+D00002;EnergiaPlus S.A.;Empresa;Contacto B;-;EnergiaPlus S.A.@example.com;(011) 5000-0002;Observación 2;S.A;Monotributista;21-23456789-0;45303;45383;NO;Bimestral;326439;403101
+D00003;Grupo Delta;Empresa;Contacto C;-;Grupo Delta@example.com;(011) 5000-0003;Observación 3;S.R.L;Responsable Inscripto;22-34567890-1;45451;;SI;Anual;27692o;403101
+D00004;Inova Global;Empresa;Contacto D;-;Inova Global@example;(011) 5000-0004;Observación 4;S.R.L;Monotributista;23-45678901-2;45333;45383;NO;Mensual;4o6733;402101
+D00005;Vanguardia Consultora;Empresa;Contacto E;-;Vanguardia Consultora@example.com;(011) 5000-0005;Observación 5;S.R.L;Responsable Inscripto;24-56789012-3;45441;;SI;Bimestral;352572;403101
+D00006;EcoTech Argentina;Empresa;Contacto F;-;EcoTech Argentina@example.com;(011) 5000-0006;Observación 6;;Monotributista;25-67890123-4;45329;45383;NO;Anual;499223;403101
+D00007;NexGen Industries;Empresa;Contacto G;-;NexGen Industries@example.com;(011) 5000-0007;Observación 7;S.R.L;Responsable Inscripto;26-78901234-5;45469;;SI;Mensual;34473o;402101
+D00008;RedHorizonte;Empresa;Contacto H;-;RedHorizonte@example.com;(011) 5000-0008;Observación 8;S.R.L;Monotributista;27-89012345-6;25/25/2024;;SI;Bimestral;489625;403101
+D00009;Optima Logística;Empresa;Contacto I;-;Optima Logística@example.com;(011) 5000-0009;Observación 9;S.R.L;Responsable Inscripto;28-90123456-7;45429;;SI;Anual;428367;403101
+D00010;Punto Verde;Empresa;Contacto J;-;Punto Verde@example.com;(011) 5000-0010;Observación 10;S.R.L;Monotributista;29-01234567-8;45383;;SI;Mensual;36284o;402101
+D00011;Zenith Digital;Empresa;Contacto K;-;Zenith Digital@example.com;(011) 5000-0011;Observación 11;S.R.L;Responsable Inscripto;20-12345679-0;45367;45383;NO;Bimestral;152834;403101
+D00012;CreaTech S.R.L.;Empresa;Contacto L;-;CreaTech S.R.L.@example.com;(011) 5000-0012;Observación 12;S.R.L;Monotributista;21-23456780-1;45397;;SI;Anual;17531o;403101
+D00013;Alfa Innovaciones;Empresa;Contacto M;-;Alfa Innovaciones@example.com;(011) 5000-0013;Observación 13;S.R.L;Responsable Inscripto;22-34567891-2;45326;45383;NO;Mensual;417633;402101
+D00013;Alfa Innovaciones;Empresa;Contacto M;-;Alfa Innovaciones@example.com;(011) 5000-0013;Observación 13;S.R.L;Responsable Inscripto;22-34567891-2;45326;45383;NO;Mensual;169763;402101
+D00014;ServiNet;Empresa;Contacto N;-;ServiNet@example.com;(011) 5000-0014;Observación 14;S.A;Monotributista;23-45678902-3;45448;;SI;Bimestral;244263;403101
+D00015;AeroPlus;Empresa;Contacto O;-;AeroPlus@example;(011) 5000-0015;Observación 15;S.A;Responsable Inscripto;24-56789013-4;45374;45383;NO;Anual;1o9935;403101
+D00016;MaxiData;Empresa;Contacto P;-;MaxiData@example.com;(011) 5000-0016;Observación 16;;Monotributista;25-67890124-5;45389;;SI;Mensual;483186;402101
+D00017;EcoAventura;Empresa;Contacto Q;-;EcoAventura@example.com;(011) 5000-0017;Observación 17;S.A;Responsable Inscripto;26-78901235-6;45380;45383;NO;Bimestral;349289;403101
+D00018;Sigma Consulting;Empresa;Contacto R;-;Sigma Consulting@example.com;(011) 5000-0018;Observación 18;S.A;Monotributista;27-89012346-7;45381;;SI;Anual;191824;403101
+D00019;Soluciones Avanzadas;Empresa;Contacto S;-;Soluciones Avanzadas@example.com;(011) 5000-0019;Observación 19;S.A;Responsable Inscripto;28-90123457-8;45292;45383;NO;Mensual;349612;402101
+D00020;RedSol Argentina;Empresa;Contacto T;-;RedSol Argentina@example.com;(011) 5000-0020;Observación 20;S.A;Monotributista;29-01234568-9;45355;45383;NO;Bimestral;452948;403101
+D00021;Grupo Synthesis;Empresa;Contacto U;-;Grupo Synthesis@example.com;(011) 5000-0021;Observación 21;S.A;Responsable Inscripto;20-12345680-1;45398;;SI;Anual;359387;403101
+D00022;DeltaElectro;Empresa;Contacto V;-;DeltaElectro@example.com;(011) 5000-0022;Observación 22;S.A;Monotributista;21-23456781-2;45326;45383;NO;Mensual;453421;402101
+D00023;SmartTech Argentina;Empresa;Contacto W;-;SmartTech Argentina@example.com;(011) 5000-0023;Observación 23;S.A;Responsable Inscripto;22-34567892-3;45442;;SI;Bimestral;333679;403101
+D00024;NovaVisión;Empresa;Contacto X;-;NovaVisión@example.com;(011) 5000-0024;Observación 24;S.A;Monotributista;23-45678903-4;45443;;SI;Anual;152261;403101
+D00025;InfoMática S.A.;Empresa;Contacto Y;-;InfoMática S.A.@example.com;(011) 5000-0025;Observación 25;S.A;Responsable Inscripto;24-56789014-5;45451;;SI;Mensual;3o9782;402101
+D00026;Energía VIVA;Empresa;Contacto Z;-;Energía VIVA@example;(011) 5000-0026;Observación 26;S.A;Monotributista;25-67890125-6;45456;;SI;Bimestral;27o14o;403101
+D00027;TransWorld;Empresa;Contacto AA;-;TransWorld@example.com;(011) 5000-0027;Observación 27;S.A;Responsable Inscripto;26-78901236-7;45448;;SI;Anual;414446;403101
+D00028;Soluciones Urbanas;Empresa;Contacto BB;-;Soluciones Urbanas@example.com;(011) 5000-0028;Observación 28;;Monotributista;27-89012347-8;45318;45383;NO;Mensual;218575;402101
+D00029;GlobalNet;Empresa;Contacto CC;-;GlobalNet@example.com;(011) 5000-0029;Observación 29;S.R.L;Responsable Inscripto;28-90123458-9;45461;;SI;Bimestral;272633;403101
+D00030;FuturoTech;Empresa;Contacto DD;-;FuturoTech@example.com;(011) 5000-0030;Observación 30;S.R.L;Monotributista;29-01234569-0;45313;45383;NO;Anual;445169;403101
+D00031;InnovarX;Empresa;Contacto EE;-;InnovarX@example.com;(011) 5000-0031;Observación 31;S.R.L;Responsable Inscripto;20-12345681-3;45448;;SI;Mensual;189438;402101
+D00032;Cobra Solutions;Empresa;Contacto FF;-;Cobra Solutions@example.com;(011) 5000-0032;Observación 32;S.R.L;Monotributista;21-23456782-4;45419;;SI;Bimestral;115526;403101
+D00033;Metrópolis S.A.;Empresa;Contacto GG;-;Metrópolis S.A.@example.com;(011) 5000-0033;Observación 33;S.A;Responsable Inscripto;22-34567893-5;45403;;SI;Anual;1544o9;403101
+D00034;Vortex Energía;Empresa;Contacto HH;-;Vortex Energía@example.com;(011) 5000-0034;Observación 34;S.R.L;Monotributista;23-45678904-6;45444;;SI;Mensual;38o153;402101
+D00035;EcoVisión;Empresa;Contacto II;-;EcoVisión@example.com;(011) 5000-0035;Observación 35;S.R.L;Responsable Inscripto;24-56789015-7;45364;45383;NO;Bimestral;398o95;403101
+D00036;NexuTech;Empresa;Contacto JJ;-;NexuTech@example.com;(011) 5000-0036;Observación 36;S.R.L;Monotributista;25-67890126-8;31/30/2024;;SI;Anual;385421;403101
+D00037;AlphaSystems;Empresa;Contacto KK;-;AlphaSystems@example.com;(011) 5000-0037;Observación 37;S.R.L;Responsable Inscripto;26-78901237-9;45323;45383;NO;Mensual;397o9o;402101
+D00038;MetroLogística;Empresa;Contacto LL;-;MetroLogística@example.com;(011) 5000-0038;Observación 38;S.R.L;Monotributista;27-89012348-0;45432;;SI;Bimestral;259341;403101
+D00039;Quantum Ventures;Empresa;Contacto MM;-;Quantum Ventures@example.com;(011) 5000-0039;Observación 39;S.R.L;Responsable Inscripto;28-90123459-1;45471;;SI;Anual;4o68o5;403101
+D00040;Orion Innovaciones;Empresa;Contacto NN;-;Orion Innovaciones@example.com;(011) 5000-0040;Observación 40;S.R.L;Monotributista;29-01234570-2;45409;;SI;Mensual;333954;402101
+D00041;Jaan Pérez;Individuo;Contacto OO;Secretario;Jaan Pérez@example.com;(011) 5000-0041;Observación 41;-;Monotributista;20-12345682-4;45351;45383;NO;Bimestral;86846;403101
+D00042;Ana López;Individuo;Contacto PP;Analista;Ana López@example.com;(011) 5000-0042;Observación 42;-;Exento;21-23456783-5;45457;;SI;Anual;167448;403101
+D00043;Jorge Rodríguez;Individuo;Contacto QQ;Director;Jorge Rodríguez@example;(011) 5000-0043;Observación 43;-;Responsable Inscripto;22-34567894-6;45426;;SI;Mensual;7o569;402102
+D00044;Sofía Díaz;Individuo;Contacto RR;Gerente;Sofía Díaz@example.com;(011) 5000-0044;Observación 44;-;Monotributista;23-45678905-7;45385;;SI;Bimestral;13oo21;403101
+D00045;alejandro Torres;Individuo;Contacto SS;Cordinador;alejandro Torres@example.com;(011) 5000-0045;Observación 45;-;Exento;24-56789016-8;45394;;SI;Anual;135342;403101
+D00046;Gabriela Ortiz;Individuo;Contacto TT;Asistente;Gabriela Ortiz@example.com;(011) 5000-0046;Observación 46;-;Responsable Inscripto;25-67890127-9;45366;45383;NO;Mensual;55258;402102
+D00047;Sergio Rivas;Individuo;Contacto UU;Secretario;Sergio Rivas@example.com;(011) 5000-0047;Observación 47;-;Monotributista;26-78901238-0;45393;;SI;Bimestral;1o43o1;403101
+D00048;Patricia Navarro;Individuo;Contacto VV;Analista;Patricia Navarro@example.com;(011) 5000-0048;Observación 48;-;Exento;27-89012349-1;45414;;SI;Anual;158669;403101
+D00049;Fernando Aguilar;Individuo;Contacto WW;Director;Fernando Aguilar@example.com;(011) 5000-0049;Observación 49;-;Responsable Inscripto;28-90123450-2;17/16/2024;;SI;Mensual;166965;402102
+D00050;Isabel Ríos;Individuo;Contacto XX;Gerente;Isabel Ríos@example.com;(011) 5000-0050;Observación 50;-;Monotributista;29-01234571-3;45321;45383;NO;Bimestral;151978;403101
+D00051;Rafael Silva;Individuo;Contacto YY;Coordinador;Rafael Silva@example.com;(011) 5000-0051;Observación 51;-;Exento;20-12345683-6;45399;;SI;Anual;176989;403101
+D00052;Mónica León;;Contacto ZZ;Asistente;Mónica León@example.com;(011) 5000-0052;Observación 52;-;Responsable Inscripto;21-23456784-7;45326;45383;NO;Mensual;1o2271;403101
+D00053;Héctor Salazar;Individuo;Contacto AAA;Secretario;Héctor Salazar@example.com;(011) 5000-0053;Observación 53;-;Monotributista;22-34567895-8;45470;;SI;Bimestral;154758;403101
+D00054;Carolina Mendoza;Individuo;Contacto BBB;Analista;Carolina Mendoza@example.com;(011) 5000-0054;Observación 54;-;Exento;23-45678906-9;45423;;SI;Anual;55466;403101
+D00055;Víctor Gil;Individuo;Contacto CCC;Director;Víctor Gil@example.com;(011) 5000-0055;Observación 55;-;Responsable Inscripto;24-56789017-0;45389;;SI;Mensual;89589;402102
+D00056;Claudia Ponce;Individuo;Contacto DDD;Gerente;Claudia Ponce@example.com;(011) 5000-0056;Observación 56;-;Monotributista;25-67890128-1;45404;;SI;Bimestral;754o4;403101
+D00057;Mario Espinoza;Individuo;Contacto EEE;ccoordinador;Mario Espinoza@example.com;(011) 5000-0057;Observación 57;-;Exento;26-78901229-2;45328;45383;NO;Anual;114o77;403101
+D00058;Rosa Cárdenas;Individuo;Contacto FFF;Asistente;Rosa Cárdenas@example.com;(011) 5000-0058;Observación 58;-;Responsable Inscripto;27-89012330-3;45355;45383;NO;Mensual;174259;402102
+D00059;Adolfo Cabrera;Individuo;Contacto GGG;Secretario;Adolfo Cabrera@example.com;(011) 5000-0059;Observación 59;-;Monotributista;28-90123461-4;45399;;SI;Bimestral;133689;403101
+D00060;Susana Muñoz;Individuo;Contacto HHH;Analista;Susana Muñoz@example.com;(011) 5000-0060;Observación 60;-;Exento;29-01234572-5;45425;;SI;Anual;58351;403101
+D00061;Felipe Rojas;Individuo;Contacto III;Director;Felipe Rojas@example.com;(011) 5000-0061;Observación 61;-;Responsable Inscripto;20-12345684-7;45368;45383;NO;Mensual;1o4373;402102
+D00062;Olga Vargas;Individuo;Contacto JJJ;Gerente;Olga Vargas@example.com;(011) 5000-0062;Observación 62;-;Monotributista;21-23456785-8;45428;;SI;Bimestral;167335;403101
+D00063;Esteban Rosales;Individuo;Contacto KKK;Coordinador;Esteban Rosales@example.com;(011) 5000-0063;Observación 63;-;Exento;22-34567896-9;45320;45383;NO;Anual;99o55;403101
+64;Emma Paredes;Individuo;Contacto LLL;Asistente;Emma Paredes@example.com;(011) 5000-0064;Observación 64;-;Responsable Inscripto;23-45678907-0;45469;;SI;Mensual;6o683;402102
+D00065;Joaquín Serrano;Individuo;Contacto MMM;Secretario;Joaquín Serrano@example.com;(011) 5000-0065;Observación 65;-;Monotributista;24-56789018-1;45421;;SI;Bimestral;11939o;403101
+D00066;Laura Márquez;Individuo;Contacto NNN;Analista;Laura Márquez@example.com;(011) 5000-0066;Observación 66;-;Exento;25-67890129-2;45323;45383;NO;Anual;117232;403101
+D00067;Damián Molina;Individuo;Contacto OOO;Director;Damián Molina@example.com;(011) 5000-0067;Observación 67;-;Responsable Inscripto;26-78901230-3;45456;;SI;Mensual;1oo7o1;402102
+D00068;Viviana Herrera;Individuo;Contacto PPP;Gerente;Viviana Herrera@example.com;(011) 5000-0068;Observación 68;-;Monotributista;27-89012331-4;45317;45383;NO;Bimestral;1862o2;403101
+D00068;Viviana Herrera;;Contacto PPP;Gerente;Viviana Herrera@example.com;(011) 5000-0068;Observación 68;-;Monotributista;27-89012331-4;45317;45383;NO;Bimestral;173157;403101
+D00069;Agustín Martínez;Individuo;Contacto QQQ;Coordinador;Agustín Martínez@example;(011) 5000-0069;Observación 69;-;Exento;28-90123462-5;45339;45383;NO;Anual;1o9167;403101
+D00070;Clara Torres;Individuo;Contacto RRR;Asistente;Clara Torres@example.com;(011) 5000-0070;Observación 70;-;Responsable Inscripto;29-01234573-6;45441;;SI;Mensual;121715;402102
+D00071;Ezequiel Delgado;Individuo;Contacto SSS;Secretario;Ezequiel Delgado@example.com;(011) 5000-0071;Observación 71;-;Monotributista;20-12345685-8;45455;;SI;Bimestral;181679;403101
+D00072;Pilar Ortiz;Individuo;Contacto TTT;Analista;Pilar Ortiz@example.com;(011) 5000-0072;Observación 72;-;Exento;21-23456786-9;45436;;SI;Anual;164792;403101
+D00073;Luciano Rivas;Individuo;Contacto UUU;Director;Luciano Rivas@example.com;(011) 5000-0073;Observación 73;-;Responsable Inscripto;22-34567897-0;45394;;SI;Mensual;184834;402102
+D00074;Mía Morales;Individuo;Contacto VVV;Gerente;Mía Morales@example.com;(011) 5000-0074;Observación 74;-;Monotributista;23-45678908-1;45341;45383;NO;Bimestral;173825;403101
+D00075;Carlos Gómez;Individuo;Contacto WWW;COORDINADOR;Carlos Gómez@example.com;(011) 5000-0075;Observación 75;-;Exento;24-56789019-2;45324;45383;NO;Anual;1662oo;403101
+D00076;Mariana Fernández;Individuo;Contacto XXX;Asistente;Mariana Fernández@example.com;(011) 5000-0076;Observación 76;-;Responsable Inscripto;25-67890130-3;45430;;SI;Mensual;1o634o;402102
+D00077;Luis Martínez;Individuo;Contacto YYY;Secretario;Luis Martínez@example;(011) 5000-0077;Observación 77;-;Monotributista;26-78901231-4;45463;;SI;Bimestral;13o34o;403101
+D00078;Julia González;Individuo;Contacto ZZZ;Analista;Julia González@example.com;(011) 5000-0078;Observación 78;-;Exento;27-89012332-5;45364;45383;NO;Anual;9o786;403101
+D00079;Ricardo López;;Contacto AAAA;Director;Ricardo López@example.com;(011) 5000-0079;Observación 79;-;Responsable Inscripto;28-90123463-6;45357;45383;NO;Mensual;188151;403101
+D00080;Silvia Ramírez;Individuo;Contacto BBBB;Gerente;Silvia Ramírez@example.com;(011) 5000-0080;Observación 80;-;Monotributista;29-01234574-7;45473;;SI;Bimestral;136947;403101
+D00081;Martín Vargas;Individuo;Contacto CCCC;Coordinador;Martín Vargas@example.com;(011) 5000-0081;Observación 81;-;Exento;20-12345686-0;45338;45383;NO;Anual;165727;403101
+D00082;Natalia Castro;Individuo;Contacto DDDD;Asistente;Natalia Castro@example.com;(011) 5000-0082;Observación 82;-;Responsable Inscripto;21-23456787-1;45467;;SI;Mensual;114296;402102
+D00083;alejandra Peña;Individuo;Contacto EEEE;Secretario;alejandra Peña@example;(011) 5000-0083;Observación 83;-;Monotributista;22-34567898-2;45366;45383;NO;Bimestral;76383;403101
+D00084;Santiago López;Individuo;Contacto FFFF;Analista;Santiago López@example.com;(011) 5000-0084;Observación 84;-;Exento;23-45678909-3;45461;;SI;Anual;137963;403101
+D00085;Verónica Ruiz;Individuo;Contacto GGGG;Director;Verónica Ruiz@example.com;(011) 5000-0085;Observación 85;-;Responsable Inscripto;24-56789020-4;45330;45383;NO;Mensual;63o95;402102
+D00086;Andrés Silva;Individuo;Contacto HHHH;Gerente;Andrés Silva@example.com;(011) 5000-0086;Observación 86;-;Monotributista;25-67890131-5;45387;;SI;Bimestral;113891;403101
+D00087;Patricia Gómez;Individuo;Contacto IIII;Coordinador;Patricia Gómez@example.com;(011) 5000-0087;Observación 87;-;Exento;26-78901232-6;45344;45383;NO;Anual;125419;403101
+D00088;Javier Morales;Individuo;Contacto JJJJ;Asistente;Javier Morales@example.com;(011) 5000-0088;Observación 88;-;Responsable Inscripto;27-89012333-7;45471;;SI;Mensual;121338;402102
+D00089;Liliana Romero;Individuo;Contacto KKKK;Secretario;Liliana Romero@example.com;(011) 5000-0089;Observación 89;-;Monotributista;28-90123464-8;45453;;SI;Bimestral;58739;403101
+90;Maximiliano Álvarez;Individuo;Contacto LLLL;Analista;Maximiliano Álvarez@example.com;(011) 5000-0090;Observación 90;-;Exento;29-01234575-9;45392;;SI;Anual;65o2o;403101
+D00091;Elena Bravo;Individuo;Contacto MMMM;Director;Elena Bravo@example.com;(011) 5000-0091;Observación 91;-;Responsable Inscripto;20-12345687-0;45404;;SI;Mensual;16341o;402102
+D00092;Hugo Fernández;Individuo;Contacto NNNN;Gerente;Hugo Fernández@example.com;(011) 5000-0092;Observación 92;-;Monotributista;21-23456788-1;45360;45383;NO;Bimestral;123679;403101
+D00093;Diana Morales;Individuo;Contacto OOOO;Coordinador;Diana Morales@example.com;(011) 5000-0093;Observación 93;-;Exento;22-34567889-2;45320;45383;NO;Anual;1266o5;403101
+D00094;Rodrigo Medina;;Contacto PPPP;Asistente;Rodrigo Medina@example.com;(011) 5000-0094;Observación 94;-;Responsable Inscripto;23-45678990-3;45384;;SI;Mensual;847o6;403101
+D00095;Margarita Jiménez;Individuo;Contacto QQQQ;Secretario;Margarita Jiménez@example;(011) 5000-0095;Observación 95;-;Monotributista;24-56789001-4;45344;45383;NO;Bimestral;195855;403101
+D00096;Emilio Soto;Individuo;Contacto RRRR;Analista;Emilio Soto@example.com;(011) 5000-0096;Observación 96;-;Exento;25-67890122-5;45397;;SI;Anual;114424;403101
+D00096;Emilio Soto;Individuo;Contacto RRRR;Analista;Emilio Soto@example.com;(011) 5000-0096;Observación 96;-;Exento;25-67890122-5;45397;;SI;Anual;11o881;403101
+D00096;Emilio Soto;Individuo;Contacto RRRR;Analista;Emilio Soto@example.com;(011) 5000-0096;Observación 96;-;Exento;25-67890122-5;45397;;SI;Anual;57867;403101
+D00097;Rocío Cabrera;Individuo;Contacto SSSS;Director;Rocío Cabrera@example.com;(011) 5000-0097;Observación 97;-;Responsable Inscripto;26-78901233-6;45440;;SI;Mensual;139723;402102
+D00098;Pablo Fernández;Individuo;Contacto TTTT;Gerente;Pablo Fernández@example.com;(011) 5000-0098;Observación 98;-;Monotributista;27-89012344-7;45417;;SI;Bimestral;133131;403101
+D00099;Belén Gómez;Individuo;Contacto UUUU;Coordinador;Belén Gómez@example.com;(011) 5000-0099;Observación 99;-;Exento;28-90123455-8;45316;45383;NO;Anual;162961;403101
+D00100;Roberto Morales;Individuo;Contacto VVVV;Asistente;Roberto Morales@example.com;(011) 5000-0100;Observación 100;-;Responsable Inscripto;29-01234576-9;45348;45383;NO;Mensual;156325;402102
+D00101;Donaciones Co.;Empresa;Contacto VVVV;-;Donaciones Co.@example.com;(011) 5000-0101;Observación 101;SRL;Responsable Inscripto;29-01234576-10;45443;;si;Anual;120000;409021
+D00102;Ayuda Empresarial S.A.;Empresa;Contacto VVVV;-;Ayuda Empresarial S.A.@example.com;(011) 5000-0102;Observación 102;SA;Responsable Inscripto;29-01234576-11;45444;;si;Anual;150000;409021
+D00103;Donativos y Más S.R.L.;Empresa;Contacto VVVV;-;Donativos y Más S.R.L.@example.com;(011) 5000-0103;Observación 103;SRL;Responsable Inscripto;29-01234576-12;45445;;si;Bimestral;200000;409021
+D00104;Apoyo Corporativo S.A.;Empresa;Contacto VVVV;-;Apoyo Corporativo S.A.@example.com;(011) 5000-0104;Observación 104;SA;Responsable Inscripto;29-01234576-13;45446;;si;Bimestral;180000;409021
+D00105;Fundación Empresarial;Empresa;Contacto VVVV;-;Fundación Empresarial@example.com;(011) 5000-0105;;SA;Responsable Inscripto;29-01234576-14;45447;;si;Bimestral;220000;409021
