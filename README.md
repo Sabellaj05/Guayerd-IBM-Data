@@ -1,1 +1,0 @@
-# Guayerd-IBM-Data

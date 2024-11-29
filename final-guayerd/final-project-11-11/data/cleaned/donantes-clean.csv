@@ -1,0 +1,609 @@
+Numero,Nombre,Tipo,Contacto,Correo Electronico,Telefono,Razon Social,Tipo de Contribuyente,CUIT,Fecha,Activo,Frecuencia,Importe,Nro de Cuenta,Pais
+D00001,TechNova Solutions,Empresa,Contacto A,TechNova Solutions@example.com,(011) 5000-0001,S.R.L,Responsable Inscripto,20-12345678-9,2024-02-26,False,Mensual,292732.0,402101,Chile
+D00002,EnergiaPlus S.A.,Empresa,Contacto B,EnergiaPlus S.A.@example.com,(011) 5000-0002,S.A,Monotributista,21-23456789-0,2024-01-12,False,Bimestral,326439.0,403101,Uruguay
+D00003,Grupo Delta,Empresa,Contacto C,Grupo Delta@example.com,(011) 5000-0003,S.R.L,Responsable Inscripto,22-34567890-1,2024-06-08,True,Anual,276920.0,403101,Bolivia
+D00004,Inova Global,Empresa,Contacto D,Inova Global@example,(011) 5000-0004,S.R.L,Monotributista,23-45678901-2,2024-02-11,False,Mensual,406733.0,402101,Paraguay
+D00005,Vanguardia Consultora,Empresa,Contacto E,Vanguardia Consultora@example.com,(011) 5000-0005,S.R.L,Responsable Inscripto,24-56789012-3,2024-05-29,True,Bimestral,352572.0,403101,Brasil
+D00006,EcoTech Argentina,Empresa,Contacto F,EcoTech Argentina@example.com,(011) 5000-0006,S.A.S,Monotributista,25-67890123-4,2024-02-07,False,Anual,499223.0,403101,Brasil
+D00007,NexGen Industries,Empresa,Contacto G,NexGen Industries@example.com,(011) 5000-0007,S.R.L,Responsable Inscripto,26-78901234-5,2024-06-26,True,Mensual,344730.0,402101,Paraguay
+D00008,RedHorizonte,Empresa,Contacto H,RedHorizonte@example.com,(011) 5000-0008,S.R.L,Monotributista,27-89012345-6,2024-07-25,True,Bimestral,489625.0,403101,Argentina
+D00009,Optima Logística,Empresa,Contacto I,Optima Logística@example.com,(011) 5000-0009,S.R.L,Responsable Inscripto,28-90123456-7,2024-05-17,True,Anual,428367.0,403101,Uruguay
+D00010,Punto Verde,Empresa,Contacto J,Punto Verde@example.com,(011) 5000-0010,S.R.L,Monotributista,29-01234567-8,2024-04-01,True,Mensual,362840.0,402101,Paraguay
+D00011,Zenith Digital,Empresa,Contacto K,Zenith Digital@example.com,(011) 5000-0011,S.R.L,Responsable Inscripto,20-12345679-0,2024-03-16,False,Bimestral,152834.0,403101,Argentina
+D00012,CreaTech S.R.L.,Empresa,Contacto L,CreaTech S.R.L.@example.com,(011) 5000-0012,S.R.L,Monotributista,21-23456780-1,2024-04-15,True,Anual,175310.0,403101,Argentina
+D00013,Alfa Innovaciones,Empresa,Contacto M,Alfa Innovaciones@example.com,(011) 5000-0013,S.R.L,Responsable Inscripto,22-34567891-2,2024-02-04,False,Mensual,417633.0,402101,Uruguay
+D00013,Alfa Innovaciones,Empresa,Contacto M,Alfa Innovaciones@example.com,(011) 5000-0013,S.R.L,Responsable Inscripto,22-34567891-2,2024-02-04,False,Mensual,169763.0,402101,Bolivia
+D00014,ServiNet,Empresa,Contacto N,ServiNet@example.com,(011) 5000-0014,S.A,Monotributista,23-45678902-3,2024-06-05,True,Bimestral,244263.0,403101,Uruguay
+D00015,AeroPlus,Empresa,Contacto O,AeroPlus@example,(011) 5000-0015,S.A,Responsable Inscripto,24-56789013-4,2024-03-23,False,Anual,109935.0,403101,Uruguay
+D00016,MaxiData,Empresa,Contacto P,MaxiData@example.com,(011) 5000-0016,S.A,Monotributista,25-67890124-5,2024-04-07,True,Mensual,483186.0,402101,Paraguay
+D00017,EcoAventura,Empresa,Contacto Q,EcoAventura@example.com,(011) 5000-0017,S.A,Responsable Inscripto,26-78901235-6,2024-03-29,False,Bimestral,349289.0,403101,Brasil
+D00018,Sigma Consulting,Empresa,Contacto R,Sigma Consulting@example.com,(011) 5000-0018,S.A,Monotributista,27-89012346-7,2024-03-30,True,Anual,191824.0,403101,Uruguay
+D00019,Soluciones Avanzadas,Empresa,Contacto S,Soluciones Avanzadas@example.com,(011) 5000-0019,S.A,Responsable Inscripto,28-90123457-8,2024-01-01,False,Mensual,349612.0,402101,Brasil
+D00020,RedSol Argentina,Empresa,Contacto T,RedSol Argentina@example.com,(011) 5000-0020,S.A,Monotributista,29-01234568-9,2024-03-04,False,Bimestral,452948.0,403101,Colombia
+D00021,Grupo Synthesis,Empresa,Contacto U,Grupo Synthesis@example.com,(011) 5000-0021,S.A,Responsable Inscripto,20-12345680-1,2024-04-16,True,Anual,359387.0,403101,Paraguay
+D00022,DeltaElectro,Empresa,Contacto V,DeltaElectro@example.com,(011) 5000-0022,S.A,Monotributista,21-23456781-2,2024-02-04,False,Mensual,453421.0,402101,Brasil
+D00023,SmartTech Argentina,Empresa,Contacto W,SmartTech Argentina@example.com,(011) 5000-0023,S.A,Responsable Inscripto,22-34567892-3,2024-05-30,True,Bimestral,333679.0,403101,Paraguay
+D00024,NovaVisión,Empresa,Contacto X,NovaVisión@example.com,(011) 5000-0024,S.A,Monotributista,23-45678903-4,2024-05-31,True,Anual,152261.0,403101,Paraguay
+D00025,InfoMática S.A.,Empresa,Contacto Y,InfoMática S.A.@example.com,(011) 5000-0025,S.A,Responsable Inscripto,24-56789014-5,2024-06-08,True,Mensual,309782.0,402101,Uruguay
+D00026,Energía VIVA,Empresa,Contacto Z,Energía VIVA@example,(011) 5000-0026,S.A,Monotributista,25-67890125-6,2024-06-13,True,Bimestral,270140.0,403101,Argentina
+D00027,TransWorld,Empresa,Contacto AA,TransWorld@example.com,(011) 5000-0027,S.A,Responsable Inscripto,26-78901236-7,2024-06-05,True,Anual,414446.0,403101,Brasil
+D00028,Soluciones Urbanas,Empresa,Contacto BB,Soluciones Urbanas@example.com,(011) 5000-0028,S.R.L,Monotributista,27-89012347-8,2024-01-27,False,Mensual,218575.0,402101,Chile
+D00029,GlobalNet,Empresa,Contacto CC,GlobalNet@example.com,(011) 5000-0029,S.R.L,Responsable Inscripto,28-90123458-9,2024-06-18,True,Bimestral,272633.0,403101,Paraguay
+D00030,FuturoTech,Empresa,Contacto DD,FuturoTech@example.com,(011) 5000-0030,S.R.L,Monotributista,29-01234569-0,2024-01-22,False,Anual,445169.0,403101,Uruguay
+D00031,InnovarX,Empresa,Contacto EE,InnovarX@example.com,(011) 5000-0031,S.R.L,Responsable Inscripto,20-12345681-3,2024-06-05,True,Mensual,189438.0,402101,Paraguay
+D00032,Cobra Solutions,Empresa,Contacto FF,Cobra Solutions@example.com,(011) 5000-0032,S.R.L,Monotributista,21-23456782-4,2024-05-07,True,Bimestral,115526.0,403101,Argentina
+D00033,Metrópolis S.A.,Empresa,Contacto GG,Metrópolis S.A.@example.com,(011) 5000-0033,S.A,Responsable Inscripto,22-34567893-5,2024-04-21,True,Anual,154409.0,403101,Chile
+D00034,Vortex Energía,Empresa,Contacto HH,Vortex Energía@example.com,(011) 5000-0034,S.R.L,Monotributista,23-45678904-6,2024-06-01,True,Mensual,380153.0,402101,Chile
+D00035,EcoVisión,Empresa,Contacto II,EcoVisión@example.com,(011) 5000-0035,S.R.L,Responsable Inscripto,24-56789015-7,2024-03-13,False,Bimestral,398095.0,403101,Bolivia
+D00036,NexuTech,Empresa,Contacto JJ,NexuTech@example.com,(011) 5000-0036,S.R.L,Monotributista,25-67890126-8,2024-08-31,True,Anual,385421.0,403101,Brasil
+D00037,AlphaSystems,Empresa,Contacto KK,AlphaSystems@example.com,(011) 5000-0037,S.R.L,Responsable Inscripto,26-78901237-9,2024-02-01,False,Mensual,397090.0,402101,Brasil
+D00038,MetroLogística,Empresa,Contacto LL,MetroLogística@example.com,(011) 5000-0038,S.R.L,Monotributista,27-89012348-0,2024-05-20,True,Bimestral,259341.0,403101,Paraguay
+D00039,Quantum Ventures,Empresa,Contacto MM,Quantum Ventures@example.com,(011) 5000-0039,S.R.L,Responsable Inscripto,28-90123459-1,2024-06-28,True,Anual,406805.0,403101,Uruguay
+D00040,Orion Innovaciones,Empresa,Contacto NN,Orion Innovaciones@example.com,(011) 5000-0040,S.R.L,Monotributista,29-01234570-2,2024-04-27,True,Mensual,333954.0,402101,Argentina
+D00041,Jaan Pérez,Individuo,Contacto OO,Jaan Pérez@example.com,(011) 5000-0041,GOB,Monotributista,20-12345682-4,2024-02-29,False,Bimestral,86846.0,403101,México
+D00042,Ana López,Individuo,Contacto PP,Ana López@example.com,(011) 5000-0042,S.R.L,Exento,21-23456783-5,2024-06-14,True,Anual,167448.0,403101,Uruguay
+D00043,Jorge Rodríguez,Individuo,Contacto QQ,Jorge Rodríguez@example,(011) 5000-0043,GOB,Responsable Inscripto,22-34567894-6,2024-05-14,True,Mensual,70569.0,402102,Brasil
+D00044,Sofía Díaz,Individuo,Contacto RR,Sofía Díaz@example.com,(011) 5000-0044,S.R.L,Monotributista,23-45678905-7,2024-04-03,True,Bimestral,130021.0,403101,Paraguay
+D00045,alejandro Torres,Individuo,Contacto SS,alejandro Torres@example.com,(011) 5000-0045,S.A,Exento,24-56789016-8,2024-04-12,True,Anual,135342.0,403101,México
+D00046,Gabriela Ortiz,Individuo,Contacto TT,Gabriela Ortiz@example.com,(011) 5000-0046,S.A,Responsable Inscripto,25-67890127-9,2024-03-15,False,Mensual,55258.0,402102,Argentina
+D00047,Sergio Rivas,Individuo,Contacto UU,Sergio Rivas@example.com,(011) 5000-0047,S.A,Monotributista,26-78901238-0,2024-04-11,True,Bimestral,104301.0,403101,Chile
+D00048,Patricia Navarro,Individuo,Contacto VV,Patricia Navarro@example.com,(011) 5000-0048,GOB,Exento,27-89012349-1,2024-05-02,True,Anual,158669.0,403101,Chile
+D00049,Fernando Aguilar,Individuo,Contacto WW,Fernando Aguilar@example.com,(011) 5000-0049,S.A.S,Responsable Inscripto,28-90123450-2,2024-06-17,True,Mensual,166965.0,402102,Argentina
+D00050,Isabel Ríos,Individuo,Contacto XX,Isabel Ríos@example.com,(011) 5000-0050,S.A,Monotributista,29-01234571-3,2024-01-30,False,Bimestral,151978.0,403101,Uruguay
+D00051,Rafael Silva,Individuo,Contacto YY,Rafael Silva@example.com,(011) 5000-0051,S.A,Exento,20-12345683-6,2024-04-17,True,Anual,176989.0,403101,Argentina
+D00052,Mónica León,Individuo,Contacto ZZ,Mónica León@example.com,(011) 5000-0052,S.A.S,Responsable Inscripto,21-23456784-7,2024-02-04,False,Mensual,102271.0,403101,Argentina
+D00053,Héctor Salazar,Individuo,Contacto AAA,Héctor Salazar@example.com,(011) 5000-0053,ONG,Monotributista,22-34567895-8,2024-06-27,True,Bimestral,154758.0,403101,Uruguay
+D00054,Carolina Mendoza,Individuo,Contacto BBB,Carolina Mendoza@example.com,(011) 5000-0054,S.A,Exento,23-45678906-9,2024-05-11,True,Anual,55466.0,403101,Paraguay
+D00055,Víctor Gil,Individuo,Contacto CCC,Víctor Gil@example.com,(011) 5000-0055,S.A.S,Responsable Inscripto,24-56789017-0,2024-04-07,True,Mensual,89589.0,402102,Paraguay
+D00056,Claudia Ponce,Individuo,Contacto DDD,Claudia Ponce@example.com,(011) 5000-0056,S.A,Monotributista,25-67890128-1,2024-04-22,True,Bimestral,75404.0,403101,Bolivia
+D00057,Mario Espinoza,Individuo,Contacto EEE,Mario Espinoza@example.com,(011) 5000-0057,S.A,Exento,26-78901229-2,2024-02-06,False,Anual,114077.0,403101,Chile
+D00058,Rosa Cárdenas,Individuo,Contacto FFF,Rosa Cárdenas@example.com,(011) 5000-0058,GOB,Responsable Inscripto,27-89012330-3,2024-03-04,False,Mensual,174259.0,402102,Argentina
+D00059,Adolfo Cabrera,Individuo,Contacto GGG,Adolfo Cabrera@example.com,(011) 5000-0059,S.A.S,Monotributista,28-90123461-4,2024-04-17,True,Bimestral,133689.0,403101,Brasil
+D00060,Susana Muñoz,Individuo,Contacto HHH,Susana Muñoz@example.com,(011) 5000-0060,S.A.S,Exento,29-01234572-5,2024-05-13,True,Anual,58351.0,403101,Paraguay
+D00061,Felipe Rojas,Individuo,Contacto III,Felipe Rojas@example.com,(011) 5000-0061,S.A.S,Responsable Inscripto,20-12345684-7,2024-03-17,False,Mensual,104373.0,402102,Uruguay
+D00062,Olga Vargas,Individuo,Contacto JJJ,Olga Vargas@example.com,(011) 5000-0062,S.A,Monotributista,21-23456785-8,2024-05-16,True,Bimestral,167335.0,403101,Paraguay
+D00063,Esteban Rosales,Individuo,Contacto KKK,Esteban Rosales@example.com,(011) 5000-0063,S.R.L,Exento,22-34567896-9,2024-01-29,False,Anual,99055.0,403101,Brasil
+D00064,Emma Paredes,Individuo,Contacto LLL,Emma Paredes@example.com,(011) 5000-0064,GOB,Responsable Inscripto,23-45678907-0,2024-06-26,True,Mensual,60683.0,402102,Colombia
+D00065,Joaquín Serrano,Individuo,Contacto MMM,Joaquín Serrano@example.com,(011) 5000-0065,S.A.S,Monotributista,24-56789018-1,2024-05-09,True,Bimestral,119390.0,403101,Chile
+D00066,Laura Márquez,Individuo,Contacto NNN,Laura Márquez@example.com,(011) 5000-0066,GOB,Exento,25-67890129-2,2024-02-01,False,Anual,117232.0,403101,Argentina
+D00067,Damián Molina,Individuo,Contacto OOO,Damián Molina@example.com,(011) 5000-0067,S.R.L,Responsable Inscripto,26-78901230-3,2024-06-13,True,Mensual,100701.0,402102,Argentina
+D00068,Viviana Herrera,Individuo,Contacto PPP,Viviana Herrera@example.com,(011) 5000-0068,S.A.S,Monotributista,27-89012331-4,2024-01-26,False,Bimestral,186202.0,403101,Uruguay
+D00068,Viviana Herrera,Individuo,Contacto PPP,Viviana Herrera@example.com,(011) 5000-0068,S.A,Monotributista,27-89012331-4,2024-01-26,False,Bimestral,173157.0,403101,Argentina
+D00069,Agustín Martínez,Individuo,Contacto QQQ,Agustín Martínez@example,(011) 5000-0069,S.A,Exento,28-90123462-5,2024-02-17,False,Anual,109167.0,403101,Paraguay
+D00070,Clara Torres,Individuo,Contacto RRR,Clara Torres@example.com,(011) 5000-0070,ONG,Responsable Inscripto,29-01234573-6,2024-05-29,True,Mensual,121715.0,402102,Argentina
+D00071,Ezequiel Delgado,Individuo,Contacto SSS,Ezequiel Delgado@example.com,(011) 5000-0071,S.A,Monotributista,20-12345685-8,2024-06-12,True,Bimestral,181679.0,403101,Argentina
+D00072,Pilar Ortiz,Individuo,Contacto TTT,Pilar Ortiz@example.com,(011) 5000-0072,S.A,Exento,21-23456786-9,2024-05-24,True,Anual,164792.0,403101,Uruguay
+D00073,Luciano Rivas,Individuo,Contacto UUU,Luciano Rivas@example.com,(011) 5000-0073,S.A,Responsable Inscripto,22-34567897-0,2024-04-12,True,Mensual,184834.0,402102,Paraguay
+D00074,Mía Morales,Individuo,Contacto VVV,Mía Morales@example.com,(011) 5000-0074,S.A,Monotributista,23-45678908-1,2024-02-19,False,Bimestral,173825.0,403101,Paraguay
+D00075,Carlos Gómez,Individuo,Contacto WWW,Carlos Gómez@example.com,(011) 5000-0075,S.A,Exento,24-56789019-2,2024-02-02,False,Anual,166200.0,403101,Uruguay
+D00076,Mariana Fernández,Individuo,Contacto XXX,Mariana Fernández@example.com,(011) 5000-0076,S.A.S,Responsable Inscripto,25-67890130-3,2024-05-18,True,Mensual,106340.0,402102,Argentina
+D00077,Luis Martínez,Individuo,Contacto YYY,Luis Martínez@example,(011) 5000-0077,S.A,Monotributista,26-78901231-4,2024-06-20,True,Bimestral,130340.0,403101,México
+D00078,Julia González,Individuo,Contacto ZZZ,Julia González@example.com,(011) 5000-0078,S.A.S,Exento,27-89012332-5,2024-03-13,False,Anual,90786.0,403101,Uruguay
+D00079,Ricardo López,Individuo,Contacto AAAA,Ricardo López@example.com,(011) 5000-0079,S.A,Responsable Inscripto,28-90123463-6,2024-03-06,False,Mensual,188151.0,403101,Paraguay
+D00080,Silvia Ramírez,Individuo,Contacto BBBB,Silvia Ramírez@example.com,(011) 5000-0080,S.R.L,Monotributista,29-01234574-7,2024-06-30,True,Bimestral,136947.0,403101,Paraguay
+D00081,Martín Vargas,Individuo,Contacto CCCC,Martín Vargas@example.com,(011) 5000-0081,S.A,Exento,20-12345686-0,2024-02-16,False,Anual,165727.0,403101,Paraguay
+D00082,Natalia Castro,Individuo,Contacto DDDD,Natalia Castro@example.com,(011) 5000-0082,S.A.S,Responsable Inscripto,21-23456787-1,2024-06-24,True,Mensual,114296.0,402102,Brasil
+D00083,alejandra Peña,Individuo,Contacto EEEE,alejandra Peña@example,(011) 5000-0083,GOB,Monotributista,22-34567898-2,2024-03-15,False,Bimestral,76383.0,403101,Argentina
+D00084,Santiago López,Individuo,Contacto FFFF,Santiago López@example.com,(011) 5000-0084,S.A,Exento,23-45678909-3,2024-06-18,True,Anual,137963.0,403101,Chile
+D00085,Verónica Ruiz,Individuo,Contacto GGGG,Verónica Ruiz@example.com,(011) 5000-0085,S.A,Responsable Inscripto,24-56789020-4,2024-02-08,False,Mensual,63095.0,402102,Uruguay
+D00086,Andrés Silva,Individuo,Contacto HHHH,Andrés Silva@example.com,(011) 5000-0086,S.A,Monotributista,25-67890131-5,2024-04-05,True,Bimestral,113891.0,403101,Chile
+D00087,Patricia Gómez,Individuo,Contacto IIII,Patricia Gómez@example.com,(011) 5000-0087,S.A,Exento,26-78901232-6,2024-02-22,False,Anual,125419.0,403101,Bolivia
+D00088,Javier Morales,Individuo,Contacto JJJJ,Javier Morales@example.com,(011) 5000-0088,S.R.L,Responsable Inscripto,27-89012333-7,2024-06-28,True,Mensual,121338.0,402102,Argentina
+D00089,Liliana Romero,Individuo,Contacto KKKK,Liliana Romero@example.com,(011) 5000-0089,S.A.S,Monotributista,28-90123464-8,2024-06-10,True,Bimestral,58739.0,403101,Chile
+D00090,Maximiliano Álvarez,Individuo,Contacto LLLL,Maximiliano Álvarez@example.com,(011) 5000-0090,S.A.S,Exento,29-01234575-9,2024-04-10,True,Anual,65020.0,403101,Chile
+D00091,Elena Bravo,Individuo,Contacto MMMM,Elena Bravo@example.com,(011) 5000-0091,S.A.S,Responsable Inscripto,20-12345687-0,2024-04-22,True,Mensual,163410.0,402102,Chile
+D00092,Hugo Fernández,Individuo,Contacto NNNN,Hugo Fernández@example.com,(011) 5000-0092,ONG,Monotributista,21-23456788-1,2024-03-09,False,Bimestral,123679.0,403101,Argentina
+D00093,Diana Morales,Individuo,Contacto OOOO,Diana Morales@example.com,(011) 5000-0093,S.R.L,Exento,22-34567889-2,2024-01-29,False,Anual,126605.0,403101,Uruguay
+D00094,Rodrigo Medina,Individuo,Contacto PPPP,Rodrigo Medina@example.com,(011) 5000-0094,S.A.S,Responsable Inscripto,23-45678990-3,2024-04-02,True,Mensual,84706.0,403101,Perú
+D00095,Margarita Jiménez,Individuo,Contacto QQQQ,Margarita Jiménez@example,(011) 5000-0095,S.A,Monotributista,24-56789001-4,2024-02-22,False,Bimestral,195855.0,403101,Argentina
+D00096,Emilio Soto,Individuo,Contacto RRRR,Emilio Soto@example.com,(011) 5000-0096,S.R.L,Exento,25-67890122-5,2024-04-15,True,Anual,114424.0,403101,Argentina
+D00096,Emilio Soto,Individuo,Contacto RRRR,Emilio Soto@example.com,(011) 5000-0096,S.A.S,Exento,25-67890122-5,2024-04-15,True,Anual,110881.0,403101,Paraguay
+D00096,Emilio Soto,Individuo,Contacto RRRR,Emilio Soto@example.com,(011) 5000-0096,S.A.S,Exento,25-67890122-5,2024-04-15,True,Anual,57867.0,403101,Argentina
+D00097,Rocío Cabrera,Individuo,Contacto SSSS,Rocío Cabrera@example.com,(011) 5000-0097,S.A,Responsable Inscripto,26-78901233-6,2024-05-28,True,Mensual,139723.0,402102,Paraguay
+D00098,Pablo Fernández,Individuo,Contacto TTTT,Pablo Fernández@example.com,(011) 5000-0098,S.A,Monotributista,27-89012344-7,2024-05-05,True,Bimestral,133131.0,403101,Chile
+D00099,Belén Gómez,Individuo,Contacto UUUU,Belén Gómez@example.com,(011) 5000-0099,S.A,Exento,28-90123455-8,2024-01-25,False,Anual,162961.0,403101,Paraguay
+D00100,Roberto Morales,Individuo,Contacto VVVV,Roberto Morales@example.com,(011) 5000-0100,S.A,Responsable Inscripto,29-01234576-9,2024-02-26,False,Mensual,156325.0,402102,Brasil
+D00101,Donaciones Co.,Empresa,Contacto VVVV,Donaciones Co.@example.com,(011) 5000-0101,S.R.L,Responsable Inscripto,29-01234576-10,2024-05-31,True,Anual,120000.0,409021,Uruguay
+D00102,Ayuda Empresarial S.A.,Empresa,Contacto VVVV,Ayuda Empresarial S.A.@example.com,(011) 5000-0102,S.A,Responsable Inscripto,29-01234576-11,2024-06-01,True,Anual,150000.0,409021,Paraguay
+D00103,Donativos y Más S.R.L.,Empresa,Contacto VVVV,Donativos y Más S.R.L.@example.com,(011) 5000-0103,S.R.L,Responsable Inscripto,29-01234576-12,2024-06-02,True,Bimestral,200000.0,409021,Paraguay
+D00104,Apoyo Corporativo S.A.,Empresa,Contacto VVVV,Apoyo Corporativo S.A.@example.com,(011) 5000-0104,S.A,Responsable Inscripto,29-01234576-13,2024-06-03,True,Bimestral,180000.0,409021,Brasil
+D00105,Fundación Empresarial,Empresa,Contacto VVVV,Fundación Empresarial@example.com,(011) 5000-0105,S.A,Responsable Inscripto,29-01234576-14,2024-06-04,True,Bimestral,220000.0,409021,Chile
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 5550-9224,S.R.L,Responsable Inscripto,24-78912356-7,2018-01-01,True,Semestral,66227.0,403103,Bolivia
+D00121,Ministerio de Acción Comunitaria,Estado,Contacto ZVS,accióncomunitaria@mail.com,(+)56 5550-9223,GOB,Exento,34-01712356-6,2018-01-26,True,Anual,243823.0,404100,Chile
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 5550-9224,S.R.L,Responsable Inscripto,24-78912356-7,2018-01-01,True,Semestral,55300.0,403103,Bolivia
+D00116,Universidad del Sur,Empresa,Contacto V,universidadds@mail.com,(+)51 5550-9220,S.A,Responsable Inscripto,29-38793456-3,2018-12-23,True,Anual,72299.0,403103,Perú
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 5550-9224,S.R.L,Responsable Inscripto,24-78912356-7,2018-01-01,True,Semestral,84760.0,403103,Bolivia
+D00121,Ministerio de Acción Comunitaria,Estado,Contacto ZVS,accióncomunitaria@mail.com,(+)56 5550-9223,GOB,Exento,34-01712356-6,2018-01-26,True,Anual,272276.0,404100,Chile
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 5550-9224,S.R.L,Responsable Inscripto,24-78912356-7,2018-01-01,True,Semestral,16137.0,403103,Bolivia
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,183574.0,404100,Argentina
+D00112,Global Energies S.A.,Estado,Contacto A,globalenergiess.a.@example.net,(+)598 5503-7127,S.A,Responsable Inscripto,25-36901514-8,2019-08-13,True,Anual,385846.0,404100,Uruguay
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,714947.0,404100,Argentina
+D00116,Universidad del Sur,Empresa,Contacto V,universidadds@mail.com,(+)51 5550-9220,S.A,Responsable Inscripto,29-38793456-3,2018-12-23,True,Anual,63458.0,403103,Perú
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,766487.0,403103,Paraguay
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,249584.0,404100,Argentina
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,60805.0,405100,Chile
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,356286.0,403103,Paraguay
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 5550-9224,S.R.L,Responsable Inscripto,24-78912356-7,2018-01-01,True,Semestral,18448.0,403103,Bolivia
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,387885.0,403103,Uruguay
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,730842.0,404100,Argentina
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,72321.0,403103,Paraguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,540813.0,403103,Uruguay
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,32127.0,405100,Chile
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,512660.0,403103,Paraguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,274968.0,403103,Uruguay
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,235999.0,403103,Paraguay
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,280468.0,404100,Argentina
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,276867.0,403103,Uruguay
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,63835.0,405100,Chile
+D00110,Apoyo Logistico S.A.,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 5030-0105,S.A,Responsable Inscripto,29-01265476-14,2020-02-05,False,Trimestral,101418.0,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,188904.0,403103,Paraguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,460149.0,403103,Uruguay
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,183842.0,403103,Paraguay
+D00121,Ministerio de Acción Comunitaria,Estado,Contacto ZVS,accióncomunitaria@mail.com,(+)56 5550-9223,GOB,Exento,34-01712356-6,2018-01-26,True,Anual,205153.0,404100,Chile
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,166865.0,404100,Argentina
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,247913.0,403103,Uruguay
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,84204.0,405100,Chile
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,70469.0,403103,Paraguay
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 5550-9224,S.R.L,Responsable Inscripto,24-78912356-7,2018-01-01,True,Semestral,75788.0,403103,Bolivia
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,565616.0,403103,Uruguay
+D00110,Apoyo Logistico S.A.,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 5030-0105,S.A,Responsable Inscripto,29-01265476-14,2020-02-05,False,Trimestral,153871.0,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,207544.0,403103,Paraguay
+D00112,Global Energies S.A.,Estado,Contacto A,globalenergiess.a.@example.net,(+)598 5503-7127,S.A.S,Responsable Inscripto,25-36901514-8,2019-08-13,True,Anual,750782.0,404100,Uruguay
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,655577.0,404100,Argentina
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,219966.0,403103,Uruguay
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,121573.0,405100,Chile
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,483595.0,403103,Paraguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,264022.0,403103,Uruguay
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,226668.0,403103,Paraguay
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,686866.0,404100,Argentina
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,354871.0,403103,Uruguay
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,179927.0,405100,Chile
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,285886.0,403103,Paraguay
+D00110,Apoyo Logistico S.A.,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 5030-0105,S.A,Responsable Inscripto,29-01265476-14,2020-02-05,False,Trimestral,141673.0,403103,Paraguay
+D00116,Universidad del Sur,Empresa,Contacto V,universidadds@mail.com,(+)51 5550-9220,S.A,Responsable Inscripto,29-38793456-3,2018-12-23,True,Anual,173463.0,403103,Perú
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,244865.0,403103,Uruguay
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,321539.0,403103,Paraguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,325793.0,403103,Uruguay
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,492556.0,404100,Argentina
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,180488.0,405100,Brasil
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,433438.0,405100,Chile
+D00141,Apoyo Social Universal,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,GOB,Exento,30-33675566-8,2021-01-01,False,Trimestral,51713.0,405100,Argentina
+D00123,Merendero Solidario,ONG,Contacto AK,solidario@mail.com,(+)591 5550-9225,GOB,Monotributista,24-72582356-8,2021-02-01,True,Mensual,1121873.0,405100,Bolivia
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,29120.0,405100,Chile
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,345181.0,403103,Paraguay
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 5550-9224,S.R.L,Responsable Inscripto,24-78912356-7,2018-01-01,True,Semestral,24378.0,403103,Bolivia
+D00114,Latinoamerica Crece,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 5550-9219,GOB,Exento,27-75193456-1,2020-01-21,False,Mensual,193728.0,405100,Uruguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,399685.0,403103,Uruguay
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,250534.0,403103,Paraguay
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,470537.0,404100,Argentina
+D00110,Apoyo Logistico S.A.,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 5030-0105,S.A,Responsable Inscripto,29-01265476-14,2020-02-05,False,Trimestral,130672.0,403103,Paraguay
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,79065.0,405100,Brasil
+D00123,Merendero Solidario,ONG,Contacto VDS,solidario@mail.com,(+)591 5550-9225,GOB,Monotributista,24-72582356-8,2021-02-01,True,Mensual,220940.0,405100,Bolivia
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,88565.0,405100,Chile
+D00114,Latinoamerica Crece,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 5550-9219,GOB,Exento,27-75193456-1,2020-01-21,False,Mensual,139844.0,405100,Uruguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,486131.0,403103,Uruguay
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,526926.0,405100,Chile
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,333984.0,403103,Paraguay
+D00123,Merendero Solidario,ONG,Contacto E,solidario@mail.com,(+)591 5550-9225,GOB,Monotributista,24-72582356-8,2021-02-01,True,Mensual,570809.0,405100,Bolivia
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,88682.0,405100,Chile
+D00114,Latinoamerica Crece,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 5550-9219,GOB,Exento,27-75193456-1,2020-01-21,False,Mensual,45549.0,405100,Uruguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,455211.0,403103,Uruguay
+D00141,Apoyo Social Universal,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,GOB,Exento,30-33675566-8,2021-01-01,False,Trimestral,109533.0,405100,Argentina
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,522252.0,403103,Paraguay
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,184185.0,405100,Brasil
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,143318.0,404100,Argentina
+D00123,Merendero Solidario,ONG,Contacto B,solidario@mail.com,(+)591 5550-9225,GOB,Monotributista,24-72582356-8,2021-02-01,True,Mensual,408684.0,405100,Bolivia
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,28523.0,405100,Chile
+D00114,Latinoamerica Crece,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 5550-9219,GOB,Exento,27-75193456-1,2020-01-21,False,Mensual,87788.0,405100,Uruguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,334904.0,403103,Uruguay
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,271642.0,405100,Chile
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,564381.0,403103,Paraguay
+D00110,Apoyo Logistico S.A.,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 5030-0105,S.A,Responsable Inscripto,29-01265476-14,2020-02-05,False,Trimestral,195011.0,403103,Paraguay
+D00123,Merendero Solidario,ONG,Contacto GH,solidario@mail.com,(+)591 5550-9225,GOB,Monotributista,24-72582356-8,2021-02-01,True,Mensual,451106.0,405100,Bolivia
+D00116,Universidad del Sur,Empresa,Contacto V,universidadds@mail.com,(+)51 5550-9220,S.A,Responsable Inscripto,29-38793456-3,2018-12-23,True,Anual,42590.0,403103,Perú
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,13240.0,405100,Chile
+D00114,Latinoamerica Crece,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 5550-9219,GOB,Exento,27-75193456-1,2020-01-21,False,Mensual,57471.0,405100,Uruguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,268278.0,403103,Uruguay
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,53611.0,403103,Paraguay
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,387405.0,404100,Argentina
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,65000.0,405100,Brasil
+D00114,Latinoamerica Crece,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 5550-9219,GOB,Exento,27-75193456-1,2020-01-21,False,Mensual,40464.0,405100,Uruguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,486280.0,403103,Uruguay
+D00123,Merendero Solidario,ONG,Contacto VS,solidario@mail.com,(+)591 5550-9225,GOB,Monotributista,24-72582356-8,2021-02-01,True,Mensual,442684.0,405100,Bolivia
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,27493.0,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,400338.0,405100,Chile
+D00141,Apoyo Social Universal,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,GOB,Exento,30-33675566-8,2021-01-01,False,Trimestral,117472.0,405100,Argentina
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,175471.0,403103,Paraguay
+D00123,Merendero Solidario,ONG,Contacto E,solidario@mail.com,(+)591 5550-9225,GOB,Monotributista,24-72582356-8,2021-02-01,True,Mensual,404537.0,405100,Bolivia
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,222261.0,405100,Chile
+D00114,Latinoamerica Crece,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 5550-9219,GOB,Exento,27-75193456-1,2020-01-21,False,Mensual,190604.0,405100,Uruguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,335920.0,403103,Uruguay
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 5550-9224,S.R.L,Responsable Inscripto,24-78912356-7,2018-01-01,True,Semestral,61986.0,403103,Bolivia
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,181635.0,405100,Brasil
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,102864.0,405100,Chile
+D00110,Apoyo Logistico S.A.,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 5030-0105,S.A,Responsable Inscripto,29-01265476-14,2020-02-05,False,Trimestral,199470.0,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,487451.0,403103,Paraguay
+D00112,Global Energies S.A.,Estado,Contacto A,globalenergiess.a.@example.net,(+)598 5503-7127,S.A,Responsable Inscripto,25-36901514-8,2019-08-13,True,Anual,409837.0,404100,Uruguay
+D00123,Merendero Solidario,ONG,Contacto A,solidario@mail.com,(+)591 5550-9225,GOB,Monotributista,24-72582356-8,2021-02-01,True,Mensual,374870.0,405100,Bolivia
+D00121,Ministerio de Acción Comunitaria,Estado,Contacto ZVS,accióncomunitaria@mail.com,(+)56 5550-9223,GOB,Exento,34-01712356-6,2018-01-26,True,Anual,218438.0,404100,Chile
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,748110.0,404100,Argentina
+D00114,Latinoamerica Crece,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 5550-9219,GOB,Exento,27-75193456-1,2020-01-21,False,Mensual,197183.0,405100,Uruguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,581841.0,403103,Uruguay
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,545228.0,405100,Chile
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,590151.0,403103,Paraguay
+D00123,Merendero Solidario,ONG,Contacto E,solidario@mail.com,(+)591 5550-9225,GOB,Monotributista,24-72582356-8,2021-02-01,True,Mensual,496721.0,405100,Bolivia
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,228710.0,405100,Chile
+D00114,Latinoamerica Crece,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 5550-9219,GOB,Exento,27-75193456-1,2020-01-21,False,Mensual,46112.0,405100,Uruguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,294729.0,403103,Uruguay
+D00141,Apoyo Social Universal,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,GOB,Exento,30-33675566-8,2021-01-01,False,Trimestral,104618.0,405100,Argentina
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,291540.0,405100,Chile
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,442684.0,403103,Paraguay
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,606837.0,404100,Argentina
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,66423.0,405100,Brasil
+D00114,Latinoamerica Crece,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 5550-9219,GOB,Exento,27-75193456-1,2020-01-21,False,Mensual,132359.0,405100,Uruguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,545689.0,403103,Uruguay
+D00123,Merendero Solidario,ONG,Contacto VS,solidario@mail.com,(+)591 5550-9225,GOB,Monotributista,24-72582356-8,2021-02-01,True,Mensual,455378.0,405100,Bolivia
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,244089.0,405100,Chile
+D00110,Apoyo Logistico S.A.,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 5030-0105,S.A,Responsable Inscripto,29-01265476-14,2020-02-05,False,Trimestral,196540.0,403103,Paraguay
+D00123,Merendero Solidario,ONG,Contacto GH,solidario@mail.com,(+)591 5550-9225,GOB,Monotributista,24-72582356-8,2021-02-01,True,Mensual,329454.0,405100,Bolivia
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,520747.0,403103,Paraguay
+D00114,Latinoamerica Crece,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 5550-9219,GOB,Exento,27-75193456-1,2020-01-21,False,Mensual,180459.0,405100,Uruguay
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,366630.0,405100,Chile
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,347660.0,403103,Uruguay
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,599251.0,403103,Paraguay
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,446985.0,405100,Chile
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,123625.0,405100,Brasil
+D00123,Merendero Solidario,ONG,Contacto VDS,solidario@mail.com,(+)591 5550-9225,GOB,Monotributista,24-72582356-8,2021-02-01,True,Mensual,492165.0,405100,Bolivia
+D00114,Latinoamerica Crece,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 5550-9219,GOB,Exento,27-75193456-1,2020-01-21,False,Mensual,113088.0,405100,Uruguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,416591.0,403103,Uruguay
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,732998.0,404100,Argentina
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,569863.0,405100,Chile
+D00141,Apoyo Social Universal,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,GOB,Exento,30-33675566-8,2021-01-01,False,Trimestral,39420.0,405100,Argentina
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,326348.0,405100,Chile
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,360648.0,403103,Paraguay
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,706102.0,404100,Uruguay
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,74488.0,405100,Brasil
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 5550-9224,S.R.L,Responsable Inscripto,24-78912356-7,2018-01-01,True,Semestral,82997.0,403103,Bolivia
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,572610.0,403103,Uruguay
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,89993.0,405100,Brasil
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,63873.0,403103,Paraguay
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,433172.0,404100,Argentina
+D00110,Apoyo Logistico S.A.,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 5030-0105,S.A,Responsable Inscripto,29-01265476-14,2020-02-05,False,Trimestral,167308.0,403103,Paraguay
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,14428.0,405100,Brasil
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,429540.0,405100,Chile
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,254098.0,404100,Uruguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,317989.0,403103,Uruguay
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,465762.0,405100,Chile
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,299852.0,403103,Paraguay
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,303796.0,405100,Chile
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,47448.0,405100,Brasil
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,76229.0,404100,Uruguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,477604.0,403103,Uruguay
+D00140,EcoTransporte S.A.,Estado,Contacto AET,fernando.lopez@ecotransporte.com,(+)54 9 11 8765 4321,S.A,Exento,30-33445566-7,2022-01-04,False,Semestral,496574.0,405100,Argentina
+D00141,Apoyo Social Universal,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,GOB,Exento,30-33675566-8,2021-01-01,False,Trimestral,46331.0,405100,Argentina
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,723618.0,403103,Paraguay
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,65198.0,404100,Argentina
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,11747.0,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,67094.0,405100,Brasil
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,628328.0,404100,Uruguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,484857.0,403103,Uruguay
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,262362.0,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,268395.0,405100,Chile
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,615923.0,403103,Paraguay
+D00110,Apoyo Logistico S.A.,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 5030-0105,S.A,Responsable Inscripto,29-01265476-14,2020-02-05,False,Trimestral,194895.0,403103,Paraguay
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,59924.0,405100,Brasil
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,523067.0,405100,Chile
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,486856.0,404100,Uruguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,299187.0,403103,Uruguay
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,282999.0,403103,Paraguay
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,46148.0,405100,Argentina
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,43728.0,405100,Brasil
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,505685.0,404100,Argentina
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,298046.0,404100,Uruguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,361284.0,403103,Uruguay
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,534547.0,405100,Chile
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,46713.0,405100,Brasil
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,694300.0,405100,Chile
+D00141,Apoyo Social Universal,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,GOB,Exento,30-33675566-8,2021-01-01,False,Trimestral,40212.0,405100,Argentina
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,693094.0,403103,Paraguay
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,23153.0,405100,Argentina
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 5550-9224,S.R.L,Responsable Inscripto,24-78912356-7,2018-01-01,True,Semestral,30913.0,403103,Bolivia
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,307194.0,405100,Chile
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,59286.0,405100,Brasil
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,171034.0,404100,Uruguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,375092.0,403103,Uruguay
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,54677.0,403103,Paraguay
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,89666.0,405100,Brasil
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,83712.0,405100,Argentina
+D00110,Apoyo Logistico S.A.,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 5030-0105,S.A,Responsable Inscripto,29-01265476-14,2020-02-05,False,Trimestral,157365.0,403103,Paraguay
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,462809.0,405100,Chile
+D00112,Global Energies S.A.,Estado,Contacto A,globalenergiess.a.@example.net,(+)598 5503-7127,S.R.L,Responsable Inscripto,25-36901514-8,2019-08-13,True,Anual,747805.0,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,587146.0,404100,Uruguay
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,547634.0,404100,Argentina
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,378265.0,403103,Uruguay
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,108254.0,405100,Brasil
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,676067.0,405100,Chile
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,319808.0,403103,Paraguay
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,55339.0,405100,Argentina
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,81847.0,405100,Brasil
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,417361.0,404100,Uruguay
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,434394.0,405100,Chile
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,398047.0,403103,Uruguay
+D00140,EcoTransporte S.A.,Estado,Contacto AET,fernando.lopez@ecotransporte.com,(+)54 9 11 8765 4321,S.A,Exento,30-33445566-7,2022-01-04,False,Semestral,444382.0,405100,Argentina
+D00141,Apoyo Social Universal,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,GOB,Exento,30-33675566-8,2021-01-01,False,Trimestral,64932.0,405100,Argentina
+D00108,Iniciativa Solidaria,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 5747-7433,S.A.S,Monotributista,24-91224120-6,2022-04-10,False,Bimestral,281342.0,404100,Brasil
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,626970.0,403103,Paraguay
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,83619.0,405100,Brasil
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,65179.0,405100,Argentina
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,291606.0,405100,Chile
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,662880.0,404100,Argentina
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,53331.0,405100,Brasil
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,279196.0,404100,Uruguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,529570.0,403103,Uruguay
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,727911.0,405100,Chile
+D00110,Apoyo Logistico S.A.,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 5030-0105,S.A,Responsable Inscripto,29-01265476-14,2020-02-05,False,Trimestral,156809.0,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,364686.0,403103,Paraguay
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,173595.0,405100,Argentina
+D00121,Ministerio de Acción Comunitaria,Estado,Contacto ZVS,accióncomunitaria@mail.com,(+)56 5550-9223,GOB,Exento,34-01712356-6,2018-01-26,True,Anual,135999.0,404100,Chile
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,217008.0,405100,Chile
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,706918.0,404100,Uruguay
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,166344.0,405100,Brasil
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,572356.0,403103,Uruguay
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,156418.0,405100,Brasil
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,631303.0,403103,Paraguay
+D00108,Iniciativa Solidaria,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 5747-7433,S.A.S,Monotributista,24-91224120-6,2022-04-10,False,Bimestral,383818.0,404100,Brasil
+D00132,VíaVerde,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,S.R.L,Responsable Inscripto,27-78434109-9,2021-02-01,False,Mensual,592642.0,405100,Chile
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,116913.0,405100,Argentina
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,174132.0,405100,Brasil
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,385281.0,404100,Uruguay
+D00116,Universidad del Sur,Empresa,Contacto V,universidadds@mail.com,(+)51 5550-9220,S.A,Responsable Inscripto,29-38793456-3,2018-12-23,True,Anual,58332.0,403103,Perú
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,280450.0,403103,Uruguay
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,257499.0,404100,Argentina
+D00129,Corporación NovaTech,Empresa,Contacto ATEC,gerencia@novatech.com,(+)57 300 123 4567,S.A,Responsable Inscripto,30-98765432-1,2023-01-01,True,Mensual,298586.0,403103,Colombia
+D00131,InnovaLogix S.A.,Campaña,Contacto IT,carla.fernandez@innovalogix.com,(+)55 301 234 5678,S.A,Exento,27-65432109-8,2023-01-01,True,Bimestral,329958.0,405100,Brasil
+D00134,Energía Sustentable S.A.,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,33-12345678-9,2023-01-01,False,Mensual,356962.0,405100,Brasil
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,538554.0,405100,Chile
+D00141,Apoyo Social Universal,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,GOB,Exento,30-33675566-8,2021-01-01,False,Trimestral,81503.0,405100,Argentina
+D00130,Servicios Plus,Empresa,Contacto AT,luis.gonzalez@ecoplus.com,(+)57 301 234 5678,S.A.S,Responsable Inscripto,30-45765232-2,2023-02-01,True,Mensual,86419.0,405100,Colombia
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,570388.0,405100,Brasil
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,274376.0,403103,Paraguay
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,447298.0,405100,Argentina
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 5550-9224,S.R.L,Responsable Inscripto,24-78912356-7,2018-01-01,True,Semestral,92208.0,403103,Bolivia
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,172159.0,405100,Brasil
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,331280.0,404100,Uruguay
+D00117,Automoviles Full,Empresa,Contacto VS,afull@mail.com,(+)598 5550-9221,S.A,Responsable Inscripto,21-38712356-4,2020-01-24,False,Mensual,233279.0,403103,Uruguay
+D00120,Supermercado Vegano SRL,Empresa,Contacto VG,supermercadovegano@mail.com,(+)58 5550-9222,GOB,Responsable Inscripto,34-01712356-5,2023-01-25,True,Bimestral,329609.0,403103,Venezuela
+D00108,Iniciativa Solidaria,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 5747-7433,S.A.S,Monotributista,24-91224120-6,2022-04-10,False,Bimestral,217763.0,404100,Brasil
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,128788.0,403103,Paraguay
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,307698.0,405100,Argentina
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,567511.0,404100,Argentina
+D00110,Apoyo Logistico S.A.,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 5030-0105,S.A,Responsable Inscripto,29-01265476-14,2020-02-05,False,Trimestral,168805.0,403103,Paraguay
+D00129,Corporación NovaTech,Empresa,Contacto ATEC,gerencia@novatech.com,(+)57 300 123 4567,S.A,Responsable Inscripto,30-98765432-1,2023-01-01,True,Mensual,484258.0,403103,Colombia
+D00134,Energía Sustentable S.A.,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,33-12345678-9,2023-01-01,False,Mensual,263071.0,405100,Brasil
+D00130,Servicios Plus,Empresa,Contacto AT,luis.gonzalez@ecoplus.com,(+)57 301 234 5678,S.A.S,Responsable Inscripto,30-45765232-2,2023-02-01,True,Mensual,18374.0,405100,Colombia
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,349275.0,405100,Brasil
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,351957.0,404100,Uruguay
+D00131,InnovaLogix S.A.,Campaña,Contacto IT,carla.fernandez@innovalogix.com,(+)55 301 234 5678,S.A,Exento,27-65432109-8,2023-01-01,True,Bimestral,242085.0,405100,Brasil
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,572337.0,405100,Chile
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,256681.0,403103,Paraguay
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,464627.0,405100,Argentina
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,196425.0,405100,Brasil
+D00129,Corporación NovaTech,Empresa,Contacto ATEC,gerencia@novatech.com,(+)57 300 123 4567,S.A,Responsable Inscripto,30-98765432-1,2023-01-01,True,Mensual,445529.0,403103,Colombia
+D00130,Servicios Plus,Empresa,Contacto AT,luis.gonzalez@ecoplus.com,(+)57 301 234 5678,S.A.S,Responsable Inscripto,30-45765232-2,2023-02-01,True,Mensual,51045.0,405100,Colombia
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,561428.0,405100,Brasil
+D00134,Energía Sustentable S.A.,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,33-12345678-9,2023-01-01,False,Mensual,525330.0,405100,Brasil
+D00120,Supermercado Vegano SRL,Empresa,Contacto VG,supermercadovegano@mail.com,(+)58 5550-9222,S.R.L,Responsable Inscripto,34-01712356-5,2023-01-25,True,Bimestral,280069.0,403103,Venezuela
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,357979.0,404100,Uruguay
+D00140,EcoTransporte S.A.,Estado,Contacto AET,fernando.lopez@ecotransporte.com,(+)54 9 11 8765 4321,S.A,Exento,30-33445566-7,2022-01-04,False,Semestral,488440.0,405100,Argentina
+D00141,Apoyo Social Universal,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,GOB,Exento,30-33675566-8,2021-01-01,False,Trimestral,73476.0,405100,Argentina
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,480666.0,403103,Paraguay
+D00108,Iniciativa Solidaria,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 5747-7433,S.A.S,Monotributista,24-91224120-6,2022-04-10,False,Bimestral,424093.0,404100,Brasil
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,294917.0,405100,Argentina
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,78589.0,404100,Argentina
+D00129,Corporación NovaTech,Empresa,Contacto ATEC,gerencia@novatech.com,(+)57 300 123 4567,S.A,Responsable Inscripto,30-98765432-1,2023-01-01,True,Mensual,541508.0,403103,Colombia
+D00130,Servicios Plus,Empresa,Contacto AT,luis.gonzalez@ecoplus.com,(+)57 301 234 5678,S.A.S,Responsable Inscripto,30-45765232-2,2023-02-01,True,Mensual,76343.0,405100,Colombia
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,581485.0,404100,Uruguay
+D00134,Energía Sustentable S.A.,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,33-12345678-9,2023-01-01,False,Mensual,508349.0,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,579438.0,405100,Brasil
+D00131,InnovaLogix S.A.,Campaña,Contacto IT,carla.fernandez@innovalogix.com,(+)55 301 234 5678,S.A,Exento,27-65432109-8,2023-01-01,True,Bimestral,460201.0,405100,Brasil
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,604351.0,405100,Chile
+D00110,Apoyo Logistico S.A.,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 5030-0105,S.A,Responsable Inscripto,29-01265476-14,2020-02-05,False,Trimestral,175721.0,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,482346.0,403103,Paraguay
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,273536.0,405100,Argentina
+D00129,Corporación NovaTech,Empresa,Contacto ATEC,gerencia@novatech.com,(+)57 300 123 4567,S.A,Responsable Inscripto,30-98765432-1,2023-01-01,True,Mensual,440936.0,403103,Colombia
+D00130,Servicios Plus,Empresa,Contacto AT,luis.gonzalez@ecoplus.com,(+)57 301 234 5678,S.A.S,Responsable Inscripto,30-45765232-2,2023-02-01,True,Mensual,249539.0,405100,Colombia
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,359406.0,405100,Brasil
+D00134,Energía Sustentable S.A.,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,33-12345678-9,2023-01-01,False,Mensual,501922.0,405100,Brasil
+D00120,Supermercado Vegano SRL,Empresa,Contacto VG,supermercadovegano@mail.com,(+)58 5550-9222,GOB,Responsable Inscripto,34-01712356-5,2023-01-25,True,Bimestral,258235.0,403103,Venezuela
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,428123.0,404100,Uruguay
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,43469.0,405100,Brasil
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,488328.0,403103,Paraguay
+D00108,Iniciativa Solidaria,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 5747-7433,S.A.S,Monotributista,24-91224120-6,2022-04-10,False,Bimestral,191399.0,404100,Brasil
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,477167.0,405100,Argentina
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,778799.0,404100,Argentina
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,85345.0,404100,Uruguay
+D00129,Corporación NovaTech,Empresa,Contacto ATEC,gerencia@novatech.com,(+)57 300 123 4567,S.A,Responsable Inscripto,30-98765432-1,2023-01-01,True,Mensual,312491.0,403103,Colombia
+D00130,Servicios Plus,Empresa,Contacto AT,luis.gonzalez@ecoplus.com,(+)57 301 234 5678,S.A.S,Responsable Inscripto,30-45765232-2,2023-02-01,True,Mensual,251130.0,405100,Colombia
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,590415.0,405100,Brasil
+D00134,Energía Sustentable S.A.,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,33-12345678-9,2023-01-01,False,Mensual,462336.0,405100,Brasil
+D00131,InnovaLogix S.A.,Campaña,Contacto IT,carla.fernandez@innovalogix.com,(+)55 301 234 5678,S.A,Exento,27-65432109-8,2023-01-01,True,Bimestral,572372.0,405100,Brasil
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,563349.0,405100,Chile
+D00141,Apoyo Social Universal,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,GOB,Exento,30-33675566-8,2021-01-01,False,Trimestral,117902.0,405100,Argentina
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,262263.0,403103,Paraguay
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,345240.0,405100,Argentina
+D00120,Supermercado Vegano SRL,Empresa,Contacto VG,supermercadovegano@mail.com,(+)58 5550-9222,S.R.L,Responsable Inscripto,34-01712356-5,2023-01-25,True,Bimestral,371932.0,403103,Venezuela
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,31692.0,405100,Brasil
+D00130,Servicios Plus,Empresa,Contacto AT,luis.gonzalez@ecoplus.com,(+)57 301 234 5678,S.A.S,Responsable Inscripto,30-45765232-2,2023-02-01,True,Mensual,472790.0,405100,Colombia
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,410481.0,405100,Brasil
+D00134,Energía Sustentable S.A.,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,33-12345678-9,2023-01-01,False,Mensual,445924.0,405100,Brasil
+D00129,Corporación NovaTech,Empresa,Contacto ATEC,gerencia@novatech.com,(+)57 300 123 4567,S.A,Responsable Inscripto,30-98765432-1,2023-01-01,True,Mensual,269664.0,403103,Colombia
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 5550-9224,S.R.L,Responsable Inscripto,24-78912356-7,2018-01-01,True,Semestral,93637.0,403103,Bolivia
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,774305.0,404100,Uruguay
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,356384.0,403103,Paraguay
+D00108,Iniciativa Solidaria,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 5747-7433,S.A.S,Monotributista,24-91224120-6,2022-04-10,False,Bimestral,390950.0,404100,Brasil
+D00110,Apoyo Logistico S.A.,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 5030-0105,S.A,Responsable Inscripto,29-01265476-14,2020-02-05,False,Trimestral,129491.0,403103,Paraguay
+D00130,Servicios Plus,Empresa,Contacto AT,luis.gonzalez@ecoplus.com,(+)57 301 234 5678,S.A.S,Responsable Inscripto,30-45765232-2,2023-02-01,True,Mensual,470152.0,405100,Colombia
+D00134,Energía Sustentable S.A.,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,33-12345678-9,2023-01-01,False,Mensual,341986.0,405100,Brasil
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,578153.0,405100,Argentina
+D00129,Corporación NovaTech,Empresa,Contacto ATEC,gerencia@novatech.com,(+)57 300 123 4567,S.A,Responsable Inscripto,30-98765432-1,2023-01-01,True,Mensual,447841.0,403103,Colombia
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,234722.0,405100,Brasil
+D00112,Global Energies S.A.,Estado,Contacto A,globalenergiess.a.@example.net,(+)598 5503-7127,S.A,Responsable Inscripto,25-36901514-8,2019-08-13,True,Anual,260898.0,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,609982.0,404100,Uruguay
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,402281.0,404100,Argentina
+D00131,InnovaLogix S.A.,Campaña,Contacto IT,carla.fernandez@innovalogix.com,(+)55 301 234 5678,S.A,Exento,27-65432109-8,2023-01-01,True,Bimestral,408599.0,405100,Brasil
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,697998.0,405100,Chile
+D00129,Corporación NovaTech,Empresa,Contacto ATEC,gerencia@novatech.com,(+)57 300 123 4567,S.A,Responsable Inscripto,30-98765432-1,2023-01-01,True,Mensual,500982.0,403103,Colombia
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,544174.0,403103,Paraguay
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,255436.0,405100,Argentina
+D00130,Servicios Plus,Empresa,Contacto AT,luis.gonzalez@ecoplus.com,(+)57 301 234 5678,S.A.S,Responsable Inscripto,30-45765232-2,2023-02-01,True,Mensual,570995.0,405100,Colombia
+D00134,Energía Sustentable S.A.,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,33-12345678-9,2023-01-01,False,Mensual,307348.0,405100,Brasil
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,680131.0,404100,Uruguay
+D00120,Supermercado Vegano SRL,Empresa,Contacto VG,supermercadovegano@mail.com,(+)58 5550-9222,S.A,Responsable Inscripto,34-01712356-5,2023-01-25,True,Bimestral,488646.0,403103,Venezuela
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,334523.0,405100,Brasil
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,92066.0,405100,Brasil
+D00140,EcoTransporte S.A.,Estado,Contacto AET,fernando.lopez@ecotransporte.com,(+)54 9 11 8765 4321,S.A,Exento,30-33445566-7,2022-01-04,False,Semestral,309601.0,405100,Argentina
+D00141,Apoyo Social Universal,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,GOB,Exento,30-33675566-8,2021-01-01,False,Trimestral,38437.0,405100,Argentina
+D00134,Energía Sustentable S.A.,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,33-12345678-9,2023-01-01,False,Mensual,449104.0,405100,Brasil
+D00108,Iniciativa Solidaria,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 5747-7433,S.A.S,Monotributista,24-91224120-6,2022-04-10,False,Bimestral,797809.0,404100,Brasil
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,149397.0,403103,Paraguay
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,630203.0,405100,Argentina
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,366542.0,405100,Brasil
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,368134.0,404100,Argentina
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,130889.0,404100,Uruguay
+D00116,Universidad del Sur,Empresa,Contacto V,universidadds@mail.com,(+)51 5550-9220,S.A,Responsable Inscripto,29-38793456-3,2018-12-23,True,Anual,185679.0,403103,Perú
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,675277.0,405100,Chile
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,675154.0,403103,Paraguay
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,788229.0,405100,Argentina
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,121690.0,405100,Brasil
+D00120,Supermercado Vegano SRL,Empresa,Contacto VG,supermercadovegano@mail.com,(+)58 5550-9222,S.A,Responsable Inscripto,34-01712356-5,2023-01-25,True,Bimestral,243430.0,403103,Venezuela
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,537160.0,405100,Brasil
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,760502.0,404100,Uruguay
+D00134,Energía Sustentable S.A.,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,33-12345678-9,2023-01-01,False,Mensual,265027.0,405100,Brasil
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,202733.0,403103,Paraguay
+D00108,Iniciativa Solidaria,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 5747-7433,S.A.S,Monotributista,24-91224120-6,2022-04-10,False,Bimestral,596040.0,404100,Brasil
+D00133,Energía Futuro S.A.,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,30-67891234-7,2022-01-01,False,Mensual,553331.0,405100,Brasil
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,667281.0,405100,Argentina
+D00134,Energía Sustentable S.A.,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,33-12345678-9,2023-01-01,False,Mensual,547298.0,405100,Brasil
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,469510.0,404100,Uruguay
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,238802.0,404100,Argentina
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,87280.0,405100,Brasil
+D00121,Ministerio de Acción Comunitaria,Estado,Contacto ZVS,accióncomunitaria@mail.com,(+)56 5550-9223,GOB,Exento,34-01712356-6,2018-01-26,True,Anual,190938.0,404100,Chile
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,747671.0,405100,Chile
+D00136,AgroIndustrias del Sur,Agroindustria,Contacto AAS,laura.garcia@agroindustrias.com,(+)57 300 876 5432,S.A,Responsable Inscripto,33-11223344-5,2024-01-01,True,Mensual,771106.0,405100,Colombia
+D00141,Apoyo Social Universal,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,GOB,Exento,30-33675566-8,2021-01-01,False,Trimestral,73466.0,405100,Argentina
+D00142,Bebidas S.A,Campaña,Contacto GHY,bebidassa@mail.com,(+)52 55 1234 4324,S.A,Responsable Inscripto,34-38765566-0,2024-01-01,False,Mensual,57632.0,403103,México
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 5550-9224,S.R.L,Responsable Inscripto,24-78912356-7,2018-01-01,True,Semestral,16927.0,403103,Bolivia
+D00120,Supermercado Vegano SRL,Empresa,Contacto VG,supermercadovegano@mail.com,(+)58 5550-9222,GOB,Responsable Inscripto,34-01712356-5,2023-01-25,True,Bimestral,435348.0,403103,Venezuela
+D00127,Horizonte Ecológico,ONG,Contacto AWW,juan.rodriguez@horizonteecologico.com,(+)52 55 1234 5678,ONG,Monotributista,23-45678901-3,2024-04-01,True,Mensual,487746.0,405100,México
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,773286.0,403103,Paraguay
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,663026.0,405100,Argentina
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,577317.0,404100,Uruguay
+D00124,Soluciones VerdeVida,ONG,Contacto DSF,ana.solis@verdevida.com,(+)54 9 11 1234 5678,ONG,Monotributista,20-12345670-9,2024-01-02,True,Mensual,221969.0,405100,Argentina
+D00125,Innovación Global S.A.,Empresa,Contacto DDD,carlos.martinez@innovacionglobal.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,27-23456789-1,2024-02-02,True,Mensual,35115.0,403103,Brasil
+D00138,Innovación Solar S.A.,Campaña,Contacto AIS,julia.martinez@innovacionsolar.com,(+)52 55 1234 5678,S.A,Responsable Inscripto,30-99887766-7,2024-02-02,True,Mensual,71381.0,405100,México
+D00126,Empresas FuturoBrillante,Empresa,Contacto AHH,laura.perez@futurobrillante.com,(+)56 9 8765 4321,S.A.S,Responsable Inscripto,30-34567890-2,2024-03-02,True,Mensual,64959.0,403103,Chile
+D00108,Iniciativa Solidaria,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 5747-7433,S.A.S,Monotributista,24-91224120-6,2022-04-10,False,Bimestral,683505.0,404100,Brasil
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,334462.0,403103,Paraguay
+D00128,Fundación UniCorp,ONG,Contacto ASEE,marta.gonzalez@unicorp.org,(+)57 300 123 4567,ONG,Monotributista,33-56789012-4,2024-05-02,True,Mensual,90795.0,405100,Colombia
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,575890.0,405100,Argentina
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,739084.0,404100,Argentina
+D00136,AgroIndustrias del Sur,Agroindustria,Contacto AAS,laura.garcia@agroindustrias.com,(+)57 300 876 5432,S.A,Responsable Inscripto,33-11223344-5,2024-01-01,True,Mensual,626668.0,405100,Colombia
+D00142,Bebidas S.A,Campaña,Contacto GHY,bebidassa@mail.com,(+)52 55 1234 4324,S.A,Responsable Inscripto,34-38765566-0,2024-01-01,False,Mensual,88336.0,403103,México
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,85785.0,405100,Brasil
+D00127,Horizonte Ecológico,ONG,Contacto AWW,juan.rodriguez@horizonteecologico.com,(+)52 55 1234 5678,ONG,Monotributista,23-45678901-3,2024-04-01,True,Mensual,459222.0,405100,México
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,445942.0,404100,Uruguay
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,607880.0,405100,Chile
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,739298.0,403103,Paraguay
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,704002.0,405100,Argentina
+D00127,Horizonte Ecológico,ONG,Contacto AWW,juan.rodriguez@horizonteecologico.com,(+)52 55 1234 5678,ONG,Monotributista,23-45678901-3,2024-04-01,True,Mensual,232185.0,405100,México
+D00136,AgroIndustrias del Sur,Agroindustria,Contacto AAS,laura.garcia@agroindustrias.com,(+)57 300 876 5432,S.A,Responsable Inscripto,33-11223344-5,2024-01-01,True,Mensual,647753.0,405100,Colombia
+D00142,Bebidas S.A,Campaña,Contacto GHY,bebidassa@mail.com,(+)52 55 1234 4324,S.A,Responsable Inscripto,34-38765566-0,2024-01-01,False,Mensual,58897.0,403103,México
+D00138,Innovación Solar S.A.,Campaña,Contacto AIS,julia.martinez@innovacionsolar.com,(+)52 55 1234 5678,S.A,Responsable Inscripto,30-99887766-7,2024-02-02,True,Mensual,55346.0,405100,México
+D00124,Soluciones VerdeVida,ONG,Contacto DSF,ana.solis@verdevida.com,(+)54 9 11 1234 5678,ONG,Monotributista,20-12345678-9,2024-01-02,True,Mensual,293230.0,405100,Argentina
+D00126,Empresas FuturoBrillante,Empresa,Contacto AHH,laura.perez@futurobrillante.com,(+)56 9 8765 4321,S.A.S,Responsable Inscripto,30-34567890-2,2024-03-02,True,Mensual,45976.0,403103,Chile
+D00125,Innovación Global S.A.,Empresa,Contacto DDD,carlos.martinez@innovacionglobal.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,27-23456789-1,2024-02-02,True,Mensual,43290.0,403103,Brasil
+D00120,Supermercado Vegano SRL,Empresa,Contacto VG,supermercadovegano@mail.com,(+)58 5550-9222,S.A.S,Responsable Inscripto,34-01712356-5,2023-01-25,True,Bimestral,540812.0,403103,Venezuela
+D00128,Fundación UniCorp,ONG,Contacto ASEE,marta.gonzalez@unicorp.org,(+)57 300 123 4567,ONG,Monotributista,33-56789012-4,2024-05-02,True,Mensual,75887.0,405100,Colombia
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,239793.0,404100,Uruguay
+D00139,TechGreen Innovación S.R.L.,Agroindustria,Contacto ATG,tech@techgreeninnovacion.com,(+)54 9 11 4567 8901,S.R.L,Responsable Inscripto,25-67890123-0,2024-01-04,True,Mensual,551050.0,405100,Argentina
+D00141,Apoyo Social Universal,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,GOB,Exento,30-33675566-8,2021-01-01,False,Trimestral,115458.0,405100,Argentina
+D00108,Iniciativa Solidaria,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 5747-7433,S.A.S,Monotributista,24-91224120-6,2022-04-10,False,Bimestral,627181.0,404100,Brasil
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,149833.0,405100,Brasil
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,539067.0,403103,Paraguay
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,776587.0,405100,Argentina
+D00125,Innovación Global S.A.,Empresa,Contacto DDD,carlos.martinez@innovacionglobal.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,27-23456789-1,2024-02-02,True,Mensual,60901.0,403103,Brasil
+D00126,Empresas FuturoBrillante,Empresa,Contacto AHH,laura.perez@futurobrillante.com,(+)56 9 8765 4321,S.A.S,Responsable Inscripto,30-34567890-2,2024-03-02,True,Mensual,173308.0,403103,Chile
+D00128,Fundación UniCorp,ONG,Contacto ASEE,marta.gonzalez@unicorp.org,(+)57 300 123 4567,ONG,Monotributista,33-56789012-4,2024-05-02,True,Mensual,97534.0,405100,Colombia
+D00138,Innovación Solar S.A.,Campaña,Contacto AIS,julia.martinez@innovacionsolar.com,(+)52 55 1234 5678,S.A,Responsable Inscripto,30-99887766-7,2024-02-02,True,Mensual,66576.0,405100,México
+D00124,Soluciones VerdeVida,ONG,Contacto DSF,ana.solis@verdevida.com,(+)54 9 11 1234 5678,ONG,Monotributista,20-12345678-9,2024-01-02,True,Mensual,568883.0,405100,Argentina
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,578868.0,404100,Argentina
+D00127,Horizonte Ecológico,ONG,Contacto AWW,juan.rodriguez@horizonteecologico.com,(+)52 55 1234 5678,ONG,Monotributista,23-45678901-3,2024-04-01,True,Mensual,351798.0,405100,México
+D00136,AgroIndustrias del Sur,Agroindustria,Contacto AAS,laura.garcia@agroindustrias.com,(+)57 300 876 5432,S.A,Responsable Inscripto,33-11223344-5,2024-01-01,True,Mensual,571778.0,405100,Colombia
+D00142,Bebidas S.A,Campaña,Contacto GHY,bebidassa@mail.com,(+)52 55 1234 4324,S.A,Responsable Inscripto,34-38765566-0,2024-01-01,False,Mensual,33079.0,403103,México
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,340346.0,404100,Uruguay
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,668347.0,405100,Chile
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,159307.0,403103,Paraguay
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,700318.0,405100,Argentina
+D00127,Horizonte Ecológico,ONG,Contacto AWW,juan.rodriguez@horizonteecologico.com,(+)52 55 1234 5678,ONG,Monotributista,23-45678901-3,2024-04-01,True,Mensual,546208.0,405100,México
+D00136,AgroIndustrias del Sur,Agroindustria,Contacto AAS,laura.garcia@agroindustrias.com,(+)57 300 876 5432,S.A,Responsable Inscripto,33-11223344-5,2024-01-01,True,Mensual,783804.0,405100,Colombia
+D00142,Bebidas S.A,Campaña,Contacto GHY,bebidassa@mail.com,(+)52 55 1234 4324,S.A,Responsable Inscripto,34-38765566-0,2024-01-01,False,Mensual,24515.0,403103,México
+D00120,Supermercado Vegano SRL,Empresa,Contacto VG,supermercadovegano@mail.com,(+)58 5550-9222,S.A,Responsable Inscripto,34-01712356-5,2023-01-25,True,Bimestral,515890.0,403103,Venezuela
+D00139,TechGreen Innovación S.R.L.,Agroindustria,Contacto ATG,tech@techgreeninnovacion.com,(+)54 9 11 4567 8901,S.R.L,Responsable Inscripto,25-67890123-0,2024-01-04,True,Mensual,700290.0,405100,Argentina
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,178456.0,404100,Uruguay
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,86746.0,405100,Brasil
+D00124,Soluciones VerdeVida,ONG,Contacto DSF,ana.solis@verdevida.com,(+)54 9 11 1234 5678,ONG,Monotributista,20-12345678-9,2024-01-02,True,Mensual,470187.0,405100,Argentina
+D00126,Empresas FuturoBrillante,Empresa,Contacto AHH,laura.perez@futurobrillante.com,(+)56 9 8765 4321,S.A.S,Responsable Inscripto,30-34567890-2,2024-03-02,True,Mensual,225900.0,403103,Chile
+D00125,Innovación Global S.A.,Empresa,Contacto DDD,carlos.martinez@innovacionglobal.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,27-23456789-1,2024-02-02,True,Mensual,92342.0,403103,Brasil
+D00128,Fundación UniCorp,ONG,Contacto ASEE,marta.gonzalez@unicorp.org,(+)57 300 123 4567,ONG,Monotributista,33-56789012-4,2024-05-02,True,Mensual,117968.0,405100,Colombia
+D00138,Innovación Solar S.A.,Campaña,Contacto AIS,julia.martinez@innovacionsolar.com,(+)52 55 1234 5678,S.A,Responsable Inscripto,30-99887766-7,2024-02-02,True,Mensual,83697.0,405100,México
+D00116,Universidad del Sur,Empresa,Contacto V,universidadds@mail.com,(+)51 5550-9220,S.A,Responsable Inscripto,29-38793456-3,2018-12-23,True,Anual,43675.0,403103,Perú
+D00108,Iniciativa Solidaria,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 5747-7433,S.A.S,Monotributista,24-91224120-6,2022-04-10,False,Bimestral,659415.0,404100,Brasil
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,152701.0,403103,Paraguay
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,782687.0,405100,Argentina
+D00124,Soluciones VerdeVida,ONG,Contacto DSF,ana.solis@verdevida.com,(+)54 9 11 1234 5678,ONG,Monotributista,20-12345678-9,2024-01-02,True,Mensual,347778.0,405100,Argentina
+D00139,TechGreen Innovación S.R.L.,Agroindustria,Contacto ATG,tech@techgreeninnovacion.com,(+)54 9 11 4567 8901,S.R.L,Responsable Inscripto,25-67890123-0,2024-01-04,True,Mensual,565167.0,405100,Argentina
+D00125,Innovación Global S.A.,Empresa,Contacto DDD,carlos.martinez@innovacionglobal.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,27-23456789-1,2024-02-02,True,Mensual,17892.0,403103,Brasil
+D00138,Innovación Solar S.A.,Campaña,Contacto AIS,julia.martinez@innovacionsolar.com,(+)52 55 1234 5678,S.A,Responsable Inscripto,30-99887766-7,2024-02-02,True,Mensual,40499.0,405100,México
+D00126,Empresas FuturoBrillante,Empresa,Contacto AHH,laura.perez@futurobrillante.com,(+)56 9 8765 4321,S.A.S,Responsable Inscripto,30-34567890-2,2024-03-02,True,Mensual,244932.0,403103,Chile
+D00128,Fundación UniCorp,ONG,Contacto ASEE,marta.gonzalez@unicorp.org,(+)57 300 123 4567,ONG,Monotributista,33-56789012-4,2024-05-02,True,Mensual,359060.0,405100,Colombia
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,481653.0,404100,Argentina
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,224200.0,404100,Uruguay
+D00127,Horizonte Ecológico,ONG,Contacto AWW,juan.rodriguez@horizonteecologico.com,(+)52 55 1234 5678,ONG,Monotributista,23-45678901-3,2024-04-01,True,Mensual,584457.0,405100,México
+D00136,AgroIndustrias del Sur,Agroindustria,Contacto AAS,laura.garcia@agroindustrias.com,(+)57 300 876 5432,S.A,Responsable Inscripto,33-11223344-5,2024-01-01,True,Mensual,578491.0,405100,Colombia
+D00135,Logística Global S.R.L.,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,S.R.L,Monotributista,20-98765432-1,2020-01-01,True,Bimestral,761671.0,405100,Chile
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,430624.0,403103,Paraguay
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,711560.0,405100,Argentina
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,66711.0,405100,Brasil
+D00136,AgroIndustrias del Sur,Agroindustria,Contacto AAS,laura.garcia@agroindustrias.com,(+)57 300 876 5432,S.A,Responsable Inscripto,33-11223344-5,2024-01-01,True,Mensual,770156.0,405100,Colombia
+D00127,Horizonte Ecológico,ONG,Contacto AWW,juan.rodriguez@horizonteecologico.com,(+)52 55 1234 5678,ONG,Monotributista,23-45678901-3,2024-04-01,True,Mensual,420123.0,405100,México
+D00124,Soluciones VerdeVida,ONG,Contacto DSF,ana.solis@verdevida.com,(+)54 9 11 1234 5678,ONG,Monotributista,20-12345678-9,2024-01-02,True,Mensual,295364.0,405100,Argentina
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,609063.0,404100,Uruguay
+D00139,TechGreen Innovación S.R.L.,Agroindustria,Contacto ATG,tech@techgreeninnovacion.com,(+)54 9 11 4567 8901,S.R.L,Responsable Inscripto,25-67890123-0,2024-01-04,True,Mensual,635642.0,405100,Argentina
+D00120,Supermercado Vegano SRL,Empresa,Contacto VG,supermercadovegano@mail.com,(+)58 5550-9222,S.A,Responsable Inscripto,34-01712356-5,2023-01-25,True,Bimestral,593821.0,403103,Venezuela
+D00125,Innovación Global S.A.,Empresa,Contacto DDD,carlos.martinez@innovacionglobal.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,27-23456789-1,2024-02-02,True,Mensual,63032.0,403103,Brasil
+D00138,Innovación Solar S.A.,Campaña,Contacto AIS,julia.martinez@innovacionsolar.com,(+)52 55 1234 5678,S.A,Responsable Inscripto,30-99887766-7,2024-02-02,True,Mensual,41123.0,405100,México
+D00126,Empresas FuturoBrillante,Empresa,Contacto AHH,laura.perez@futurobrillante.com,(+)56 9 8765 4321,S.A.S,Responsable Inscripto,30-34567890-2,2024-03-02,True,Mensual,506437.0,403103,Chile
+D00128,Fundación UniCorp,ONG,Contacto ASEE,marta.gonzalez@unicorp.org,(+)57 300 123 4567,ONG,Monotributista,33-56789012-4,2024-05-02,True,Mensual,523200.0,405100,Colombia
+D00124,Soluciones VerdeVida,ONG,Contacto DSF,ana.solis@verdevida.com,(+)54 9 11 1234 5678,ONG,Monotributista,20-12345678-9,2024-01-02,True,Mensual,250149.0,405100,Argentina
+D00108,Iniciativa Solidaria,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 5747-7433,S.A.S,Monotributista,24-91224120-6,2022-04-10,False,Bimestral,758508.0,404100,Brasil
+D00111,Futuro Corporativo,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 5380-3426,S.A.S,Monotributista,27-23783266-6,2019-02-12,True,Mensual,148343.0,403103,Paraguay
+D00127,Horizonte Ecológico,ONG,Contacto AWW,juan.rodriguez@horizonteecologico.com,(+)52 55 1234 5678,ONG,Monotributista,23-45678901-3,2024-04-01,True,Mensual,268596.0,405100,México
+D00136,AgroIndustrias del Sur,Agroindustria,Contacto AAS,laura.garcia@agroindustrias.com,(+)57 300 876 5432,S.A,Responsable Inscripto,33-11223344-5,2024-01-01,True,Mensual,648108.0,405100,Colombia
+D00137,TecnoAvanzado S.R.L.,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,S.R.L,Monotributista,20-22334455-6,2022-05-06,True,Mensual,768202.0,405100,Argentina
+D00139,TechGreen Innovación S.R.L.,Agroindustria,Contacto ATG,tech@techgreeninnovacion.com,(+)54 9 11 4567 8901,S.R.L,Responsable Inscripto,25-67890123-0,2024-01-04,True,Mensual,642222.0,405100,Argentina
+D00112,Global Energies S.A.,Estado,Contacto A,globalenergiess.a.@example.net,(+)598 5503-7127,S.A.S,Responsable Inscripto,25-36901514-8,2019-08-13,True,Anual,558515.0,404100,Uruguay
+D00125,Innovación Global S.A.,Empresa,Contacto DDD,carlos.martinez@innovacionglobal.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,27-23456789-1,2024-02-02,True,Mensual,29556.0,403103,Brasil
+D00126,Empresas FuturoBrillante,Empresa,Contacto AHH,laura.perez@futurobrillante.com,(+)56 9 8765 4321,S.A.S,Responsable Inscripto,30-34567890-2,2024-03-02,True,Mensual,234530.0,403103,Chile
+D00128,Fundación UniCorp,ONG,Contacto ASEE,marta.gonzalez@unicorp.org,(+)57 300 123 4567,ONG,Monotributista,33-56789012-4,2024-05-02,True,Mensual,329953.0,405100,Colombia
+D00138,Innovación Solar S.A.,Campaña,Contacto AIS,julia.martinez@innovacionsolar.com,(+)52 55 1234 5678,S.A,Responsable Inscripto,30-99887766-7,2024-02-02,True,Mensual,15614.0,405100,México
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,740873.0,404100,Uruguay
+D00115,Mercado Popular,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 5550-9219,S.A.S,Monotributista,24-34193456-2,2020-12-22,True,Bimestral,40287.0,405100,Brasil
+D00109,Innovatech Solutions,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 5263-2378,S.A,Exento,24-56588769-6,2019-09-08,True,Bimestral,676243.0,404100,Argentina
+D00113,Proyecto Gubernamental,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 5550-9219,GOB,Exento,29-75196406-1,2022-01-21,True,Mensual,508753.0,404100,Uruguay
+D00124,Soluciones VerdeVida,ONG,Contacto DSF,ana.solis@verdevida.com,(+)54 9 11 1234 5678,ONG,Monotributista,20-12345678-9,2024-01-02,True,Mensual,473575.0,405100,Argentina
+D00139,TechGreen Innovación S.R.L.,Agroindustria,Contacto ATG,tech@techgreeninnovacion.com,(+)54 9 11 4567 8901,S.R.L,Responsable Inscripto,25-67890123-0,2024-01-04,True,Mensual,514844.0,405100,Argentina
+D00136,AgroIndustrias del Sur,Agroindustria,Contacto AAS,laura.garcia@agroindustrias.com,(+)57 300 876 5432,S.A,Responsable Inscripto,33-11223344-5,2024-01-01,True,Mensual,556901.0,405100,Colombia
+D00125,Innovación Global S.A.,Empresa,Contacto DDD,carlos.martinez@innovacionglobal.com,(+)55 21 9876 5432,S.A,Responsable Inscripto,27-23456789-1,2024-02-02,True,Mensual,42628.0,403103,Brasil
+D00126,Empresas FuturoBrillante,Empresa,Contacto AHH,laura.perez@futurobrillante.com,(+)56 9 8765 4321,S.A.S,Responsable Inscripto,30-34567890-2,2024-03-02,True,Mensual,531085.0,403103,Chile
+D00128,Fundación UniCorp,ONG,Contacto ASEE,marta.gonzalez@unicorp.org,(+)57 300 123 4567,ONG,Monotributista,33-56789012-4,2024-05-02,True,Mensual,471594.0,405100,Colombia
+D00138,Innovación Solar S.A.,Campaña,Contacto AIS,julia.martinez@innovacionsolar.com,(+)52 55 1234 5678,S.A,Responsable Inscripto,30-99887766-7,2024-02-02,True,Mensual,34964.0,405100,México

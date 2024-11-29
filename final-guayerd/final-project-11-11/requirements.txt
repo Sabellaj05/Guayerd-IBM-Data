@@ -1,0 +1,6 @@
+numpy==1.26.4
+pandas==2.1.4
+matplotlib==3.8.4
+geopy==2.4.1
+mysql-connector-python==8.3.0
+jupyterlab==4.0.11
