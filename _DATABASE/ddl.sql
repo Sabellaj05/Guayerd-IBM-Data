@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS donantes (
   mail VARCHAR(255) UNIQUE,   
 	telefono VARCHAR(50),
   activo BOOL NOT NULL 
-  ## activo TINYINT(1) NOT NULL UNIQUE  ## -> El problema era que puse UNIQUE sin querer
+   -- activo TINYINT(1) NOT NULL UNIQUE  -> El problema era que puse UNIQUE sin querer
 );
 
 
@@ -79,9 +79,9 @@ CREATE TABLE IF NOT EXISTS cuentas (
   nro_cuenta INT NOT NULL UNIQUE	 
 );
 
-### --->  Altering tables for relationships <--- ###
+------>  Altering tables for relationships <--- 
 
-## Proveedores y Donantes
+-- Proveedores y Donantes
 
 ALTER TABLE proveedores 
   ADD COLUMN id_categoria INT NOT NULL,
@@ -111,7 +111,7 @@ ALTER TABLE donantes
 	ADD CONSTRAINT fk_donante_pais FOREIGN KEY (id_pais) REFERENCES paises(id_pais);
   
 	
-## Transacciones
+-- Transacciones
 
 -- columns
 ALTER TABLE gastos
@@ -120,7 +120,7 @@ ALTER TABLE gastos
 
 -- foreign keys
 ALTER TABLE gastos 
- 	#ADD CONSTRAINT fk_transacciones_proveedor FOREIGN KEY (id) REFERENCES proveedores(id),
+ 	-- ADD CONSTRAINT fk_transacciones_proveedor FOREIGN KEY (id) REFERENCES proveedores(id),
  	ADD CONSTRAINT fk_gastos_proveedor FOREIGN KEY (id_proveedor) REFERENCES proveedores(id),
  	ADD CONSTRAINT fk_gastos_cuenta FOREIGN KEY (id_cuenta) REFERENCES cuentas(id_cuenta);
 
