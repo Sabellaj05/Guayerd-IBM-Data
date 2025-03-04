@@ -28,3 +28,5 @@
 ---
 
 - Pipeline en Azure gestionada con terraform WIP
+- Pasar script de limpieza de notebook a py y mandar a /src
+- limpiar y estructurar script principal
