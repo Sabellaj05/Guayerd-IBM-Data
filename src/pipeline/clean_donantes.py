@@ -5,9 +5,9 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 
-data_dir = Path.cwd().parent / "data" / "merged"
-datos = "donantes_final-merged.csv"
-data = data_dir / datos
+repo_root = Path(__file__).resolve().parent.parent.parent
+data_dir = repo_root / "data" / "merged"
+data = data_dir / "donantes_final-merged.csv"
 np.random.seed(42)
 df = pd.read_csv(data)
 df.sample(5)
@@ -138,7 +138,7 @@ unique_col(df_final, columns)
 
 nunique_col(df_final)
 
-data_dir = Path.cwd().parent / "data" / "cleaned"
+data_dir = repo_root / "data" / "cleaned"
 data_clean = data_dir / "donantes-clean.csv"
 df_final.to_csv(data_clean, index=False)
 

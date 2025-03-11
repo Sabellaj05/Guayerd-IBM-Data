@@ -16,9 +16,11 @@ def create_connection(db_config: dict):
 
     params
     ------
-        * db_config: dict - credenciales de la base de datos
+      * db_config: dict
+        - credenciales de la base de datos
+
     returns:
-        conexion a la db
+        - conexion a la db
     """
     conn = None
     try:
@@ -35,10 +37,11 @@ def crear_cursor(conn):
 
     params
     ------
-        * conn: - conexion de la base de datos
+      * conn:
+        - conexion de la base de datos
 
     returns: 
-        - None
+        - cursor de la base de datos
     """
     try:
         cursor = conn.cursor(buffered=True)
@@ -79,10 +82,11 @@ def get_all_tables(cursor) -> list:
 
     params
     ------
-        * cursor: - cursor de la base de datos
+      * cursor:
+        - cursor de la base de datos
 
     returns:
-        - lista de nombres
+        - lista de nombres de tablas
     """
     cursor.execute("SHOW TABLES")
     tables = cursor.fetchall()
@@ -94,11 +98,16 @@ def ingest_table(conn, cursor, df: pd.DataFrame, table: str, col_name: str) -> N
 
     params
     ------
-        * conn: - conexion a la db
-        * cursor: - cursor de la db
-        * df: DataFrame - datos que van a ser insertados
-        * table: str - tabla que seleccionar
-        * col_name: str - columna a seleccionar
+      * conn:
+        - conexion a la db
+      * cursor:
+        - cursor de la db
+      * df: pd.DataFrame
+        - datos que van a ser insertados
+      * table: str
+        - tabla que seleccionar
+      * col_name: str
+        - columna a seleccionar
     
     returns:
         - None
@@ -122,12 +131,16 @@ def fetch_fk(cursor, id: str, col: str, table: str) -> dict:
 
     params
     ------
-        * cursor: - cursor de la db
-        * id: str - id de la tabla
-        * col: str - columna de la tabla
-        * table: str - nombre de la tabla
+      * cursor:
+        - cursor de la db
+      * id: str
+        - id de la tabla
+      * col: str
+        - columna de la tabla
+      * table: str
+        - nombre de la tabla
 
-    returns: dict
+    returns:
         - diccionario en forma {col: id}
     """
     try:
@@ -146,10 +159,14 @@ def ingest_proveedores(conn, cursor, df_proveedores: pd.DataFrame, mappings_fk_p
 
     params
     ------
-        * conn: - conexion a la db
-        * cursor: - curosr de la db
-        * df_proveedores: DataFrame - dataframe con los datos de los proveedores 
-        * mappings_fk_proveedor: dict - diccionario con las foreign keys
+      * conn:
+        - conexion a la db
+      * cursor:
+        - cursor de la db
+      * df_proveedores: pd.DataFrame
+        - dataframe con los datos de los proveedores 
+      * mappings_fk_proveedor: dict
+        - diccionario con las foreign keys
 
     returns:
         - None
@@ -197,10 +214,14 @@ def ingest_gastos(conn, cursor, df: pd.DataFrame, mappings_fk_gastos) -> None:
 
     params
     ------
-        * conn: - conexion a la db
-        * cursor: - curosr de la db
-        * df: DataFrame - dataframe de donde se sacan los gatos 
-        * mappings_fk_gastos: dict - diccionario con las foreign keys
+      * conn:
+        - conexion a la db
+      * cursor:
+        - cursor de la db
+      * df: pd.DataFrame
+        - dataframe de donde se sacan los gastos 
+      * mappings_fk_gastos: tuple
+        - tupla con las foreign keys
 
     returns:
         - None
@@ -233,10 +254,14 @@ def ingest_donantes(conn, cursor, df_donantes: pd.DataFrame, mappings_fk_donante
 
     params
     ------
-        * conn: - conexion a la db
-        * cursor: - curosr de la db
-        * df_proveedores: DataFrame - dataframe con los datos de los proveedores 
-        * mappings_fk_donantes: dict - diccionario con las foreign keys
+      * conn:
+        - conexion a la db
+      * cursor:
+        - cursor de la db
+      * df_donantes: pd.DataFrame
+        - dataframe con los datos de los donantes 
+      * mappings_fk_donantes: tuple
+        - tupla con las foreign keys
 
     returns:
         - None
@@ -288,10 +313,14 @@ def ingest_ingresos(conn, cursor, df: pd.DataFrame, mappings_fk_ingresos) -> Non
 
     params
     ------
-        * conn: - conexion a la db
-        * cursor: - curosr de la db
-        * df: DataFrame - dataframe de donde se sacan los ingresos 
-        * mappings_fk_ingresos: dict - diccionario con las foreign keys
+      * conn:
+        - conexion a la db
+      * cursor:
+        - cursor de la db
+      * df: pd.DataFrame
+        - dataframe de donde se sacan los ingresos 
+      * mappings_fk_ingresos: tuple
+        - tupla con las foreign keys
 
     returns:
         - None
@@ -317,158 +346,301 @@ def ingest_ingresos(conn, cursor, df: pd.DataFrame, mappings_fk_ingresos) -> Non
             print(f"Foreign key not found for {row['numero']} or {row['nro_cuenta']}")
     print(f"Cantidad de filas insertadas: {count}")
 
-def main() -> None:
-    pwd = Path.cwd()
-    data_prov = pwd.parent / "data" / "cleaned" / "proveedores-clean.csv"
-    data_donan = pwd.parent / "data" / "cleaned" / "donantes-clean.csv"
-    df = pd.read_csv(data_prov)
-    df2 = pd.read_csv(data_donan)
+def load_datasets(path_proveedores: Path, path_donantes: Path) -> tuple:
+    """
+    Carga los datasets de proveedores y donantes desde archivos CSV
+
+    params
+    ------
+      * path_proveedores: Path
+        - ruta al archivo CSV de proveedores
+      * path_donantes: Path
+        - ruta al archivo CSV de donantes
+
+    returns:
+        - tuple con (dataframe de proveedores, dataframe de donantes)
+    """
+    df_proveedores = pd.read_csv(path_proveedores)
+    df_donantes = pd.read_csv(path_donantes)
     np.random.seed(42)
+    
+    return df_proveedores, df_donantes
 
-    # ### Conectando a la base de datos que esta en Docker
 
+def setup_database_connection() -> tuple:
+    """
+    Configura la conexión a la base de datos y el cursor
+
+    params
+    ------
+
+    returns:
+        - tuple con (conexion, cursor)
+    """
     load_dotenv()
     db_config = {
-        "host": os.getenv("DATABASE_HOST"),   ## gateway of container
+        "host": os.getenv("DATABASE_HOST"),
         "user": os.getenv("DATABASE_USER"),
         "password": os.getenv("DATABASE_PASSWORD"),
         "database": os.getenv("DATABASE_NAME")
     }
     
-    # creamos la conexion
     conn = create_connection(db_config)
-    # creamos el cursor
     cursor = crear_cursor(conn)
+    
+    return conn, cursor
 
-    df.columns
-    
-    # solo para ver los nombres de las tablas
-    all_tables = get_all_tables(cursor)
-    print(f"Tablas\n: {all_tables}\n")
-    
-    # los datos deberian venir de un archivo de configuracion imagino
-    # que columna va en que tabla
-    table_to_col = {"categoria_proveedores": "categoria",
-                    "tipo_contribuyentes": "contribuyente",
-                    "razones_sociales": "razon",
-                    "ciudades": "ciudad",
-                    "cuentas": "nro_cuenta"}
 
-    ########################################
-    ####### insertar datos en tablas #######
+def handle_proveedor_dimension_tables(conn, cursor, df) -> dict:
+    """
+    Inserta datos en las tablas de dimensión para proveedores y devuelve los mapeos de columnas
+
+    params
+    ------
+      * conn:
+        - conexión a la base de datos
+      * cursor:
+        - cursor de la base de datos
+      * df: pd.DataFrame
+        - dataframe de proveedores
+
+    returns:
+        - diccionario con mapeo de tablas a columnas
+    """
+    # Print column names to debug
+    print("proveedor dataframe columns:", df.columns.tolist())
     
+    # Define column mapping for proveedor dimension tables with correct CSV column names
+    table_to_col = {
+        "categoria_proveedores": "categoria",
+        "tipo_contribuyentes": "contribuyente",
+        "razones_sociales": "razon",
+        "ciudades": "ciudad",
+        "cuentas": "nro_cuenta"
+    }
+    
+    # Insert data into dimension tables
     for table, col in table_to_col.items():
         ingest_table(conn, cursor, df, table, col)
+    
+    return table_to_col
 
-        
-    ################################################################################
-    ################################# Proveedores ##################################
 
-    ###############################################################
-    ####### preparar foreign keys para la tabla proveedores #######
+def process_proveedor_data(conn, cursor, df, table_to_col) -> None:
+    """
+    Procesa los datos de proveedores: prepara las claves foráneas e inserta en las tablas de proveedores y gastos
 
-    # datos unicos de los proveedores basado en el numero
+    params
+    ------
+      * conn:
+        - conexión a la base de datos
+      * cursor:
+        - cursor de la base de datos
+      * df: pd.DataFrame
+        - dataframe de proveedores
+      * table_to_col: dict
+        - diccionario con mapeo de tablas a columnas
+
+    returns:
+        - None
+    """
+    # Get unique proveedores
     df_proveedores = df.drop_duplicates(subset='numero')
-
-    # complicandola de chill --- es bastante ilegible pero queria probar hacerlo de esta manera
-    # traer las fk de todas las tablas que tengan
+    
+    # Prepare foreign keys for proveedor table
     list_fk = ["id_categoria", "id_contribuyente", "id_razon", "id_ciudad"]
-    table_cols: tuple = tuple(table_to_col.items())
-
-
-    # Agarramos todas las foreign keys y las guardamos para hacerlo mas rapido
-    # Fetch id_categoria    
+    table_cols = tuple(table_to_col.items())
+    
+    # Fetch all foreign key mappings
     categoria_mapping = fetch_fk(cursor, list_fk[0], table_cols[0][1], table_cols[0][0])
-    # # Fetch id_contribuyente
     contribuyente_mapping = fetch_fk(cursor, list_fk[1], table_cols[1][1], table_cols[1][0])
-    # # Fetch id_razon
     razon_mapping = fetch_fk(cursor, list_fk[2], table_cols[2][1], table_cols[2][0])
-    # # Fetch id_ciudad
     ciudades_mapping = fetch_fk(cursor, list_fk[3], table_cols[3][1], table_cols[3][0])
     
-    # tupla para pasar como argumento
-    mappings_fk_proveedor: tuple = (categoria_mapping, contribuyente_mapping, razon_mapping, ciudades_mapping)
-
-    ##########################################
-    ####### insertar datos proveedores #######
-
+    # Package foreign keys for proveedor insertion
+    mappings_fk_proveedor = (categoria_mapping, contribuyente_mapping, razon_mapping, ciudades_mapping)
+    
+    # Insert proveedor data
     ingest_proveedores(conn, cursor, df_proveedores, mappings_fk_proveedor)
-
-    ##########################################################
-    ####### preparar foreign keys para la tabla gastos #######
-
-
-    # Fetch id_proveedor --> se llama 'id'
+    
+    # Prepare foreign keys for expenses
     proveedor_mapping = fetch_fk(cursor, "id", "numero", "proveedores")
-    # Fetch id_cuenta
     cuenta_mapping = fetch_fk(cursor, "id_cuenta", "nro_cuenta", "cuentas")
-    # tupla de parametros
     mappings_fk_gastos = (proveedor_mapping, cuenta_mapping)
-
-    ####### insertar datos proveedores #######
-
+    
+    # Insert expense data
     ingest_gastos(conn, cursor, df, mappings_fk_gastos)
 
 
-    ################################################################################
-    ################################### Donantes ###################################
+def handle_donante_dimension_tables(conn, cursor, df) -> dict:
+    """
+    Inserta datos en las tablas de dimensión para donantes y devuelve los mapeos de columnas
 
-    ####### Insertar datos en las tablas para despues relacionarla con la tabla `donantes` #######
+    params
+    ------
+      * conn:
+        - conexión a la base de datos
+      * cursor:
+        - cursor de la base de datos
+      * df: pd.DataFrame
+        - dataframe de donantes
 
-    # los datos deberian venir de un archivo de configuracion imagino
-    # tabla: columna
-    table_to_col = {"frecuencias": "frecuencia",
-                    "tipo_contribuyentes": "contribuyente",
-                    "razones_sociales": "razon",
-                    "tipo_donantes": "tipo",
-                    "paises": "pais",
-                    "cuentas": "nro_cuenta"}
-
+    returns:
+        - diccionario con mapeo de tablas a columnas
+    """
+    # Print column names to debug
+    print("donante dataframe columns:", df.columns.tolist())
+    
+    # Create a copy of the dataframe with renamed columns to use database-friendly names
+    df_db = df.copy()
+    col_mapping = {
+        "Frecuencia": "frecuencia",
+        "Tipo de Contribuyente": "contribuyente",
+        "Razon Social": "razon",
+        "Tipo": "tipo",
+        "Pais": "pais",
+        "Nro de Cuenta": "nro_cuenta"
+    }
+    df_db.rename(columns=col_mapping, inplace=True)
+    
+    # Define column mapping for donante dimension tables using database-friendly names
+    table_to_col = {
+        "frecuencias": "frecuencia",
+        "tipo_contribuyentes": "contribuyente",
+        "razones_sociales": "razon",
+        "tipo_donantes": "tipo",
+        "paises": "pais",
+        "cuentas": "nro_cuenta"
+    }
+    
+    # Insert data into dimension tables
     for table, col in table_to_col.items():
-        ingest_table(conn, cursor, df2, table, col)
+        if col in df_db.columns:
+            ingest_table(conn, cursor, df_db, table, col)
+        else:
+            print(f"Warning: Column '{col}' not found in donante dataframe. Skipping table '{table}'")
+    
+    return table_to_col
 
-    ####### preparar foreign keys para la tabla donantes ########
 
-    # datos unicos de los proveedores basado en el numero
-    df_donantes = df2.drop_duplicates(subset='numero')
+def process_donante_data(conn, cursor, df) -> None:
+    """
+    Procesa los datos de donantes: prepara las claves foráneas e inserta en las tablas de donantes e ingresos
 
-    # Fetch foreign keys  
-    # Hay que volver a fetchear `categoria`, `contribuyente` y `razon social` ya fuero los datos fueron actualizados.  
-    #  Al igual que `tipo_donantes`, `pais` y `frecuencia` que son tablas nuevas `Donantes`
+    params
+    ------
+      * conn:
+        - conexión a la base de datos
+      * cursor:
+        - cursor de la base de datos
+      * df: pd.DataFrame
+        - dataframe de donantes
 
+    returns:
+        - None
+    """
+    # Create a copy of the dataframe with renamed columns to use database-friendly names
+    df_db = df.copy()
+    col_mapping = {
+        "Numero": "numero",
+        "Nombre": "nombre",
+        "CUIT": "cuit",
+        "Contacto": "contacto",
+        "Correo Electronico": "mail",
+        "Telefono": "telefono",
+        "Activo": "activo",
+        "Frecuencia": "frecuencia",
+        "Tipo de Contribuyente": "contribuyente",
+        "Razon Social": "razon",
+        "Tipo": "tipo",
+        "Pais": "pais",
+        "Importe": "importe",
+        "Nro de Cuenta": "nro_cuenta",
+        "Fecha": "fecha"
+    }
+    df_db.rename(columns=col_mapping, inplace=True)
+    
+    # Using the correct donante number column name from the dataframe
+    numero_col = 'numero'
+    
+    # Get unique donantes
+    df_donantes = df_db.drop_duplicates(subset=numero_col)
+    
+    # Fetch foreign keys for donante table - using the database column names
     frecuencia_mapping = fetch_fk(cursor, id="id_frecuencia", col="frecuencia", table="frecuencias")
     contribuyente_mapping = fetch_fk(cursor, id="id_contribuyente", col="contribuyente", table="tipo_contribuyentes")
     razon_mapping = fetch_fk(cursor, id="id_razon", col="razon", table="razones_sociales")
     tipo_mapping = fetch_fk(cursor, id="id_tipo", col="tipo", table="tipo_donantes")
     pais_mapping = fetch_fk(cursor, id="id_pais", col="pais", table="paises")
     
+    # Package foreign keys for donante insertion
     mappings_fk_donantes = (frecuencia_mapping, contribuyente_mapping, razon_mapping, tipo_mapping, pais_mapping)
-
-    ##########################################
-    ####### insertar datos proveedores #######
-
+    
+    # Insert donante data
     ingest_donantes(conn, cursor, df_donantes, mappings_fk_donantes)
     
-    ##########################################################
-    ####### preparar foreign keys para la tabla ingresos #####
-
-    # Fetch id_proveedor --> se llama 'id'
+    # Prepare foreign keys for incomes
     donantes_mapping = fetch_fk(cursor, "id", "numero", "donantes")
-    # Fetch id_cuenta
     cuenta_mapping = fetch_fk(cursor, "id_cuenta", "nro_cuenta", "cuentas")
-    
     mappings_fk_ingresos = (donantes_mapping, cuenta_mapping)
     
-    #######################################
-    ####### insertar datos ingresos #######
+    # Insert income data
+    ingest_ingresos(conn, cursor, df_db, mappings_fk_ingresos)
 
-    ingest_ingresos(conn, cursor, df2, mappings_fk_ingresos)
 
-    # Close the cursor and connection
+def close_connection(conn, cursor) -> None:
+    """
+    Cierra la conexión a la base de datos y el cursor
+
+    params
+    ------
+      * conn:
+        - conexión a la base de datos
+      * cursor:
+        - cursor de la base de datos
+
+    returns:
+        - None
+    """
     if conn:
         cursor.close()
         conn.close()
         print("Desconectando Base de datos...")
+
+
+def main() -> None:
+    """
+    Función principal para orquestar el proceso de ingestión de datos a la base de datos
+
+    params
+    ------
+
+    returns:
+        - None
+    """
+    repo_root = Path(__file__).resolve().parent.parent
+    data_prov = repo_root / "data" / "cleaned" / "proveedores-clean.csv"
+    data_donan = repo_root / "data" / "cleaned" / "donantes-clean.csv"
+    # Step 1: Load datasets
+    df_proveedores, df_donantes = load_datasets(data_prov, data_donan)
+    
+    # Step 2: Setup database connection
+    conn, cursor = setup_database_connection()
+    
+    # Display available tables
+    all_tables = get_all_tables(cursor)
+    print(f"Tablas\n: {all_tables}\n")
+    
+    # Step 3: Process proveedor data
+    table_to_col = handle_proveedor_dimension_tables(conn, cursor, df_proveedores)
+    process_proveedor_data(conn, cursor, df_proveedores, table_to_col)
+    
+    # Step 4: Process donante data
+    handle_donante_dimension_tables(conn, cursor, df_donantes)
+    process_donante_data(conn, cursor, df_donantes)
+    
+    # Step 5: Close database connection
+    close_connection(conn, cursor)
 
 if __name__ == "__main__":
     main()

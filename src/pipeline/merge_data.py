@@ -234,7 +234,13 @@ def importe_to_numeric(dfd: pd.DataFrame, dfp: pd.DataFrame) -> tuple[pd.DataFra
 
     return dfd, dfp
 
-def main(args) -> None:
+def main(args=None) -> None:
+    # If args is None, create a default args object with test=False
+    if args is None:
+        class Args:
+            def __init__(self):
+                self.test = False
+        args = Args()
     # Set the root path
     root_path = Path(__file__).resolve().parent.parent.parent
     test_data_path = root_path / "data" / "test"

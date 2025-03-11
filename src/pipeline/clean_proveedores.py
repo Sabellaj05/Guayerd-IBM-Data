@@ -6,9 +6,9 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 
-data_dir = Path.cwd().parent / "data" /  "merged"
-datos = "proveedores_final-merged.csv"
-data = data_dir / datos
+repo_root = Path(__file__).resolve().parent.parent.parent
+data_dir = repo_root / "data" / "merged"
+data = data_dir / "proveedores_final-merged.csv"
 df = pd.read_csv(data)
 np.random.seed(42)
 df.sample(3)
@@ -65,6 +65,6 @@ rename_cols = {"Numero Proveedor": "numero",
 df.rename(columns=rename_cols, inplace=True)
 
 # Export clean data
-data_dir = Path.cwd().parent / "data" / "cleaned"
+data_dir = repo_root / "data" / "cleaned"
 data_clean = data_dir / "proveedores-clean.csv"
 df.to_csv(data_clean, index=False)

@@ -1,4 +1,4 @@
-Numero Proveedor,Nombre Proveedor,CUIT,Categoria Proveedor,Tipo de Contribuyente,Contacto,Correo Electronico,Telefono,Razon Social,Importe,Fecha,Nro_Cuenta,Ciudad
+numero,nombre,cuit,categoria,contribuyente,contacto,mail,telefono,razon,importe,fecha,nro_cuenta,ciudad
 P00001,Proveedora S.A.,30-12345678-9,Servicios,Responsable inscripto,Juan Pérez,juan.perez@empresa.com,1234-5678,S.A,171488.0,2024-03-18,501400,Buenos Aires
 P00002,Pedro González,30-87654321-0,Servicios,Monotributista,Pedro González,pedro.gonzalez@correo.zom,2345-6789,S.R.L,288255.0,2024-02-08,503100,Cordoba
 P00003,Empresa XYZ,30-13579246-3,Materiales,Responsable inscripto,María López,maria.lopez@empresa.com,3456-7890,S.A,195975.0,2024-01-18,506100,Rosario
