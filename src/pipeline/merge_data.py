@@ -8,6 +8,8 @@ import matplotlib.pyplot as plt
 from geopy.geocoders import Nominatim
 from geopy.extra.rate_limiter import RateLimiter
 import random
+import warnings
+warnings.simplefilter(action="ignore", category=FutureWarning)
 
 # Function to load data
 def load_data(data_path):
@@ -194,6 +196,43 @@ def sample_dist(df: pd.DataFrame,
     final_sample = np.random.choice(sample, size=size, p=proba)
     return final_sample
 
+def final_renaming(dfd: pd.DataFrame, dfp: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
+    # Last minute cleaning and casting
+    tipo_c = "Tipo de Contribuyente"
+    categoria = "Categoria Proveedor"
+    dfp[categoria] = dfp[categoria].str.replace("Servicos", "Servicios")
+    dfp[tipo_c] = dfp[tipo_c].str.replace("Responsable inscriito", "Responsable inscripto")
+    dfp[tipo_c] = dfp[tipo_c].str.replace("Iva responsable", "Responsable inscripto")
+    dfp[tipo_c] = dfp[tipo_c].str.replace("Responsabile inscripto", "Responsable inscripto")
+    dfp[tipo_c] = dfp[tipo_c].apply(lambda x: x.capitalize())
+
+    dfp.rename(columns={"Número Proveedor": "Numero Proveedor",
+                        "Correo Electrónico": "Corre Electronico",
+                        "Razón Social": "Razon Social",
+                        "Teléfono": "Telefono"},
+               inplace=True)
+    dfd.rename(columns={"País": "Pais",
+                        "Correo Electrónico": "Correo Electronico"},
+               inplace=True)
+    return dfd, dfp
+def importe_to_numeric(dfd: pd.DataFrame, dfp: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
+
+    # Convert Importe to numeric
+    def to_numeric_importe(importe):
+        # Remove any non-numeric characters (except for commas)
+        importe_cleaned = importe.replace('.', '')  # Remove thousands separator
+        importe_cleaned = importe_cleaned.replace(',', '.')  # Replace decimal comma with a dot
+        return importe_cleaned
+
+    # Apply the cleaning function
+    dfd['Importe'] = dfd['Importe'].apply(to_numeric_importe)
+    dfp['Importe'] = dfp['Importe'].apply(to_numeric_importe)
+
+    # Convert to numeric
+    dfd['Importe'] = pd.to_numeric(dfd['Importe'], errors='coerce')
+    dfp['Importe'] = pd.to_numeric(dfp['Importe'], errors='coerce')
+
+    return dfd, dfp
 
 def main(args) -> None:
     # Set the root path
@@ -224,39 +263,10 @@ def main(args) -> None:
     # Final cleanup and renaming
     dfp_final = dfpmerge_final.copy()
 
-    # Last minute cleaning and casting
-    tipo_c = "Tipo de Contribuyente"
-    categoria = "Categoria Proveedor"
-    dfp_final[categoria] = dfp_final[categoria].str.replace("Servicos", "Servicios")
-    dfp_final[tipo_c] = dfp_final[tipo_c].str.replace("Responsable inscriito", "Responsable inscripto")
-    dfp_final[tipo_c] = dfp_final[tipo_c].str.replace("Iva responsable", "Responsable inscripto")
-    dfp_final[tipo_c] = dfp_final[tipo_c].str.replace("Responsabile inscripto", "Responsable inscripto")
-    dfp_final[tipo_c] = dfp_final[tipo_c].apply(lambda x: x.capitalize())
+    dfd_final, dfp_final = final_renaming(dfd_final, dfp_final)
 
-    dfp_final.rename(columns={"Número Proveedor": "Numero Proveedor",
-                              "Correo Electrónico": "Corre Electronico",
-                              "Razón Social": "Razon Social",
-                              "Teléfono": "Telefono"},
-                      inplace=True)
-    dfd_final.rename(columns={"País": "Pais",
-                              "Correo Electrónico": "Correo Electronico"},
-                              inplace=True)
-
-
-    def to_numeric_importe(importe):
-        # Remove any non-numeric characters (except for commas)
-        importe_cleaned = importe.replace('.', '')  # Remove thousands separator
-        importe_cleaned = importe_cleaned.replace(',', '.')  # Replace decimal comma with a dot
-        return importe_cleaned
-
-    # Apply the cleaning function
-    dfd_final['Importe'] = dfd_final['Importe'].apply(to_numeric_importe)
-    dfp_final['Importe'] = dfp_final['Importe'].apply(to_numeric_importe)
-
-    # Convert to numeric
-    dfd_final['Importe'] = pd.to_numeric(dfd_final['Importe'], errors='coerce')
-    dfp_final['Importe'] = pd.to_numeric(dfp_final['Importe'], errors='coerce')
-
+    # Last numeric conversion
+    dfd_final, dfp_final = importe_to_numeric(dfd_final, dfp_final)
 
     # Export data
     if args.test:
