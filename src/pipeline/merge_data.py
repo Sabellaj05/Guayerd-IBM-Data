@@ -215,6 +215,7 @@ def final_renaming(dfd: pd.DataFrame, dfp: pd.DataFrame) -> tuple[pd.DataFrame, 
                         "Correo Electrónico": "Correo Electronico"},
                inplace=True)
     return dfd, dfp
+
 def importe_to_numeric(dfd: pd.DataFrame, dfp: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
 
     # Convert Importe to numeric
@@ -242,7 +243,7 @@ def main(args=None) -> None:
                 self.test = False
         args = Args()
     # Set the root path
-    root_path = Path(__file__).resolve().parent.parent.parent
+    root_path = Path(__file__).resolve().parent.parent
     test_data_path = root_path / "data" / "test"
 
     # Load data from data/raw
