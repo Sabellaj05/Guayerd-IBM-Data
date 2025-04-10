@@ -1,54 +1,50 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+import argparse
 import os
 from pathlib import Path
 import pandas as pd
 import numpy as np
 
-repo_root = Path(__file__).resolve().parent.parent.parent
-data_dir = repo_root / "data" / "merged"
-data = data_dir / "proveedores_final-merged.csv"
-df = pd.read_csv(data)
-np.random.seed(42)
-df.sample(3)
+def load_data(ruta_datos):
+    """Carga los datos de proveedores desde un archivo CSV."""
+    df = pd.read_csv(ruta_datos)
+    print(f"Datos cargados con forma: {df.shape}")
+    return df
 
-# Algo de limpieza
-df.info()
+def clean_category(df):
+    """Corrige errores en la columna Categoria Proveedor."""
+    df["Categoria Proveedor"] = df["Categoria Proveedor"].str.replace("Servicos", "Servicios")
+    return df
 
-df["Categoria Proveedor"] = df["Categoria Proveedor"].str.replace("Servicos", "Servicios")
-df["Categoria Proveedor"].unique()
+def fix_provider_numbers(df):
+    """Estandariza los números de proveedor reemplazando 'D' por 'P'."""
+    mask = df["Numero Proveedor"].str.startswith("D")
+    df.loc[mask, "Numero Proveedor"] = df.loc[mask, "Numero Proveedor"].str.replace("D", "P")
+    return df
 
-mask = df["Numero Proveedor"].str.startswith("D")
-df.loc[mask, "Numero Proveedor"] = df.loc[mask, "Numero Proveedor"].str.replace("D", "P")
+def format_dates(df):
+    """Convierte la columna Fecha a formato datetime estandarizado."""
+    fc = "Fecha"
+    df[fc] = pd.to_datetime(df[fc], format='mixed', dayfirst=True).dt.strftime('%Y/%m/%d')
+    df[fc] = pd.to_datetime(df[fc])
+    return df
 
-df[df["Numero Proveedor"].str.startswith("D")]["Numero Proveedor"]
+def drop_unnecessary_columns(df):
+    """Elimina columnas que no son necesarias para el dataset final."""
+    df = df.drop(["Pais", "Maps", "Ciudad-maps"], axis=1)
+    df.rename(columns={"Corre Electronico": "Correo Electronico"}, inplace=True)
+    return df
 
-# datetime
-df["Fecha"].sample(2)
+def standardize_company_names(df):
+    """Estandariza los nombres de razón social."""
+    df["Razon Social"] = df["Razon Social"].str.rstrip(".").str.replace("Sociedad Anónima", "S.A")
+    return df
 
-fc = "Fecha"
-df[fc] = pd.to_datetime(df[fc], format='mixed', dayfirst=True).dt.strftime('%Y/%m/%d')
-df[fc] = pd.to_datetime(df[fc])
-df[fc].tail()
-
-df = df.drop(["Pais", "Maps", "Ciudad-maps"], axis=1)
-df.rename(columns={"Corre Electronico": "Correo Electronico"}, inplace=True)
-df.info()
-
-df
-
-# Ya que `S.A` y `Sociedad Anonima` son lo mismo, las juntamos y tambien borramos ese ultimo '.' en los demas
-df["Razon Social"].value_counts()
-
-df["Razon Social"].str.rstrip(".").str.replace("Sociedad Anónima", "S.A").value_counts()
-
-df["Razon Social"] = df["Razon Social"].str.rstrip(".").str.replace("Sociedad Anónima", "S.A")
-
-
-# Final renaming of columns
-
-rename_cols = {"Numero Proveedor": "numero",
+def rename_final_columns(df):
+    """Renombra las columnas al formato final deseado."""
+    rename_cols = {"Numero Proveedor": "numero",
                    "Nombre Proveedor": "nombre",
                    "CUIT": "cuit",
                    "Contacto": "contacto",
@@ -61,10 +57,74 @@ rename_cols = {"Numero Proveedor": "numero",
                    "Nro_Cuenta": "nro_cuenta",
                    "Importe": "importe",
                    "Fecha": "fecha",}
+    
+    df.rename(columns=rename_cols, inplace=True)
+    return df
 
-df.rename(columns=rename_cols, inplace=True)
+def export_data(df, ruta_salida):
+    """Exporta los datos limpios a un archivo CSV."""
+    # Asegurar que el directorio exista
+    ruta_salida.parent.mkdir(parents=True, exist_ok=True)
+    
+    df.to_csv(ruta_salida, index=False)
+    print(f"Datos exportados a {ruta_salida}")
+    return df
 
-# Export clean data
-data_dir = repo_root / "data" / "cleaned"
-data_clean = data_dir / "proveedores-clean.csv"
-df.to_csv(data_clean, index=False)
+def main(args=None):
+    """Función principal que ejecuta la limpieza de datos de proveedores."""
+    # Configurar semilla para reproducibilidad
+    np.random.seed(42)
+    
+    # Configurar rutas
+    repo_root = Path(__file__).resolve().parent.parent.parent
+    
+    # Determinar rutas según argumentos
+    if args and args.test:
+        data_dir = repo_root / "data" / "test"
+    else:
+        data_dir = repo_root / "data" / "merged"
+    
+    data_path = data_dir / "proveedores_final-merged.csv"
+    
+    # Ruta de salida
+    data_dir_out = repo_root / "data" / "cleaned"
+    data_clean = data_dir_out / "proveedores-clean.csv"
+    
+    # Cargar datos
+    print(f"Cargando datos desde {data_path}")
+    df = load_data(data_path)
+    
+    # Limpiar datos
+    print("Limpiando categorías de proveedores...")
+    df = clean_category(df)
+    
+    print("Corrigiendo números de proveedor...")
+    df = fix_provider_numbers(df)
+    
+    print("Formateando fechas...")
+    df = format_dates(df)
+    
+    print("Eliminando columnas innecesarias...")
+    df = drop_unnecessary_columns(df)
+    
+    print("Estandarizando nombres de empresas...")
+    df = standardize_company_names(df)
+    
+    print("Renombrando columnas al formato final...")
+    df = rename_final_columns(df)
+    
+    # Exportar datos
+    print("Exportando datos limpios...")
+    df_exportado = export_data(df, data_clean)
+    
+    # Mostrar información si se solicita
+    if args and args.verificar:
+        print("\nInformación del dataset limpio:")
+        df_exportado.info()
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Limpieza de datos de proveedores")
+    parser.add_argument("-t", "--test", action="store_true", help="Usar datos de prueba")
+    parser.add_argument("-v", "--verificar", action="store_true", help="Verificar datos después de exportar")
+    args = parser.parse_args()
+    main(args)

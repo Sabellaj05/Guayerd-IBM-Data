@@ -243,7 +243,9 @@ def main(args=None) -> None:
                 self.test = False
         args = Args()
     # Set the root path
-    root_path = Path(__file__).resolve().parent.parent
+    root_path = Path(__file__).resolve().parent.parent.parent
+    # this file/pipeline/src/root
+
     test_data_path = root_path / "data" / "test"
 
     # Load data from data/raw

@@ -30,7 +30,7 @@ def format_razon_social(df):
     df = df.replace({"Razon Social": {"SRL": "S.R.L", "SA": "S.A", "SAS": "S.A.S"}})
     return df
 
-def rellenar_tipo(df):
+def fill_tipo(df):
     """Rellena valores nulos en la columna Tipo utilizando forward fill."""
     col = "Tipo"
     df[col] = df[col].ffill()
@@ -45,7 +45,7 @@ def estandarizar_contribuyente(df):
     df[tipoc] = df[tipoc].str.replace(cur, rep)
     return df
 
-def manejar_duplicados_cuit(df):
+def handle_duplicates_cuit(df):
     """Maneja duplicados en la columna CUIT modificando un valor específico."""
     df2 = df.drop_duplicates(subset="Numero")
     dup = df2[df2["CUIT"].duplicated()]
@@ -60,8 +60,8 @@ def manejar_duplicados_cuit(df):
     
     return df
 
-def convertir_tipos_datos(df):
-    """Convierte las columnas a los tipos de datos correctos."""
+def convert_data_types(df):
+    """Convierte las columnas Fecha y Activo a los tipos de datos correctos."""
     # Renombrar Alta a Fecha
     df.rename(columns={"Alta": "Fecha"}, inplace=True)
     
@@ -73,7 +73,7 @@ def convertir_tipos_datos(df):
     
     return df
 
-def seleccionar_columnas(df):
+def choose_final_columns(df):
     """Selecciona las columnas relevantes para el dataset final."""
     df_final = df[["Numero", "Nombre", "Tipo",
                   "Contacto", "Correo Electronico",
@@ -84,7 +84,7 @@ def seleccionar_columnas(df):
                   "Nro de Cuenta", "Pais"]]
     return df_final
 
-def renombrar_columnas(df):
+def rename_final_columns(df):
     """Renombra las columnas al formato final deseado."""
     rename_cols = {"Numero": "numero",
                    "Nombre": "nombre",
@@ -105,7 +105,7 @@ def renombrar_columnas(df):
     df.rename(columns=rename_cols, inplace=True)
     return df
 
-def exportar_datos(df, ruta_salida):
+def export_data(df, ruta_salida):
     """Exporta los datos limpios a un archivo CSV."""
     # Asegurar que el directorio exista
     ruta_salida.parent.mkdir(parents=True, exist_ok=True)
@@ -125,7 +125,7 @@ def nunique_col(df):
     df_t = pd.DataFrame(cols, columns=["Columna", "Unicos"])
     return df_t
 
-def verificar_datos(df):
+def verify_data(df):
     """Verifica y muestra información sobre el dataset limpio."""
     print("\nInformación del dataset limpio:")
     df.info()
@@ -169,32 +169,32 @@ def main(args=None):
     df = format_razon_social(df)
     
     print("Rellenando valores nulos en Tipo...")
-    df = rellenar_tipo(df)
+    df = fill_tipo(df)
     
     print("Estandarizando valores en Tipo de Contribuyente...")
     df = estandarizar_contribuyente(df)
     
     print("Manejando duplicados en CUIT...")
-    df = manejar_duplicados_cuit(df)
+    df = handle_duplicates_cuit(df)
     
     print("Convirtiendo tipos de datos...")
-    df = convertir_tipos_datos(df)
+    df = convert_data_types(df)
     
     print("Seleccionando columnas relevantes...")
-    df_final = seleccionar_columnas(df)
+    df_final = choose_final_columns(df)
     
     print("Renombrando columnas al formato final...")
-    df_final = renombrar_columnas(df_final)
+    df_final = rename_final_columns(df_final)
     
     # Exportar datos
     print("Exportando datos limpios...")
-    df_exportado = exportar_datos(df_final, data_clean)
+    df_exportado = export_data(df_final, data_clean)
     
     # Verificar si se solicita
     if args and args.verificar:
         print("Verificando datos exportados...")
         df_verificacion = pd.read_csv(data_clean)
-        verificar_datos(df_verificacion)
+        verify_data(df_verificacion)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Limpieza de datos de donantes")

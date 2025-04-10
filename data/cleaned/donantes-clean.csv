@@ -1,4 +1,4 @@
-Numero,Nombre,Tipo,Contacto,Correo Electronico,Telefono,Razon Social,Tipo de Contribuyente,CUIT,Fecha,Activo,Frecuencia,Importe,Nro de Cuenta,Pais
+numero,nombre,tipo,contacto,mail,telefono,razon,contribuyente,cuit,fecha,activo,frecuencia,importe,nro_cuenta,pais
 D00001,TechNova Solutions,Empresa,Contacto A,TechNova Solutions@example.com,(011) 5000-0001,S.R.L,Responsable Inscripto,20-12345678-9,2024-02-26,False,Mensual,292732.0,402101,Chile
 D00002,EnergiaPlus S.A.,Empresa,Contacto B,EnergiaPlus S.A.@example.com,(011) 5000-0002,S.A,Monotributista,21-23456789-0,2024-01-12,False,Bimestral,326439.0,403101,Uruguay
 D00003,Grupo Delta,Empresa,Contacto C,Grupo Delta@example.com,(011) 5000-0003,S.R.L,Responsable Inscripto,22-34567890-1,2024-06-08,True,Anual,276920.0,403101,Bolivia
