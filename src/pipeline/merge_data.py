@@ -215,28 +215,18 @@ def importe_to_numeric(dfd: pd.DataFrame, dfp: pd.DataFrame) -> tuple[pd.DataFra
 
     return dfd, dfp
 
-def main(args=None) -> None:
-    # If args is None, create a default args object with test=False
-    if args is None:
-        class Args:
-            def __init__(self):
-                self.test = False
-        args = Args()
+def main() -> None:
 
     # Set the root path
     # this file/pipeline/src/root
     root_path = Path(__file__).resolve().parent.parent.parent
     
-    # for test data
-    test_data_path = root_path / "data" / "test"
     # for final data
     final_data_path = root_path / "data" / "merged"
 
     # Load data from data/raw
     data_path = root_path / "data" / "raw"
     dfpo, dfdo, dfpn, dfdn = load_data(data_path)
-
-    # Save test data to data/test
 
     # Clean provider data
     dfpn_clean = clean_providers_data(dfpn)
@@ -266,13 +256,7 @@ def main(args=None) -> None:
     dfd_final, dfp_final = importe_to_numeric(dfd_final, dfp_final)
 
     # Export data
-    if args.test:
-        export_data(dfd_final, dfp_final, test_data_path)
-    else:
-        export_data(dfd_final, dfp_final, final_data_path)
+    export_data(dfd_final, dfp_final, final_data_path)
 
 if __name__ == "__main__":
-    parser = ArgumentParser()
-    parser.add_argument("-t", "--test", action="store_true")
-    args = parser.parse_args()
-    main(args)
+    main()

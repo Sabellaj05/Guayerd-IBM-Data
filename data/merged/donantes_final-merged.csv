@@ -1,113 +1,113 @@
 Numero,Nombre,Tipo,Contacto,Correo Electronico,Telefono,Observaciones,Razon Social,Tipo de Contribuyente,CUIT,Alta,Baja,Activo,Frecuencia,Importe,Nro de Cuenta,Pais,Mes
-D00001,TechNova Solutions,Empresa,Contacto A,TechNova Solutions@example.com,(011) 5000-0001,Observación 1,S.R.L,Responsable Inscripto,20-12345678-9,2024-02-26,2023-07-04,NO,Mensual,292732.0,402101,Brasil,Febrero
-D00002,EnergiaPlus S.A.,Empresa,Contacto B,EnergiaPlus S.A.@example.com,(011) 5000-0002,Observación 2,S.A,Monotributista,21-23456789-0,2024-01-12,2023-04-24,NO,Bimestral,326439.0,403101,Uruguay,Enero
-D00003,Grupo Delta,Empresa,Contacto C,Grupo Delta@example.com,(011) 5000-0003,Observación 3,S.R.L,Responsable Inscripto,22-34567890-1,2024-06-08,,SI,Anual,276920.0,403101,Bolivia,Junio
-D00004,Inova Global,Empresa,Contacto D,Inova Global@example,(011) 5000-0004,Observación 4,S.R.L,Monotributista,23-45678901-2,2024-02-11,2023-01-13,NO,Mensual,406733.0,402101,Uruguay,Febrero
-D00005,Vanguardia Consultora,Empresa,Contacto E,Vanguardia Consultora@example.com,(011) 5000-0005,Observación 5,S.R.L,Responsable Inscripto,24-56789012-3,2024-05-29,,SI,Bimestral,352572.0,403101,Argentina,Mayo
-D00006,EcoTech Argentina,Empresa,Contacto F,EcoTech Argentina@example.com,(011) 5000-0006,Observación 6,S.R.L,Monotributista,25-67890123-4,2024-02-07,2023-04-16,NO,Anual,499223.0,403101,Colombia,Febrero
-D00007,NexGen Industries,Empresa,Contacto G,NexGen Industries@example.com,(011) 5000-0007,Observación 7,S.R.L,Responsable Inscripto,26-78901234-5,2024-06-26,,SI,Mensual,344730.0,402101,Argentina,Junio
-D00008,RedHorizonte,Empresa,Contacto H,RedHorizonte@example.com,(011) 5000-0008,Observación 8,S.R.L,Monotributista,27-89012345-6,2024-07-25,,SI,Bimestral,489625.0,403101,Uruguay,Julio
-D00009,Optima Logística,Empresa,Contacto I,Optima Logística@example.com,(011) 5000-0009,Observación 9,S.R.L,Responsable Inscripto,28-90123456-7,2024-05-17,,SI,Anual,428367.0,403101,Brasil,Mayo
-D00010,Punto Verde,Empresa,Contacto J,Punto Verde@example.com,(011) 5000-0010,Observación 10,S.R.L,Monotributista,29-01234567-8,2024-04-01,,SI,Mensual,362840.0,402101,Chile,Abril
-D00011,Zenith Digital,Empresa,Contacto K,Zenith Digital@example.com,(011) 5000-0011,Observación 11,S.R.L,Responsable Inscripto,20-12345679-0,2024-03-16,2023-08-13,NO,Bimestral,152834.0,403101,Paraguay,Marzo
-D00012,CreaTech S.R.L.,Empresa,Contacto L,CreaTech S.R.L.@example.com,(011) 5000-0012,Observación 12,S.R.L,Monotributista,21-23456780-1,2024-04-15,,SI,Anual,175310.0,403101,Brasil,Abril
-D00013,Alfa Innovaciones,Empresa,Contacto M,Alfa Innovaciones@example.com,(011) 5000-0013,Observación 13,S.R.L,Responsable Inscripto,22-34567891-2,2024-02-04,2023-12-30,NO,Mensual,417633.0,402101,Chile,Febrero
-D00013,Alfa Innovaciones,Empresa,Contacto M,Alfa Innovaciones@example.com,(011) 5000-0013,Observación 13,S.R.L,Responsable Inscripto,22-34567891-2,2024-02-04,2023-07-23,NO,Mensual,169763.0,402101,Paraguay,Febrero
-D00014,ServiNet,Empresa,Contacto N,ServiNet@example.com,(011) 5000-0014,Observación 14,S.A,Monotributista,23-45678902-3,2024-06-05,,SI,Bimestral,244263.0,403101,Colombia,Junio
-D00015,AeroPlus,Empresa,Contacto O,AeroPlus@example,(011) 5000-0015,Observación 15,S.A,Responsable Inscripto,24-56789013-4,2024-03-23,2023-09-15,NO,Anual,109935.0,403101,Brasil,Marzo
-D00016,MaxiData,Empresa,Contacto P,MaxiData@example.com,(011) 5000-0016,Observación 16,S.A,Monotributista,25-67890124-5,2024-04-07,,SI,Mensual,483186.0,402101,Brasil,Abril
-D00017,EcoAventura,Empresa,Contacto Q,EcoAventura@example.com,(011) 5000-0017,Observación 17,S.A,Responsable Inscripto,26-78901235-6,2024-03-29,2023-05-13,NO,Bimestral,349289.0,403101,Brasil,Marzo
-D00018,Sigma Consulting,Empresa,Contacto R,Sigma Consulting@example.com,(011) 5000-0018,Observación 18,S.A,Monotributista,27-89012346-7,2024-03-30,,SI,Anual,191824.0,403101,Chile,Marzo
-D00019,Soluciones Avanzadas,Empresa,Contacto S,Soluciones Avanzadas@example.com,(011) 5000-0019,Observación 19,S.A,Responsable Inscripto,28-90123457-8,2024-01-01,2023-02-07,NO,Mensual,349612.0,402101,México,Enero
-D00020,RedSol Argentina,Empresa,Contacto T,RedSol Argentina@example.com,(011) 5000-0020,Observación 20,S.A,Monotributista,29-01234568-9,2024-03-04,2023-04-14,NO,Bimestral,452948.0,403101,Argentina,Marzo
-D00021,Grupo Synthesis,Empresa,Contacto U,Grupo Synthesis@example.com,(011) 5000-0021,Observación 21,S.A,Responsable Inscripto,20-12345680-1,2024-04-16,,SI,Anual,359387.0,403101,Argentina,Abril
-D00022,DeltaElectro,Empresa,Contacto V,DeltaElectro@example.com,(011) 5000-0022,Observación 22,S.A,Monotributista,21-23456781-2,2024-02-04,2023-04-03,NO,Mensual,453421.0,402101,Paraguay,Febrero
-D00023,SmartTech Argentina,Empresa,Contacto W,SmartTech Argentina@example.com,(011) 5000-0023,Observación 23,S.A,Responsable Inscripto,22-34567892-3,2024-05-30,,SI,Bimestral,333679.0,403101,Argentina,Mayo
-D00024,NovaVisión,Empresa,Contacto X,NovaVisión@example.com,(011) 5000-0024,Observación 24,S.A,Monotributista,23-45678903-4,2024-05-31,,SI,Anual,152261.0,403101,México,Mayo
-D00025,InfoMática S.A.,Empresa,Contacto Y,InfoMática S.A.@example.com,(011) 5000-0025,Observación 25,S.A,Responsable Inscripto,24-56789014-5,2024-06-08,,SI,Mensual,309782.0,402101,Paraguay,Junio
-D00026,Energía VIVA,Empresa,Contacto Z,Energía VIVA@example,(011) 5000-0026,Observación 26,S.A,Monotributista,25-67890125-6,2024-06-13,,SI,Bimestral,270140.0,403101,Paraguay,Junio
-D00027,TransWorld,Empresa,Contacto AA,TransWorld@example.com,(011) 5000-0027,Observación 27,S.A,Responsable Inscripto,26-78901236-7,2024-06-05,,SI,Anual,414446.0,403101,Argentina,Junio
-D00028,Soluciones Urbanas,Empresa,Contacto BB,Soluciones Urbanas@example.com,(011) 5000-0028,Observación 28,S.A,Monotributista,27-89012347-8,2024-01-27,2023-10-02,NO,Mensual,218575.0,402101,Brasil,Enero
-D00029,GlobalNet,Empresa,Contacto CC,GlobalNet@example.com,(011) 5000-0029,Observación 29,S.R.L,Responsable Inscripto,28-90123458-9,2024-06-18,,SI,Bimestral,272633.0,403101,Paraguay,Junio
-D00030,FuturoTech,Empresa,Contacto DD,FuturoTech@example.com,(011) 5000-0030,Observación 30,S.R.L,Monotributista,29-01234569-0,2024-01-22,2023-02-04,NO,Anual,445169.0,403101,Chile,Enero
-D00031,InnovarX,Empresa,Contacto EE,InnovarX@example.com,(011) 5000-0031,Observación 31,S.R.L,Responsable Inscripto,20-12345681-3,2024-06-05,,SI,Mensual,189438.0,402101,Paraguay,Junio
-D00032,Cobra Solutions,Empresa,Contacto FF,Cobra Solutions@example.com,(011) 5000-0032,Observación 32,S.R.L,Monotributista,21-23456782-4,2024-05-07,,SI,Bimestral,115526.0,403101,Argentina,Mayo
-D00033,Metrópolis S.A.,Empresa,Contacto GG,Metrópolis S.A.@example.com,(011) 5000-0033,Observación 33,S.A,Responsable Inscripto,22-34567893-5,2024-04-21,,SI,Anual,154409.0,403101,Argentina,Abril
-D00034,Vortex Energía,Empresa,Contacto HH,Vortex Energía@example.com,(011) 5000-0034,Observación 34,S.R.L,Monotributista,23-45678904-6,2024-06-01,,SI,Mensual,380153.0,402101,Chile,Junio
-D00035,EcoVisión,Empresa,Contacto II,EcoVisión@example.com,(011) 5000-0035,Observación 35,S.R.L,Responsable Inscripto,24-56789015-7,2024-03-13,2023-12-02,NO,Bimestral,398095.0,403101,Colombia,Marzo
-D00036,NexuTech,Empresa,Contacto JJ,NexuTech@example.com,(011) 5000-0036,Observación 36,S.R.L,Monotributista,25-67890126-8,2024-08-31,,SI,Anual,385421.0,403101,Brasil,Agosto
-D00037,AlphaSystems,Empresa,Contacto KK,AlphaSystems@example.com,(011) 5000-0037,Observación 37,S.R.L,Responsable Inscripto,26-78901237-9,2024-02-01,2023-08-01,NO,Mensual,397090.0,402101,Uruguay,Febrero
-D00038,MetroLogística,Empresa,Contacto LL,MetroLogística@example.com,(011) 5000-0038,Observación 38,S.R.L,Monotributista,27-89012348-0,2024-05-20,,SI,Bimestral,259341.0,403101,Argentina,Mayo
-D00039,Quantum Ventures,Empresa,Contacto MM,Quantum Ventures@example.com,(011) 5000-0039,Observación 39,S.R.L,Responsable Inscripto,28-90123459-1,2024-06-28,,SI,Anual,406805.0,403101,Chile,Junio
-D00040,Orion Innovaciones,Empresa,Contacto NN,Orion Innovaciones@example.com,(011) 5000-0040,Observación 40,S.R.L,Monotributista,29-01234570-2,2024-04-27,,SI,Mensual,333954.0,402101,Argentina,Abril
-D00041,Jaan Pérez,Individuo,Contacto OO,Jaan Pérez@example.com,(011) 5000-0041,Observación 41,S.R.L,Monotributista,20-12345682-4,2024-02-29,2024-01-24,NO,Bimestral,86846.0,403101,Uruguay,Febrero
-D00042,Ana López,Individuo,Contacto PP,Ana López@example.com,(011) 5000-0042,Observación 42,S.R.L,Exento,21-23456783-5,2024-06-14,,SI,Anual,167448.0,403101,Bolivia,Junio
-D00043,Jorge Rodríguez,Individuo,Contacto QQ,Jorge Rodríguez@example,(011) 5000-0043,Observación 43,S.R.L,Responsable Inscripto,22-34567894-6,2024-05-14,,SI,Mensual,70569.0,402102,Brasil,Mayo
-D00044,Sofía Díaz,Individuo,Contacto RR,Sofía Díaz@example.com,(011) 5000-0044,Observación 44,S.R.L,Monotributista,23-45678905-7,2024-04-03,,SI,Bimestral,130021.0,403101,Uruguay,Abril
-D00045,alejandro Torres,Individuo,Contacto SS,alejandro Torres@example.com,(011) 5000-0045,Observación 45,S.R.L,Exento,24-56789016-8,2024-04-12,,SI,Anual,135342.0,403101,Colombia,Abril
-D00046,Gabriela Ortiz,Individuo,Contacto TT,Gabriela Ortiz@example.com,(011) 5000-0046,Observación 46,S.R.L,Responsable Inscripto,25-67890127-9,2024-03-15,2023-01-23,NO,Mensual,55258.0,402102,Chile,Marzo
-D00047,Sergio Rivas,Individuo,Contacto UU,Sergio Rivas@example.com,(011) 5000-0047,Observación 47,S.R.L,Monotributista,26-78901238-0,2024-04-11,,SI,Bimestral,104301.0,403101,Brasil,Abril
-D00048,Patricia Navarro,Individuo,Contacto VV,Patricia Navarro@example.com,(011) 5000-0048,Observación 48,S.R.L,Exento,27-89012349-1,2024-05-02,,SI,Anual,158669.0,403101,Uruguay,Mayo
-D00049,Fernando Aguilar,Individuo,Contacto WW,Fernando Aguilar@example.com,(011) 5000-0049,Observación 49,S.R.L,Responsable Inscripto,28-90123450-2,2024-06-17,,SI,Mensual,166965.0,402102,Colombia,Junio
-D00050,Isabel Ríos,Individuo,Contacto XX,Isabel Ríos@example.com,(011) 5000-0050,Observación 50,S.R.L,Monotributista,29-01234571-3,2024-01-30,2023-04-07,NO,Bimestral,151978.0,403101,Uruguay,Enero
-D00051,Rafael Silva,Individuo,Contacto YY,Rafael Silva@example.com,(011) 5000-0051,Observación 51,S.R.L,Exento,20-12345683-6,2024-04-17,,SI,Anual,176989.0,403101,Paraguay,Abril
-D00052,Mónica León,,Contacto ZZ,Mónica León@example.com,(011) 5000-0052,Observación 52,S.R.L,Responsable Inscripto,21-23456784-7,2024-02-04,2023-08-29,NO,Mensual,102271.0,403101,Chile,Febrero
-D00053,Héctor Salazar,Individuo,Contacto AAA,Héctor Salazar@example.com,(011) 5000-0053,Observación 53,S.R.L,Monotributista,22-34567895-8,2024-06-27,,SI,Bimestral,154758.0,403101,Uruguay,Junio
-D00054,Carolina Mendoza,Individuo,Contacto BBB,Carolina Mendoza@example.com,(011) 5000-0054,Observación 54,S.R.L,Exento,23-45678906-9,2024-05-11,,SI,Anual,55466.0,403101,Chile,Mayo
-D00055,Víctor Gil,Individuo,Contacto CCC,Víctor Gil@example.com,(011) 5000-0055,Observación 55,S.R.L,Responsable Inscripto,24-56789017-0,2024-04-07,,SI,Mensual,89589.0,402102,Chile,Abril
-D00056,Claudia Ponce,Individuo,Contacto DDD,Claudia Ponce@example.com,(011) 5000-0056,Observación 56,S.R.L,Monotributista,25-67890128-1,2024-04-22,,SI,Bimestral,75404.0,403101,Uruguay,Abril
-D00057,Mario Espinoza,Individuo,Contacto EEE,Mario Espinoza@example.com,(011) 5000-0057,Observación 57,S.R.L,Exento,26-78901229-2,2024-02-06,2023-12-10,NO,Anual,114077.0,403101,Paraguay,Febrero
-D00058,Rosa Cárdenas,Individuo,Contacto FFF,Rosa Cárdenas@example.com,(011) 5000-0058,Observación 58,S.R.L,Responsable Inscripto,27-89012330-3,2024-03-04,2023-06-08,NO,Mensual,174259.0,402102,Paraguay,Marzo
-D00059,Adolfo Cabrera,Individuo,Contacto GGG,Adolfo Cabrera@example.com,(011) 5000-0059,Observación 59,S.R.L,Monotributista,28-90123461-4,2024-04-17,,SI,Bimestral,133689.0,403101,Brasil,Abril
-D00060,Susana Muñoz,Individuo,Contacto HHH,Susana Muñoz@example.com,(011) 5000-0060,Observación 60,S.R.L,Exento,29-01234572-5,2024-05-13,,SI,Anual,58351.0,403101,Argentina,Mayo
-D00061,Felipe Rojas,Individuo,Contacto III,Felipe Rojas@example.com,(011) 5000-0061,Observación 61,S.R.L,Responsable Inscripto,20-12345684-7,2024-03-17,2023-03-25,NO,Mensual,104373.0,402102,México,Marzo
-D00062,Olga Vargas,Individuo,Contacto JJJ,Olga Vargas@example.com,(011) 5000-0062,Observación 62,S.R.L,Monotributista,21-23456785-8,2024-05-16,,SI,Bimestral,167335.0,403101,Chile,Mayo
-D00063,Esteban Rosales,Individuo,Contacto KKK,Esteban Rosales@example.com,(011) 5000-0063,Observación 63,S.R.L,Exento,22-34567896-9,2024-01-29,2024-01-19,NO,Anual,99055.0,403101,Paraguay,Enero
-D00064,Emma Paredes,Individuo,Contacto LLL,Emma Paredes@example.com,(011) 5000-0064,Observación 64,S.R.L,Responsable Inscripto,23-45678907-0,2024-06-26,,SI,Mensual,60683.0,402102,Argentina,Junio
-D00065,Joaquín Serrano,Individuo,Contacto MMM,Joaquín Serrano@example.com,(011) 5000-0065,Observación 65,S.R.L,Monotributista,24-56789018-1,2024-05-09,,SI,Bimestral,119390.0,403101,Chile,Mayo
-D00066,Laura Márquez,Individuo,Contacto NNN,Laura Márquez@example.com,(011) 5000-0066,Observación 66,S.R.L,Exento,25-67890129-2,2024-02-01,2023-11-10,NO,Anual,117232.0,403101,Uruguay,Febrero
-D00067,Damián Molina,Individuo,Contacto OOO,Damián Molina@example.com,(011) 5000-0067,Observación 67,S.R.L,Responsable Inscripto,26-78901230-3,2024-06-13,,SI,Mensual,100701.0,402102,México,Junio
-D00068,Viviana Herrera,Individuo,Contacto PPP,Viviana Herrera@example.com,(011) 5000-0068,Observación 68,S.R.L,Monotributista,27-89012331-4,2024-01-26,2023-05-27,NO,Bimestral,186202.0,403101,Uruguay,Enero
-D00068,Viviana Herrera,,Contacto PPP,Viviana Herrera@example.com,(011) 5000-0068,Observación 68,S.R.L,Monotributista,27-89012331-4,2024-01-26,2023-03-23,NO,Bimestral,173157.0,403101,Paraguay,Enero
-D00069,Agustín Martínez,Individuo,Contacto QQQ,Agustín Martínez@example,(011) 5000-0069,Observación 69,S.R.L,Exento,28-90123462-5,2024-02-17,2024-01-11,NO,Anual,109167.0,403101,Brasil,Febrero
-D00070,Clara Torres,Individuo,Contacto RRR,Clara Torres@example.com,(011) 5000-0070,Observación 70,S.R.L,Responsable Inscripto,29-01234573-6,2024-05-29,,SI,Mensual,121715.0,402102,Bolivia,Mayo
-D00071,Ezequiel Delgado,Individuo,Contacto SSS,Ezequiel Delgado@example.com,(011) 5000-0071,Observación 71,S.R.L,Monotributista,20-12345685-8,2024-06-12,,SI,Bimestral,181679.0,403101,Brasil,Junio
-D00072,Pilar Ortiz,Individuo,Contacto TTT,Pilar Ortiz@example.com,(011) 5000-0072,Observación 72,S.R.L,Exento,21-23456786-9,2024-05-24,,SI,Anual,164792.0,403101,Chile,Mayo
-D00073,Luciano Rivas,Individuo,Contacto UUU,Luciano Rivas@example.com,(011) 5000-0073,Observación 73,S.R.L,Responsable Inscripto,22-34567897-0,2024-04-12,,SI,Mensual,184834.0,402102,Chile,Abril
-D00074,Mía Morales,Individuo,Contacto VVV,Mía Morales@example.com,(011) 5000-0074,Observación 74,S.R.L,Monotributista,23-45678908-1,2024-02-19,2023-08-29,NO,Bimestral,173825.0,403101,Paraguay,Febrero
-D00075,Carlos Gómez,Individuo,Contacto WWW,Carlos Gómez@example.com,(011) 5000-0075,Observación 75,S.R.L,Exento,24-56789019-2,2024-02-02,2023-12-31,NO,Anual,166200.0,403101,Uruguay,Febrero
-D00076,Mariana Fernández,Individuo,Contacto XXX,Mariana Fernández@example.com,(011) 5000-0076,Observación 76,S.R.L,Responsable Inscripto,25-67890130-3,2024-05-18,,SI,Mensual,106340.0,402102,Brasil,Mayo
-D00077,Luis Martínez,Individuo,Contacto YYY,Luis Martínez@example,(011) 5000-0077,Observación 77,S.R.L,Monotributista,26-78901231-4,2024-06-20,,SI,Bimestral,130340.0,403101,Chile,Junio
-D00078,Julia González,Individuo,Contacto ZZZ,Julia González@example.com,(011) 5000-0078,Observación 78,S.R.L,Exento,27-89012332-5,2024-03-13,2023-06-04,NO,Anual,90786.0,403101,Brasil,Marzo
-D00079,Ricardo López,,Contacto AAAA,Ricardo López@example.com,(011) 5000-0079,Observación 79,S.R.L,Responsable Inscripto,28-90123463-6,2024-03-06,2023-06-30,NO,Mensual,188151.0,403101,Argentina,Marzo
-D00080,Silvia Ramírez,Individuo,Contacto BBBB,Silvia Ramírez@example.com,(011) 5000-0080,Observación 80,S.R.L,Monotributista,29-01234574-7,2024-06-30,,SI,Bimestral,136947.0,403101,Argentina,Junio
-D00081,Martín Vargas,Individuo,Contacto CCCC,Martín Vargas@example.com,(011) 5000-0081,Observación 81,S.R.L,Exento,20-12345686-0,2024-02-16,2023-06-13,NO,Anual,165727.0,403101,Brasil,Febrero
-D00082,Natalia Castro,Individuo,Contacto DDDD,Natalia Castro@example.com,(011) 5000-0082,Observación 82,S.R.L,Responsable Inscripto,21-23456787-1,2024-06-24,,SI,Mensual,114296.0,402102,Argentina,Junio
-D00083,alejandra Peña,Individuo,Contacto EEEE,alejandra Peña@example,(011) 5000-0083,Observación 83,S.R.L,Monotributista,22-34567898-2,2024-03-15,2023-02-05,NO,Bimestral,76383.0,403101,Argentina,Marzo
-D00084,Santiago López,Individuo,Contacto FFFF,Santiago López@example.com,(011) 5000-0084,Observación 84,S.R.L,Exento,23-45678909-3,2024-06-18,,SI,Anual,137963.0,403101,Uruguay,Junio
-D00085,Verónica Ruiz,Individuo,Contacto GGGG,Verónica Ruiz@example.com,(011) 5000-0085,Observación 85,S.R.L,Responsable Inscripto,24-56789020-4,2024-02-08,2023-07-14,NO,Mensual,63095.0,402102,Paraguay,Febrero
-D00086,Andrés Silva,Individuo,Contacto HHHH,Andrés Silva@example.com,(011) 5000-0086,Observación 86,S.R.L,Monotributista,25-67890131-5,2024-04-05,,SI,Bimestral,113891.0,403101,Brasil,Abril
-D00087,Patricia Gómez,Individuo,Contacto IIII,Patricia Gómez@example.com,(011) 5000-0087,Observación 87,S.R.L,Exento,26-78901232-6,2024-02-22,2023-09-19,NO,Anual,125419.0,403101,Argentina,Febrero
+D00001,TechNova Solutions,Empresa,Contacto A,TechNova Solutions@example.com,(011) 5000-0001,Observación 1,S.R.L,Responsable Inscripto,20-12345678-9,2024-02-26,2023-05-06,NO,Mensual,292732.0,402101,Argentina,Febrero
+D00002,EnergiaPlus S.A.,Empresa,Contacto B,EnergiaPlus S.A.@example.com,(011) 5000-0002,Observación 2,S.A,Monotributista,21-23456789-0,2024-01-12,2023-07-11,NO,Bimestral,326439.0,403101,Colombia,Enero
+D00003,Grupo Delta,Empresa,Contacto C,Grupo Delta@example.com,(011) 5000-0003,Observación 3,S.R.L,Responsable Inscripto,22-34567890-1,2024-06-08,,SI,Anual,276920.0,403101,Uruguay,Junio
+D00004,Inova Global,Empresa,Contacto D,Inova Global@example,(011) 5000-0004,Observación 4,S.R.L,Monotributista,23-45678901-2,2024-02-11,2023-03-05,NO,Mensual,406733.0,402101,Paraguay,Febrero
+D00005,Vanguardia Consultora,Empresa,Contacto E,Vanguardia Consultora@example.com,(011) 5000-0005,Observación 5,S.R.L,Responsable Inscripto,24-56789012-3,2024-05-29,,SI,Bimestral,352572.0,403101,Paraguay,Mayo
+D00006,EcoTech Argentina,Empresa,Contacto F,EcoTech Argentina@example.com,(011) 5000-0006,Observación 6,S.R.L,Monotributista,25-67890123-4,2024-02-07,2023-03-22,NO,Anual,499223.0,403101,Chile,Febrero
+D00007,NexGen Industries,Empresa,Contacto G,NexGen Industries@example.com,(011) 5000-0007,Observación 7,S.R.L,Responsable Inscripto,26-78901234-5,2024-06-26,,SI,Mensual,344730.0,402101,Chile,Junio
+D00008,RedHorizonte,Empresa,Contacto H,RedHorizonte@example.com,(011) 5000-0008,Observación 8,S.R.L,Monotributista,27-89012345-6,2024-07-25,,SI,Bimestral,489625.0,403101,Bolivia,Julio
+D00009,Optima Logística,Empresa,Contacto I,Optima Logística@example.com,(011) 5000-0009,Observación 9,S.R.L,Responsable Inscripto,28-90123456-7,2024-05-17,,SI,Anual,428367.0,403101,Argentina,Mayo
+D00010,Punto Verde,Empresa,Contacto J,Punto Verde@example.com,(011) 5000-0010,Observación 10,S.R.L,Monotributista,29-01234567-8,2024-04-01,,SI,Mensual,362840.0,402101,Paraguay,Abril
+D00011,Zenith Digital,Empresa,Contacto K,Zenith Digital@example.com,(011) 5000-0011,Observación 11,S.R.L,Responsable Inscripto,20-12345679-0,2024-03-16,2023-06-26,NO,Bimestral,152834.0,403101,Chile,Marzo
+D00012,CreaTech S.R.L.,Empresa,Contacto L,CreaTech S.R.L.@example.com,(011) 5000-0012,Observación 12,S.R.L,Monotributista,21-23456780-1,2024-04-15,,SI,Anual,175310.0,403101,Chile,Abril
+D00013,Alfa Innovaciones,Empresa,Contacto M,Alfa Innovaciones@example.com,(011) 5000-0013,Observación 13,S.R.L,Responsable Inscripto,22-34567891-2,2024-02-04,2024-01-03,NO,Mensual,417633.0,402101,Uruguay,Febrero
+D00013,Alfa Innovaciones,Empresa,Contacto M,Alfa Innovaciones@example.com,(011) 5000-0013,Observación 13,S.R.L,Responsable Inscripto,22-34567891-2,2024-02-04,2023-03-20,NO,Mensual,169763.0,402101,Brasil,Febrero
+D00014,ServiNet,Empresa,Contacto N,ServiNet@example.com,(011) 5000-0014,Observación 14,S.A,Monotributista,23-45678902-3,2024-06-05,,SI,Bimestral,244263.0,403101,Chile,Junio
+D00015,AeroPlus,Empresa,Contacto O,AeroPlus@example,(011) 5000-0015,Observación 15,S.A,Responsable Inscripto,24-56789013-4,2024-03-23,2023-07-28,NO,Anual,109935.0,403101,Argentina,Marzo
+D00016,MaxiData,Empresa,Contacto P,MaxiData@example.com,(011) 5000-0016,Observación 16,S.A,Monotributista,25-67890124-5,2024-04-07,,SI,Mensual,483186.0,402101,Argentina,Abril
+D00017,EcoAventura,Empresa,Contacto Q,EcoAventura@example.com,(011) 5000-0017,Observación 17,S.A,Responsable Inscripto,26-78901235-6,2024-03-29,2023-08-26,NO,Bimestral,349289.0,403101,Brasil,Marzo
+D00018,Sigma Consulting,Empresa,Contacto R,Sigma Consulting@example.com,(011) 5000-0018,Observación 18,S.A,Monotributista,27-89012346-7,2024-03-30,,SI,Anual,191824.0,403101,Uruguay,Marzo
+D00019,Soluciones Avanzadas,Empresa,Contacto S,Soluciones Avanzadas@example.com,(011) 5000-0019,Observación 19,S.A,Responsable Inscripto,28-90123457-8,2024-01-01,2023-01-12,NO,Mensual,349612.0,402101,Colombia,Enero
+D00020,RedSol Argentina,Empresa,Contacto T,RedSol Argentina@example.com,(011) 5000-0020,Observación 20,S.A,Monotributista,29-01234568-9,2024-03-04,2023-09-10,NO,Bimestral,452948.0,403101,Paraguay,Marzo
+D00021,Grupo Synthesis,Empresa,Contacto U,Grupo Synthesis@example.com,(011) 5000-0021,Observación 21,S.A,Responsable Inscripto,20-12345680-1,2024-04-16,,SI,Anual,359387.0,403101,Paraguay,Abril
+D00022,DeltaElectro,Empresa,Contacto V,DeltaElectro@example.com,(011) 5000-0022,Observación 22,S.A,Monotributista,21-23456781-2,2024-02-04,2023-05-05,NO,Mensual,453421.0,402101,Uruguay,Febrero
+D00023,SmartTech Argentina,Empresa,Contacto W,SmartTech Argentina@example.com,(011) 5000-0023,Observación 23,S.A,Responsable Inscripto,22-34567892-3,2024-05-30,,SI,Bimestral,333679.0,403101,Brasil,Mayo
+D00024,NovaVisión,Empresa,Contacto X,NovaVisión@example.com,(011) 5000-0024,Observación 24,S.A,Monotributista,23-45678903-4,2024-05-31,,SI,Anual,152261.0,403101,Chile,Mayo
+D00025,InfoMática S.A.,Empresa,Contacto Y,InfoMática S.A.@example.com,(011) 5000-0025,Observación 25,S.A,Responsable Inscripto,24-56789014-5,2024-06-08,,SI,Mensual,309782.0,402101,Uruguay,Junio
+D00026,Energía VIVA,Empresa,Contacto Z,Energía VIVA@example,(011) 5000-0026,Observación 26,S.A,Monotributista,25-67890125-6,2024-06-13,,SI,Bimestral,270140.0,403101,Colombia,Junio
+D00027,TransWorld,Empresa,Contacto AA,TransWorld@example.com,(011) 5000-0027,Observación 27,S.A,Responsable Inscripto,26-78901236-7,2024-06-05,,SI,Anual,414446.0,403101,Colombia,Junio
+D00028,Soluciones Urbanas,Empresa,Contacto BB,Soluciones Urbanas@example.com,(011) 5000-0028,Observación 28,S.A,Monotributista,27-89012347-8,2024-01-27,2024-01-14,NO,Mensual,218575.0,402101,Argentina,Enero
+D00029,GlobalNet,Empresa,Contacto CC,GlobalNet@example.com,(011) 5000-0029,Observación 29,S.R.L,Responsable Inscripto,28-90123458-9,2024-06-18,,SI,Bimestral,272633.0,403101,Chile,Junio
+D00030,FuturoTech,Empresa,Contacto DD,FuturoTech@example.com,(011) 5000-0030,Observación 30,S.R.L,Monotributista,29-01234569-0,2024-01-22,2023-06-21,NO,Anual,445169.0,403101,Uruguay,Enero
+D00031,InnovarX,Empresa,Contacto EE,InnovarX@example.com,(011) 5000-0031,Observación 31,S.R.L,Responsable Inscripto,20-12345681-3,2024-06-05,,SI,Mensual,189438.0,402101,Chile,Junio
+D00032,Cobra Solutions,Empresa,Contacto FF,Cobra Solutions@example.com,(011) 5000-0032,Observación 32,S.R.L,Monotributista,21-23456782-4,2024-05-07,,SI,Bimestral,115526.0,403101,Paraguay,Mayo
+D00033,Metrópolis S.A.,Empresa,Contacto GG,Metrópolis S.A.@example.com,(011) 5000-0033,Observación 33,S.A,Responsable Inscripto,22-34567893-5,2024-04-21,,SI,Anual,154409.0,403101,Venezuela,Abril
+D00034,Vortex Energía,Empresa,Contacto HH,Vortex Energía@example.com,(011) 5000-0034,Observación 34,S.R.L,Monotributista,23-45678904-6,2024-06-01,,SI,Mensual,380153.0,402101,Paraguay,Junio
+D00035,EcoVisión,Empresa,Contacto II,EcoVisión@example.com,(011) 5000-0035,Observación 35,S.R.L,Responsable Inscripto,24-56789015-7,2024-03-13,2023-03-25,NO,Bimestral,398095.0,403101,Argentina,Marzo
+D00036,NexuTech,Empresa,Contacto JJ,NexuTech@example.com,(011) 5000-0036,Observación 36,S.R.L,Monotributista,25-67890126-8,2024-08-31,,SI,Anual,385421.0,403101,Paraguay,Agosto
+D00037,AlphaSystems,Empresa,Contacto KK,AlphaSystems@example.com,(011) 5000-0037,Observación 37,S.R.L,Responsable Inscripto,26-78901237-9,2024-02-01,2023-03-03,NO,Mensual,397090.0,402101,Uruguay,Febrero
+D00038,MetroLogística,Empresa,Contacto LL,MetroLogística@example.com,(011) 5000-0038,Observación 38,S.R.L,Monotributista,27-89012348-0,2024-05-20,,SI,Bimestral,259341.0,403101,Venezuela,Mayo
+D00039,Quantum Ventures,Empresa,Contacto MM,Quantum Ventures@example.com,(011) 5000-0039,Observación 39,S.R.L,Responsable Inscripto,28-90123459-1,2024-06-28,,SI,Anual,406805.0,403101,Brasil,Junio
+D00040,Orion Innovaciones,Empresa,Contacto NN,Orion Innovaciones@example.com,(011) 5000-0040,Observación 40,S.R.L,Monotributista,29-01234570-2,2024-04-27,,SI,Mensual,333954.0,402101,Brasil,Abril
+D00041,Jaan Pérez,Individuo,Contacto OO,Jaan Pérez@example.com,(011) 5000-0041,Observación 41,S.R.L,Monotributista,20-12345682-4,2024-02-29,2023-02-22,NO,Bimestral,86846.0,403101,Uruguay,Febrero
+D00042,Ana López,Individuo,Contacto PP,Ana López@example.com,(011) 5000-0042,Observación 42,S.R.L,Exento,21-23456783-5,2024-06-14,,SI,Anual,167448.0,403101,México,Junio
+D00043,Jorge Rodríguez,Individuo,Contacto QQ,Jorge Rodríguez@example,(011) 5000-0043,Observación 43,S.R.L,Responsable Inscripto,22-34567894-6,2024-05-14,,SI,Mensual,70569.0,402102,Argentina,Mayo
+D00044,Sofía Díaz,Individuo,Contacto RR,Sofía Díaz@example.com,(011) 5000-0044,Observación 44,S.R.L,Monotributista,23-45678905-7,2024-04-03,,SI,Bimestral,130021.0,403101,Brasil,Abril
+D00045,alejandro Torres,Individuo,Contacto SS,alejandro Torres@example.com,(011) 5000-0045,Observación 45,S.R.L,Exento,24-56789016-8,2024-04-12,,SI,Anual,135342.0,403101,Uruguay,Abril
+D00046,Gabriela Ortiz,Individuo,Contacto TT,Gabriela Ortiz@example.com,(011) 5000-0046,Observación 46,S.R.L,Responsable Inscripto,25-67890127-9,2024-03-15,2023-02-05,NO,Mensual,55258.0,402102,Argentina,Marzo
+D00047,Sergio Rivas,Individuo,Contacto UU,Sergio Rivas@example.com,(011) 5000-0047,Observación 47,S.R.L,Monotributista,26-78901238-0,2024-04-11,,SI,Bimestral,104301.0,403101,Paraguay,Abril
+D00048,Patricia Navarro,Individuo,Contacto VV,Patricia Navarro@example.com,(011) 5000-0048,Observación 48,S.R.L,Exento,27-89012349-1,2024-05-02,,SI,Anual,158669.0,403101,Chile,Mayo
+D00049,Fernando Aguilar,Individuo,Contacto WW,Fernando Aguilar@example.com,(011) 5000-0049,Observación 49,S.R.L,Responsable Inscripto,28-90123450-2,2024-06-17,,SI,Mensual,166965.0,402102,Uruguay,Junio
+D00050,Isabel Ríos,Individuo,Contacto XX,Isabel Ríos@example.com,(011) 5000-0050,Observación 50,S.R.L,Monotributista,29-01234571-3,2024-01-30,2023-09-17,NO,Bimestral,151978.0,403101,Paraguay,Enero
+D00051,Rafael Silva,Individuo,Contacto YY,Rafael Silva@example.com,(011) 5000-0051,Observación 51,S.R.L,Exento,20-12345683-6,2024-04-17,,SI,Anual,176989.0,403101,Argentina,Abril
+D00052,Mónica León,,Contacto ZZ,Mónica León@example.com,(011) 5000-0052,Observación 52,S.R.L,Responsable Inscripto,21-23456784-7,2024-02-04,2023-11-23,NO,Mensual,102271.0,403101,Argentina,Febrero
+D00053,Héctor Salazar,Individuo,Contacto AAA,Héctor Salazar@example.com,(011) 5000-0053,Observación 53,S.R.L,Monotributista,22-34567895-8,2024-06-27,,SI,Bimestral,154758.0,403101,Chile,Junio
+D00054,Carolina Mendoza,Individuo,Contacto BBB,Carolina Mendoza@example.com,(011) 5000-0054,Observación 54,S.R.L,Exento,23-45678906-9,2024-05-11,,SI,Anual,55466.0,403101,Bolivia,Mayo
+D00055,Víctor Gil,Individuo,Contacto CCC,Víctor Gil@example.com,(011) 5000-0055,Observación 55,S.R.L,Responsable Inscripto,24-56789017-0,2024-04-07,,SI,Mensual,89589.0,402102,Bolivia,Abril
+D00056,Claudia Ponce,Individuo,Contacto DDD,Claudia Ponce@example.com,(011) 5000-0056,Observación 56,S.R.L,Monotributista,25-67890128-1,2024-04-22,,SI,Bimestral,75404.0,403101,Argentina,Abril
+D00057,Mario Espinoza,Individuo,Contacto EEE,Mario Espinoza@example.com,(011) 5000-0057,Observación 57,S.R.L,Exento,26-78901229-2,2024-02-06,2023-02-16,NO,Anual,114077.0,403101,Uruguay,Febrero
+D00058,Rosa Cárdenas,Individuo,Contacto FFF,Rosa Cárdenas@example.com,(011) 5000-0058,Observación 58,S.R.L,Responsable Inscripto,27-89012330-3,2024-03-04,2023-11-27,NO,Mensual,174259.0,402102,Brasil,Marzo
+D00059,Adolfo Cabrera,Individuo,Contacto GGG,Adolfo Cabrera@example.com,(011) 5000-0059,Observación 59,S.R.L,Monotributista,28-90123461-4,2024-04-17,,SI,Bimestral,133689.0,403101,Uruguay,Abril
+D00060,Susana Muñoz,Individuo,Contacto HHH,Susana Muñoz@example.com,(011) 5000-0060,Observación 60,S.R.L,Exento,29-01234572-5,2024-05-13,,SI,Anual,58351.0,403101,Chile,Mayo
+D00061,Felipe Rojas,Individuo,Contacto III,Felipe Rojas@example.com,(011) 5000-0061,Observación 61,S.R.L,Responsable Inscripto,20-12345684-7,2024-03-17,2023-07-12,NO,Mensual,104373.0,402102,Chile,Marzo
+D00062,Olga Vargas,Individuo,Contacto JJJ,Olga Vargas@example.com,(011) 5000-0062,Observación 62,S.R.L,Monotributista,21-23456785-8,2024-05-16,,SI,Bimestral,167335.0,403101,Brasil,Mayo
+D00063,Esteban Rosales,Individuo,Contacto KKK,Esteban Rosales@example.com,(011) 5000-0063,Observación 63,S.R.L,Exento,22-34567896-9,2024-01-29,2023-10-01,NO,Anual,99055.0,403101,Argentina,Enero
+D00064,Emma Paredes,Individuo,Contacto LLL,Emma Paredes@example.com,(011) 5000-0064,Observación 64,S.R.L,Responsable Inscripto,23-45678907-0,2024-06-26,,SI,Mensual,60683.0,402102,Paraguay,Junio
+D00065,Joaquín Serrano,Individuo,Contacto MMM,Joaquín Serrano@example.com,(011) 5000-0065,Observación 65,S.R.L,Monotributista,24-56789018-1,2024-05-09,,SI,Bimestral,119390.0,403101,Colombia,Mayo
+D00066,Laura Márquez,Individuo,Contacto NNN,Laura Márquez@example.com,(011) 5000-0066,Observación 66,S.R.L,Exento,25-67890129-2,2024-02-01,2023-06-05,NO,Anual,117232.0,403101,Bolivia,Febrero
+D00067,Damián Molina,Individuo,Contacto OOO,Damián Molina@example.com,(011) 5000-0067,Observación 67,S.R.L,Responsable Inscripto,26-78901230-3,2024-06-13,,SI,Mensual,100701.0,402102,Colombia,Junio
+D00068,Viviana Herrera,Individuo,Contacto PPP,Viviana Herrera@example.com,(011) 5000-0068,Observación 68,S.R.L,Monotributista,27-89012331-4,2024-01-26,2023-09-12,NO,Bimestral,186202.0,403101,Colombia,Enero
+D00068,Viviana Herrera,,Contacto PPP,Viviana Herrera@example.com,(011) 5000-0068,Observación 68,S.R.L,Monotributista,27-89012331-4,2024-01-26,2023-04-26,NO,Bimestral,173157.0,403101,Chile,Enero
+D00069,Agustín Martínez,Individuo,Contacto QQQ,Agustín Martínez@example,(011) 5000-0069,Observación 69,S.R.L,Exento,28-90123462-5,2024-02-17,2023-07-26,NO,Anual,109167.0,403101,Argentina,Febrero
+D00070,Clara Torres,Individuo,Contacto RRR,Clara Torres@example.com,(011) 5000-0070,Observación 70,S.R.L,Responsable Inscripto,29-01234573-6,2024-05-29,,SI,Mensual,121715.0,402102,Chile,Mayo
+D00071,Ezequiel Delgado,Individuo,Contacto SSS,Ezequiel Delgado@example.com,(011) 5000-0071,Observación 71,S.R.L,Monotributista,20-12345685-8,2024-06-12,,SI,Bimestral,181679.0,403101,Chile,Junio
+D00072,Pilar Ortiz,Individuo,Contacto TTT,Pilar Ortiz@example.com,(011) 5000-0072,Observación 72,S.R.L,Exento,21-23456786-9,2024-05-24,,SI,Anual,164792.0,403101,Uruguay,Mayo
+D00073,Luciano Rivas,Individuo,Contacto UUU,Luciano Rivas@example.com,(011) 5000-0073,Observación 73,S.R.L,Responsable Inscripto,22-34567897-0,2024-04-12,,SI,Mensual,184834.0,402102,Argentina,Abril
+D00074,Mía Morales,Individuo,Contacto VVV,Mía Morales@example.com,(011) 5000-0074,Observación 74,S.R.L,Monotributista,23-45678908-1,2024-02-19,2023-07-30,NO,Bimestral,173825.0,403101,Uruguay,Febrero
+D00075,Carlos Gómez,Individuo,Contacto WWW,Carlos Gómez@example.com,(011) 5000-0075,Observación 75,S.R.L,Exento,24-56789019-2,2024-02-02,2023-12-05,NO,Anual,166200.0,403101,Colombia,Febrero
+D00076,Mariana Fernández,Individuo,Contacto XXX,Mariana Fernández@example.com,(011) 5000-0076,Observación 76,S.R.L,Responsable Inscripto,25-67890130-3,2024-05-18,,SI,Mensual,106340.0,402102,Argentina,Mayo
+D00077,Luis Martínez,Individuo,Contacto YYY,Luis Martínez@example,(011) 5000-0077,Observación 77,S.R.L,Monotributista,26-78901231-4,2024-06-20,,SI,Bimestral,130340.0,403101,Colombia,Junio
+D00078,Julia González,Individuo,Contacto ZZZ,Julia González@example.com,(011) 5000-0078,Observación 78,S.R.L,Exento,27-89012332-5,2024-03-13,2023-12-25,NO,Anual,90786.0,403101,Brasil,Marzo
+D00079,Ricardo López,,Contacto AAAA,Ricardo López@example.com,(011) 5000-0079,Observación 79,S.R.L,Responsable Inscripto,28-90123463-6,2024-03-06,2023-11-18,NO,Mensual,188151.0,403101,Venezuela,Marzo
+D00080,Silvia Ramírez,Individuo,Contacto BBBB,Silvia Ramírez@example.com,(011) 5000-0080,Observación 80,S.R.L,Monotributista,29-01234574-7,2024-06-30,,SI,Bimestral,136947.0,403101,Venezuela,Junio
+D00081,Martín Vargas,Individuo,Contacto CCCC,Martín Vargas@example.com,(011) 5000-0081,Observación 81,S.R.L,Exento,20-12345686-0,2024-02-16,2023-04-16,NO,Anual,165727.0,403101,Colombia,Febrero
+D00082,Natalia Castro,Individuo,Contacto DDDD,Natalia Castro@example.com,(011) 5000-0082,Observación 82,S.R.L,Responsable Inscripto,21-23456787-1,2024-06-24,,SI,Mensual,114296.0,402102,Chile,Junio
+D00083,alejandra Peña,Individuo,Contacto EEEE,alejandra Peña@example,(011) 5000-0083,Observación 83,S.R.L,Monotributista,22-34567898-2,2024-03-15,2023-05-13,NO,Bimestral,76383.0,403101,Colombia,Marzo
+D00084,Santiago López,Individuo,Contacto FFFF,Santiago López@example.com,(011) 5000-0084,Observación 84,S.R.L,Exento,23-45678909-3,2024-06-18,,SI,Anual,137963.0,403101,Paraguay,Junio
+D00085,Verónica Ruiz,Individuo,Contacto GGGG,Verónica Ruiz@example.com,(011) 5000-0085,Observación 85,S.R.L,Responsable Inscripto,24-56789020-4,2024-02-08,2023-03-27,NO,Mensual,63095.0,402102,Paraguay,Febrero
+D00086,Andrés Silva,Individuo,Contacto HHHH,Andrés Silva@example.com,(011) 5000-0086,Observación 86,S.R.L,Monotributista,25-67890131-5,2024-04-05,,SI,Bimestral,113891.0,403101,Colombia,Abril
+D00087,Patricia Gómez,Individuo,Contacto IIII,Patricia Gómez@example.com,(011) 5000-0087,Observación 87,S.R.L,Exento,26-78901232-6,2024-02-22,2023-11-11,NO,Anual,125419.0,403101,Uruguay,Febrero
 D00088,Javier Morales,Individuo,Contacto JJJJ,Javier Morales@example.com,(011) 5000-0088,Observación 88,S.R.L,Responsable Inscripto,27-89012333-7,2024-06-28,,SI,Mensual,121338.0,402102,Brasil,Junio
-D00089,Liliana Romero,Individuo,Contacto KKKK,Liliana Romero@example.com,(011) 5000-0089,Observación 89,S.R.L,Monotributista,28-90123464-8,2024-06-10,,SI,Bimestral,58739.0,403101,Argentina,Junio
-D00090,Maximiliano Álvarez,Individuo,Contacto LLLL,Maximiliano Álvarez@example.com,(011) 5000-0090,Observación 90,S.R.L,Exento,29-01234575-9,2024-04-10,,SI,Anual,65020.0,403101,Uruguay,Abril
-D00091,Elena Bravo,Individuo,Contacto MMMM,Elena Bravo@example.com,(011) 5000-0091,Observación 91,S.R.L,Responsable Inscripto,20-12345687-0,2024-04-22,,SI,Mensual,163410.0,402102,Brasil,Abril
-D00092,Hugo Fernández,Individuo,Contacto NNNN,Hugo Fernández@example.com,(011) 5000-0092,Observación 92,S.R.L,Monotributista,21-23456788-1,2024-03-09,2023-01-13,NO,Bimestral,123679.0,403101,México,Marzo
-D00093,Diana Morales,Individuo,Contacto OOOO,Diana Morales@example.com,(011) 5000-0093,Observación 93,S.R.L,Exento,22-34567889-2,2024-01-29,2023-09-06,NO,Anual,126605.0,403101,Paraguay,Enero
-D00094,Rodrigo Medina,,Contacto PPPP,Rodrigo Medina@example.com,(011) 5000-0094,Observación 94,S.R.L,Responsable Inscripto,23-45678990-3,2024-04-02,,SI,Mensual,84706.0,403101,Argentina,Abril
-D00095,Margarita Jiménez,Individuo,Contacto QQQQ,Margarita Jiménez@example,(011) 5000-0095,Observación 95,S.R.L,Monotributista,24-56789001-4,2024-02-22,2023-03-23,NO,Bimestral,195855.0,403101,Brasil,Febrero
-D00096,Emilio Soto,Individuo,Contacto RRRR,Emilio Soto@example.com,(011) 5000-0096,Observación 96,S.R.L,Exento,25-67890122-5,2024-04-15,,SI,Anual,114424.0,403101,Chile,Abril
-D00096,Emilio Soto,Individuo,Contacto RRRR,Emilio Soto@example.com,(011) 5000-0096,Observación 96,S.R.L,Exento,25-67890122-5,2024-04-15,,SI,Anual,110881.0,403101,Venezuela,Abril
-D00096,Emilio Soto,Individuo,Contacto RRRR,Emilio Soto@example.com,(011) 5000-0096,Observación 96,S.R.L,Exento,25-67890122-5,2024-04-15,,SI,Anual,57867.0,403101,Uruguay,Abril
-D00097,Rocío Cabrera,Individuo,Contacto SSSS,Rocío Cabrera@example.com,(011) 5000-0097,Observación 97,S.R.L,Responsable Inscripto,26-78901233-6,2024-05-28,,SI,Mensual,139723.0,402102,Paraguay,Mayo
-D00098,Pablo Fernández,Individuo,Contacto TTTT,Pablo Fernández@example.com,(011) 5000-0098,Observación 98,S.R.L,Monotributista,27-89012344-7,2024-05-05,,SI,Bimestral,133131.0,403101,Paraguay,Mayo
-D00099,Belén Gómez,Individuo,Contacto UUUU,Belén Gómez@example.com,(011) 5000-0099,Observación 99,S.R.L,Exento,28-90123455-8,2024-01-25,2023-12-19,NO,Anual,162961.0,403101,Chile,Enero
-D00100,Roberto Morales,Individuo,Contacto VVVV,Roberto Morales@example.com,(011) 5000-0100,Observación 100,S.R.L,Responsable Inscripto,29-01234576-9,2024-02-26,2023-10-11,NO,Mensual,156325.0,402102,Chile,Febrero
-D00101,Donaciones Co.,Empresa,Contacto VVVV,Donaciones Co.@example.com,(011) 5000-0101,Observación 101,SRL,Responsable Inscripto,29-01234576-10,2024-05-31,,SI,Anual,120000.0,409021,Colombia,Mayo
-D00102,Ayuda Empresarial S.A.,Empresa,Contacto VVVV,Ayuda Empresarial S.A.@example.com,(011) 5000-0102,Observación 102,SA,Responsable Inscripto,29-01234576-11,2024-06-01,,SI,Anual,150000.0,409021,Paraguay,Junio
-D00103,Donativos y Más S.R.L.,Empresa,Contacto VVVV,Donativos y Más S.R.L.@example.com,(011) 5000-0103,Observación 103,SRL,Responsable Inscripto,29-01234576-12,2024-06-02,,SI,Bimestral,200000.0,409021,Argentina,Junio
-D00104,Apoyo Corporativo S.A.,Empresa,Contacto VVVV,Apoyo Corporativo S.A.@example.com,(011) 5000-0104,Observación 104,SA,Responsable Inscripto,29-01234576-13,2024-06-03,,SI,Bimestral,180000.0,409021,Chile,Junio
-D00105,Fundación Empresarial,Empresa,Contacto VVVV,Fundación Empresarial@example.com,(011) 5000-0105,,SA,Responsable Inscripto,29-01234576-14,2024-06-04,,SI,Bimestral,220000.0,409021,Paraguay,Junio
+D00089,Liliana Romero,Individuo,Contacto KKKK,Liliana Romero@example.com,(011) 5000-0089,Observación 89,S.R.L,Monotributista,28-90123464-8,2024-06-10,,SI,Bimestral,58739.0,403101,Colombia,Junio
+D00090,Maximiliano Álvarez,Individuo,Contacto LLLL,Maximiliano Álvarez@example.com,(011) 5000-0090,Observación 90,S.R.L,Exento,29-01234575-9,2024-04-10,,SI,Anual,65020.0,403101,Colombia,Abril
+D00091,Elena Bravo,Individuo,Contacto MMMM,Elena Bravo@example.com,(011) 5000-0091,Observación 91,S.R.L,Responsable Inscripto,20-12345687-0,2024-04-22,,SI,Mensual,163410.0,402102,Chile,Abril
+D00092,Hugo Fernández,Individuo,Contacto NNNN,Hugo Fernández@example.com,(011) 5000-0092,Observación 92,S.R.L,Monotributista,21-23456788-1,2024-03-09,2023-12-12,NO,Bimestral,123679.0,403101,Paraguay,Marzo
+D00093,Diana Morales,Individuo,Contacto OOOO,Diana Morales@example.com,(011) 5000-0093,Observación 93,S.R.L,Exento,22-34567889-2,2024-01-29,2023-05-08,NO,Anual,126605.0,403101,Paraguay,Enero
+D00094,Rodrigo Medina,,Contacto PPPP,Rodrigo Medina@example.com,(011) 5000-0094,Observación 94,S.R.L,Responsable Inscripto,23-45678990-3,2024-04-02,,SI,Mensual,84706.0,403101,Uruguay,Abril
+D00095,Margarita Jiménez,Individuo,Contacto QQQQ,Margarita Jiménez@example,(011) 5000-0095,Observación 95,S.R.L,Monotributista,24-56789001-4,2024-02-22,2023-09-05,NO,Bimestral,195855.0,403101,Paraguay,Febrero
+D00096,Emilio Soto,Individuo,Contacto RRRR,Emilio Soto@example.com,(011) 5000-0096,Observación 96,S.R.L,Exento,25-67890122-5,2024-04-15,,SI,Anual,114424.0,403101,Argentina,Abril
+D00096,Emilio Soto,Individuo,Contacto RRRR,Emilio Soto@example.com,(011) 5000-0096,Observación 96,S.R.L,Exento,25-67890122-5,2024-04-15,,SI,Anual,110881.0,403101,Chile,Abril
+D00096,Emilio Soto,Individuo,Contacto RRRR,Emilio Soto@example.com,(011) 5000-0096,Observación 96,S.R.L,Exento,25-67890122-5,2024-04-15,,SI,Anual,57867.0,403101,Paraguay,Abril
+D00097,Rocío Cabrera,Individuo,Contacto SSSS,Rocío Cabrera@example.com,(011) 5000-0097,Observación 97,S.R.L,Responsable Inscripto,26-78901233-6,2024-05-28,,SI,Mensual,139723.0,402102,Colombia,Mayo
+D00098,Pablo Fernández,Individuo,Contacto TTTT,Pablo Fernández@example.com,(011) 5000-0098,Observación 98,S.R.L,Monotributista,27-89012344-7,2024-05-05,,SI,Bimestral,133131.0,403101,Colombia,Mayo
+D00099,Belén Gómez,Individuo,Contacto UUUU,Belén Gómez@example.com,(011) 5000-0099,Observación 99,S.R.L,Exento,28-90123455-8,2024-01-25,2023-08-02,NO,Anual,162961.0,403101,Brasil,Enero
+D00100,Roberto Morales,Individuo,Contacto VVVV,Roberto Morales@example.com,(011) 5000-0100,Observación 100,S.R.L,Responsable Inscripto,29-01234576-9,2024-02-26,2023-08-18,NO,Mensual,156325.0,402102,Argentina,Febrero
+D00101,Donaciones Co.,Empresa,Contacto VVVV,Donaciones Co.@example.com,(011) 5000-0101,Observación 101,SRL,Responsable Inscripto,29-01234576-10,2024-05-31,,SI,Anual,120000.0,409021,Venezuela,Mayo
+D00102,Ayuda Empresarial S.A.,Empresa,Contacto VVVV,Ayuda Empresarial S.A.@example.com,(011) 5000-0102,Observación 102,SA,Responsable Inscripto,29-01234576-11,2024-06-01,,SI,Anual,150000.0,409021,México,Junio
+D00103,Donativos y Más S.R.L.,Empresa,Contacto VVVV,Donativos y Más S.R.L.@example.com,(011) 5000-0103,Observación 103,SRL,Responsable Inscripto,29-01234576-12,2024-06-02,,SI,Bimestral,200000.0,409021,Chile,Junio
+D00104,Apoyo Corporativo S.A.,Empresa,Contacto VVVV,Apoyo Corporativo S.A.@example.com,(011) 5000-0104,Observación 104,SA,Responsable Inscripto,29-01234576-13,2024-06-03,,SI,Bimestral,180000.0,409021,Argentina,Junio
+D00105,Fundación Empresarial,Empresa,Contacto VVVV,Fundación Empresarial@example.com,(011) 5000-0105,,SA,Responsable Inscripto,29-01234576-14,2024-06-04,,SI,Bimestral,220000.0,409021,Uruguay,Junio
 D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 5550-9224,Observación,SRL,Responsable Inscripto,24-78912356-7,2018-01-01,,SI,Semestral,66227.0,403103,Bolivia,Enero
 D00121,Ministerio de Acción Comunitaria,Estado,Contacto ZVS,accióncomunitaria@mail.com,(+)56 5550-9223,Observación DD,GOB,Exento,34-01712356-6,2018-01-26,,Si,Anual,243823.0,404100,Chile,Enero
 D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 5550-9224,Observación,SRL,Responsable Inscripto,24-78912356-7,2018-01-01,,SI,Semestral,55300.0,403103,Bolivia,Enero

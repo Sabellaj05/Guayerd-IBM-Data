@@ -151,7 +151,7 @@ def verify_data(df):
     print("\nConteo de valores únicos por columna:")
     print(nunique_col(df))
 
-def main(args=None):
+def main(args=None) -> None:
     """Función principal que ejecuta la limpieza de datos de donantes."""
     # Configurar semilla para reproducibilidad
     np.random.seed(42)
@@ -159,11 +159,7 @@ def main(args=None):
     # Configurar rutas
     repo_root = Path(__file__).resolve().parent.parent.parent
     
-    # Determinar rutas según argumentos
-    if args and args.test:
-        data_dir = repo_root / "data" / "test"
-    else:
-        data_dir = repo_root / "data" / "merged"
+    data_dir = repo_root / "data" / "merged"
     
     data_path = data_dir / "donantes_final-merged.csv"
     
@@ -213,7 +209,6 @@ def main(args=None):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Limpieza de datos de donantes")
-    parser.add_argument("-t", "--test", action="store_true", help="Usar datos de prueba")
     parser.add_argument("-v", "--verificar", action="store_true", help="Verificar datos después de exportar")
     args = parser.parse_args()
     main(args)
