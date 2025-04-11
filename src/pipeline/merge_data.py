@@ -5,8 +5,6 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from geopy.geocoders import Nominatim
-from geopy.extra.rate_limiter import RateLimiter
 import random
 import warnings
 warnings.simplefilter(action="ignore", category=FutureWarning)
@@ -91,29 +89,6 @@ def transform_data(dfpn_clean, dfpo):
     dfp_merge["Categoria Proveedor"] = dfp_merge["Categoria Proveedor"].apply(lambda x: x.capitalize())
     dfpmerge_final = pd.concat([dfpn_clean, dfp_merge], ignore_index=True)
 
-    return dfpmerge_final
-
-
-# Function to retrieve coordinates
-def retrieve_coordinates(dfpmerge_final):
-    geolocator = Nominatim(user_agent="proveedores-test")
-    geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1)
-
-    coor_city = {}
-
-    def get_coords(city):
-        if city in coor_city:
-            return coor_city[city]
-        else:
-            location = geocode(city)
-            if location:
-                coords = (location.latitude, location.longitude)
-                coor_city[city] = coords
-                return coords
-            else:
-                return None
-
-    dfpmerge_final["Maps"] = dfpmerge_final["Ciudad"].apply(get_coords)
     return dfpmerge_final
 
 
@@ -267,8 +242,12 @@ def main(args=None) -> None:
     # Transform data
     dfpmerge_final = transform_data(dfpn_clean, dfpo)
 
-    # Retrieve coordinates
-    dfpmerge_final = retrieve_coordinates(dfpmerge_final)
+    # Note: We've removed the retrieve_coordinates function that was using the Nominatim API
+    # to avoid timeouts and unnecessary API calls. The Maps column will remain as is
+    # and will be removed later in the cleaning process anyway.
+    
+    # Set Maps column to None (it will be removed during cleaning)
+    dfpmerge_final["Maps"] = None
 
     # Merge donor data
     dfd_final, donaciones_fecha = merge_donor_data(dfdo, dfdn)

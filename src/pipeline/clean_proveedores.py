@@ -33,8 +33,20 @@ def format_dates(df):
 
 def drop_unnecessary_columns(df):
     """Elimina columnas que no son necesarias para el dataset final."""
-    df = df.drop(["Pais", "Maps", "Ciudad-maps"], axis=1)
-    df.rename(columns={"Corre Electronico": "Correo Electronico"}, inplace=True)
+    # Lista de columnas a eliminar
+    columns_to_drop = ["Pais", "Maps", "Ciudad-maps"]
+    
+    # Filtrar solo las columnas que existen en el DataFrame
+    existing_columns = [col for col in columns_to_drop if col in df.columns]
+    
+    # Eliminar solo las columnas existentes
+    if existing_columns:
+        df = df.drop(existing_columns, axis=1)
+    
+    # Renombrar columna si existe
+    if "Corre Electronico" in df.columns:
+        df.rename(columns={"Corre Electronico": "Correo Electronico"}, inplace=True)
+    
     return df
 
 def standardize_razon_social(df):
