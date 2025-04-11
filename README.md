@@ -7,18 +7,8 @@
 - [Beekeeper Studio](https://www.beekeeperstudio.io/)
 - [Docker](https://www.docker.com/) and docker-compose
 - [Terraform](https://www.terraform.io/)
-- Azure
 - Excel / Google Sheets
 - Looker Studio
-
-
-
-## Azure pipeline
-
-![diagram](media/diagram.png)
-
-
-
 
 - Dashboard en Looker
 
@@ -27,6 +17,5 @@
 
 ---
 
-- Pipeline en Azure gestionada con terraform WIP
 - Pasar script de limpieza de notebook a py y mandar a /src
 - limpiar y estructurar script principal
