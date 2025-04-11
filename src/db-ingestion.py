@@ -579,6 +579,9 @@ def handle_donante_dimension_tables(conn, cursor, df) -> dict:
     }
     df_db.rename(columns=col_mapping, inplace=True)
     
+    # Manejar valores nulos en razon - asignar valor predeterminado
+    df_db['razon'] = df_db['razon'].fillna('Sin Razón Social')
+    
     # Define column mapping for donante dimension tables using database-friendly names
     table_to_col = {
         "frecuencias": "frecuencia",
@@ -635,6 +638,9 @@ def process_donante_data(conn, cursor, df) -> None:
         "Fecha": "fecha"
     }
     df_db.rename(columns=col_mapping, inplace=True)
+    
+    # Manejar valores nulos en razon - asignar valor predeterminado
+    df_db['razon'] = df_db['razon'].fillna('Sin Razón Social')
     
     # Using the correct donante number column name from the dataframe
     numero_col = 'numero'

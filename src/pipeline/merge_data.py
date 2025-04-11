@@ -59,6 +59,11 @@ def clean_donors_data(dfdo, dfdn):
     col = "Razon Social"
     dfdo[col] = dfdo[col].replace("-", np.nan)
     dfdn[col] = dfdn[col].replace("-", np.nan)
+    
+    # Fill null values with values from adjacent rows (forward fill then backward fill)
+    # This approach fills nulls with real company names instead of a generic placeholder
+    dfdo[col] = dfdo[col].ffill().bfill()
+    dfdn[col] = dfdn[col].ffill().bfill()
 
     dfdo["Importe"] = dfdo["Importe"].apply(lambda x: f"{x:,.2f}".replace(",", "X").replace(".", ",").replace("X", "."))
     dfdn["Importe"] = dfdn["Importe"].apply(clean_importe)

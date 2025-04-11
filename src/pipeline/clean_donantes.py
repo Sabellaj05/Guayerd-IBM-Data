@@ -27,7 +27,21 @@ def clean_contactos(df):
 
 def format_razon_social(df):
     """Corrige los formatos de Razón Social uniformizando nomenclaturas."""
-    df = df.replace({"Razon Social": {"SRL": "S.R.L", "SA": "S.A", "SAS": "S.A.S"}})
+    # Fill null values with values from adjacent rows (forward fill then backward fill)
+    # This approach fills nulls with real company names instead of a generic placeholder
+    df['Razon Social'] = df['Razon Social'].ffill().bfill()
+    
+    # Handle suffix standardization with regex pattern matching
+    # This will replace the suffixes when they appear at the end of company names
+    patterns = {
+        r'\bSRL\b': 'S.R.L',
+        r'\bSA\b': 'S.A',
+        r'\bSAS\b': 'S.A.S'
+    }
+    
+    for pattern, replacement in patterns.items():
+        df['Razon Social'] = df['Razon Social'].str.replace(pattern, replacement, regex=True)
+    
     return df
 
 def fill_tipo(df):
