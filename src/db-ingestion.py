@@ -69,11 +69,26 @@ def insert_or_ignore(conn, cursor, query: str, data: tuple) -> None:
     # Importante que el `dato` sea una tupla en forma de `(value,)`
     # si es que los datos vienen de una sola columna
     try:
-        data = tuple(int(x) if isinstance(x, (np.integer)) else x for x in data) # para Nro_Cuenta
-        cursor.execute(query, data)
+        # Convert numpy integers to Python integers and handle NaN values
+        processed_data = []
+        for x in data:
+            if pd.isna(x):  # Handle NaN values properly
+                processed_data.append(None)
+            elif isinstance(x, (np.integer)):
+                processed_data.append(int(x))
+            else:
+                processed_data.append(x)
+        
+        cursor.execute(query, tuple(processed_data))
         conn.commit()
+        return True
     except IntegrityError as e:
-        print(f"Error: {e}")
+        # Silently ignore common integrity errors like NOT NULL violations
+        # These are expected during ETL process
+        return False
+    except Exception as e:
+        print(f"Error inesperado: {e}")
+        return False
 
 def get_all_tables(cursor) -> list:
     """
@@ -113,8 +128,14 @@ def ingest_table(conn, cursor, df: pd.DataFrame, table: str, col_name: str) -> N
         - None
     """
     count = 0
-    unique_table = df[col_name].unique()
-    for value in unique_table:
+    # Get unique values and filter out NaN/None values
+    unique_values = df[col_name].dropna().unique()
+    
+    for value in unique_values:
+        # Skip empty strings or None values
+        if value is None or (isinstance(value, str) and value.strip() == ''):
+            continue
+            
         query = f"""
         INSERT INTO `{table}` (`{col_name}`) VALUES (%s)
         ON DUPLICATE KEY UPDATE `{col_name}`=VALUES(`{col_name}`);
@@ -149,7 +170,7 @@ def fetch_fk(cursor, id: str, col: str, table: str) -> dict:
         print(f"Error: {e}")
 
     mapping = {col: id for id, col in cursor.fetchall()}
-    print(f"Fecth fkeys from {table}")
+    print(f"Fetch fkeys from {table}")
     return mapping
 
 
@@ -172,6 +193,7 @@ def ingest_proveedores(conn, cursor, df_proveedores: pd.DataFrame, mappings_fk_p
         - None
     """
     count = 0
+    skipped = 0
     # Step 6: Insert unique data into proveedores
     categoria_mapping, contribuyente_mapping, razon_mapping, ciudades_mapping = mappings_fk_proveedor
     for _, row in df_proveedores.iterrows():
@@ -202,10 +224,15 @@ def ingest_proveedores(conn, cursor, df_proveedores: pd.DataFrame, mappings_fk_p
         )
     
         # Insert into proveedores table
-        insert_or_ignore(conn, cursor, query, data)
-        count += 1
-        #insert_or_ignore(query, (ciudad,))
+        success = insert_or_ignore(conn, cursor, query, data)
+        if success:
+            count += 1
+        else:
+            skipped += 1
+    
     print(f"Cantidad de filas insertadas: {count}")
+    if skipped > 0:
+        print(f"Filas omitidas por errores de integridad: {skipped}")
 
 
 def ingest_gastos(conn, cursor, df: pd.DataFrame, mappings_fk_gastos) -> None:
@@ -227,6 +254,9 @@ def ingest_gastos(conn, cursor, df: pd.DataFrame, mappings_fk_gastos) -> None:
         - None
     """
     count = 0
+    skipped = 0
+    missing_fk = set()  # Para conteo de registros ignorados por falta de FK
+    
     # Step 8: Insert unique data into gastos --> todo el df ya que son todas las transacciones
     proveedor_mapping, cuenta_mapping = mappings_fk_gastos
     for _, row in df.iterrows():  # This should iterate through the full dataset
@@ -241,11 +271,22 @@ def ingest_gastos(conn, cursor, df: pd.DataFrame, mappings_fk_gastos) -> None:
             VALUES (%s, %s, %s, %s);
             """
             data = (row['importe'], row['fecha'], id_proveedor, id_cuenta)
-            insert_or_ignore(conn, cursor, query, data)
-            count += 1
+            success = insert_or_ignore(conn, cursor, query, data)
+            if success:
+                count += 1
+            else:
+                skipped += 1
         else:
-            print(f"Foreign key not found for {row['numero']} or {row['nro_cuenta']}")
+            # En lugar de imprimir cada fila, solo agregamos a un contador
+            missing_fk.add(f"{row['numero']} o {row['nro_cuenta']}")
+            skipped += 1
+    
     print(f"Cantidad de filas insertadas: {count}")
+    print(f"Filas omitidas: {skipped}")
+    
+    # Solo imprimir un resumen de las claves foraneas ausentes, no cada una
+    if missing_fk:
+        print(f"Se omitieron registros con {len(missing_fk)} combinaciones distintas de claves foraneas ausentes")
 
 
 def ingest_donantes(conn, cursor, df_donantes: pd.DataFrame, mappings_fk_donantes) -> None:
@@ -269,6 +310,9 @@ def ingest_donantes(conn, cursor, df_donantes: pd.DataFrame, mappings_fk_donante
     # to test
     df_donantes = df_donantes.reset_index(drop=True)
     count = 0
+    skipped = 0
+    missing_keys = {"id_frecuencia": 0, "id_contribuyente": 0, "id_razon": 0, "id_tipo": 0, "id_pais": 0}
+    
     # Step 6: Insert unique data into proveedores
     frecuencia_mapping, contribuyente_mapping, razon_mapping, tipo_mapping, pais_mapping = mappings_fk_donantes 
     for _, row in df_donantes.iterrows():
@@ -278,6 +322,13 @@ def ingest_donantes(conn, cursor, df_donantes: pd.DataFrame, mappings_fk_donante
         id_razon = razon_mapping.get(row['razon'])
         id_tipo = tipo_mapping.get(row['tipo'])
         id_pais = pais_mapping.get(row['pais'])
+        
+        # Contar valores faltantes para estadisticas
+        if id_frecuencia is None: missing_keys["id_frecuencia"] += 1
+        if id_contribuyente is None: missing_keys["id_contribuyente"] += 1
+        if id_razon is None: missing_keys["id_razon"] += 1
+        if id_tipo is None: missing_keys["id_tipo"] += 1
+        if id_pais is None: missing_keys["id_pais"] += 1
     
         query = """
         INSERT INTO donantes (numero, nombre, cuit, contacto, mail, telefono, activo, id_frecuencia, id_contribuyente, id_razon, id_tipo, id_pais)
@@ -302,10 +353,21 @@ def ingest_donantes(conn, cursor, df_donantes: pd.DataFrame, mappings_fk_donante
         )
     
         # Insert into proveedores table
-        insert_or_ignore(conn, cursor, query, data)
-        count += 1
+        success = insert_or_ignore(conn, cursor, query, data)
+        if success:
+            count += 1
+        else:
+            skipped += 1
+    
     print(f"Cantidad de filas insertadas: {count}")
+    if skipped > 0:
+        print(f"Filas omitidas por errores de integridad: {skipped}")
         
+    # Mostrar estadisticas de claves foraneas faltantes
+    missing_summary = ", ".join([f"{key}: {value}" for key, value in missing_keys.items() if value > 0])
+    if missing_summary:
+        print(f"Claves foraneas faltantes: {missing_summary}")
+
 
 def ingest_ingresos(conn, cursor, df: pd.DataFrame, mappings_fk_ingresos) -> None:
     """
@@ -326,6 +388,9 @@ def ingest_ingresos(conn, cursor, df: pd.DataFrame, mappings_fk_ingresos) -> Non
         - None
     """
     count = 0
+    skipped = 0
+    missing_fk = set()  # Para conteo de registros ignorados por falta de FK
+    
     # Step 8: Insert unique data into ingresos --> todo el df ya que son todas las transacciones
     proveedor_mapping, cuenta_mapping = mappings_fk_ingresos
     for _, row in df.iterrows():  # This should iterate through the full dataset
@@ -340,11 +405,22 @@ def ingest_ingresos(conn, cursor, df: pd.DataFrame, mappings_fk_ingresos) -> Non
             VALUES (%s, %s, %s, %s);
             """
             data = (row['importe'], row['fecha'], id_donante, id_cuenta)
-            insert_or_ignore(conn, cursor, query, data)
-            count += 1
+            success = insert_or_ignore(conn, cursor, query, data)
+            if success:
+                count += 1
+            else:
+                skipped += 1
         else:
-            print(f"Foreign key not found for {row['numero']} or {row['nro_cuenta']}")
+            # En lugar de imprimir cada fila, solo agregamos a un contador
+            missing_fk.add(f"{row['numero']} o {row['nro_cuenta']}")
+            skipped += 1
+    
     print(f"Cantidad de filas insertadas: {count}")
+    print(f"Filas omitidas: {skipped}")
+    
+    # Solo imprimir un resumen de las claves foraneas ausentes, no cada una
+    if missing_fk:
+        print(f"Se omitieron registros con {len(missing_fk)} combinaciones distintas de claves foraneas ausentes")
 
 def load_datasets(path_proveedores: Path, path_donantes: Path) -> tuple:
     """
@@ -369,7 +445,7 @@ def load_datasets(path_proveedores: Path, path_donantes: Path) -> tuple:
 
 def setup_database_connection() -> tuple:
     """
-    Configura la conexión a la base de datos y el cursor
+    Configura la conexion a la base de datos y el cursor
 
     params
     ------
@@ -393,12 +469,12 @@ def setup_database_connection() -> tuple:
 
 def handle_proveedor_dimension_tables(conn, cursor, df) -> dict:
     """
-    Inserta datos en las tablas de dimensión para proveedores y devuelve los mapeos de columnas
+    Inserta datos en las tablas de dimension para proveedores y devuelve los mapeos de columnas
 
     params
     ------
       * conn:
-        - conexión a la base de datos
+        - conexion a la base de datos
       * cursor:
         - cursor de la base de datos
       * df: pd.DataFrame
@@ -428,12 +504,12 @@ def handle_proveedor_dimension_tables(conn, cursor, df) -> dict:
 
 def process_proveedor_data(conn, cursor, df, table_to_col) -> None:
     """
-    Procesa los datos de proveedores: prepara las claves foráneas e inserta en las tablas de proveedores y gastos
+    Procesa los datos de proveedores: prepara las claves foraneas e inserta en las tablas de proveedores y gastos
 
     params
     ------
       * conn:
-        - conexión a la base de datos
+        - conexion a la base de datos
       * cursor:
         - cursor de la base de datos
       * df: pd.DataFrame
@@ -474,12 +550,12 @@ def process_proveedor_data(conn, cursor, df, table_to_col) -> None:
 
 def handle_donante_dimension_tables(conn, cursor, df) -> dict:
     """
-    Inserta datos en las tablas de dimensión para donantes y devuelve los mapeos de columnas
+    Inserta datos en las tablas de dimension para donantes y devuelve los mapeos de columnas
 
     params
     ------
       * conn:
-        - conexión a la base de datos
+        - conexion a la base de datos
       * cursor:
         - cursor de la base de datos
       * df: pd.DataFrame
@@ -525,12 +601,12 @@ def handle_donante_dimension_tables(conn, cursor, df) -> dict:
 
 def process_donante_data(conn, cursor, df) -> None:
     """
-    Procesa los datos de donantes: prepara las claves foráneas e inserta en las tablas de donantes e ingresos
+    Procesa los datos de donantes: prepara las claves foraneas e inserta en las tablas de donantes e ingresos
 
     params
     ------
       * conn:
-        - conexión a la base de datos
+        - conexion a la base de datos
       * cursor:
         - cursor de la base de datos
       * df: pd.DataFrame
@@ -590,12 +666,12 @@ def process_donante_data(conn, cursor, df) -> None:
 
 def close_connection(conn, cursor) -> None:
     """
-    Cierra la conexión a la base de datos y el cursor
+    Cierra la conexion a la base de datos y el cursor
 
     params
     ------
       * conn:
-        - conexión a la base de datos
+        - conexion a la base de datos
       * cursor:
         - cursor de la base de datos
 
@@ -610,7 +686,7 @@ def close_connection(conn, cursor) -> None:
 
 def main() -> None:
     """
-    Función principal para orquestar el proceso de ingestión de datos a la base de datos
+    Funcion principal para orquestar el proceso de ingestion de datos a la base de datos
 
     params
     ------
