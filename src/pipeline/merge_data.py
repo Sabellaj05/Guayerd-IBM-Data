@@ -242,11 +242,15 @@ def main(args=None) -> None:
             def __init__(self):
                 self.test = False
         args = Args()
-    # Set the root path
-    root_path = Path(__file__).resolve().parent.parent.parent
-    # this file/pipeline/src/root
 
+    # Set the root path
+    # this file/pipeline/src/root
+    root_path = Path(__file__).resolve().parent.parent.parent
+    
+    # for test data
     test_data_path = root_path / "data" / "test"
+    # for final data
+    final_data_path = root_path / "data" / "merged"
 
     # Load data from data/raw
     data_path = root_path / "data" / "raw"
@@ -281,7 +285,7 @@ def main(args=None) -> None:
     if args.test:
         export_data(dfd_final, dfp_final, test_data_path)
     else:
-        export_data(dfd_final, dfp_final, root_path)
+        export_data(dfd_final, dfp_final, final_data_path)
 
 if __name__ == "__main__":
     parser = ArgumentParser()

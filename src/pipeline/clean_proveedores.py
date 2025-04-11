@@ -13,7 +13,7 @@ def load_data(ruta_datos):
     print(f"Datos cargados con forma: {df.shape}")
     return df
 
-def clean_category(df):
+def clean_categorias(df):
     """Corrige errores en la columna Categoria Proveedor."""
     df["Categoria Proveedor"] = df["Categoria Proveedor"].str.replace("Servicos", "Servicios")
     return df
@@ -37,7 +37,7 @@ def drop_unnecessary_columns(df):
     df.rename(columns={"Corre Electronico": "Correo Electronico"}, inplace=True)
     return df
 
-def standardize_company_names(df):
+def standardize_razon_social(df):
     """Estandariza los nombres de razón social."""
     df["Razon Social"] = df["Razon Social"].str.rstrip(".").str.replace("Sociedad Anónima", "S.A")
     return df
@@ -86,9 +86,6 @@ def main(args=None):
     
     data_path = data_dir / "proveedores_final-merged.csv"
     
-    # Ruta de salida
-    data_dir_out = repo_root / "data" / "cleaned"
-    data_clean = data_dir_out / "proveedores-clean.csv"
     
     # Cargar datos
     print(f"Cargando datos desde {data_path}")
@@ -96,7 +93,7 @@ def main(args=None):
     
     # Limpiar datos
     print("Limpiando categorías de proveedores...")
-    df = clean_category(df)
+    df = clean_categorias(df)
     
     print("Corrigiendo números de proveedor...")
     df = fix_provider_numbers(df)
@@ -108,14 +105,18 @@ def main(args=None):
     df = drop_unnecessary_columns(df)
     
     print("Estandarizando nombres de empresas...")
-    df = standardize_company_names(df)
+    df = standardize_razon_social(df)
     
     print("Renombrando columnas al formato final...")
     df = rename_final_columns(df)
     
+    # Ruta de salida
+    data_dir_out = repo_root / "data" / "cleaned"
+    data_clean_out = data_dir_out / "proveedores-clean.csv"
+
     # Exportar datos
     print("Exportando datos limpios...")
-    df_exportado = export_data(df, data_clean)
+    df_exportado = export_data(df, data_clean_out)
     
     # Mostrar información si se solicita
     if args and args.verificar:

@@ -618,7 +618,8 @@ def main() -> None:
     returns:
         - None
     """
-    repo_root = Path(__file__).resolve().parent.parent.parent
+    # root directory of repo
+    repo_root = Path(__file__).resolve().parent.parent
     data_prov = repo_root / "data" / "cleaned" / "proveedores-clean.csv"
     data_donan = repo_root / "data" / "cleaned" / "donantes-clean.csv"
     # Step 1: Load datasets

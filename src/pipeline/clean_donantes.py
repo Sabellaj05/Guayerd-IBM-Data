@@ -153,9 +153,6 @@ def main(args=None):
     
     data_path = data_dir / "donantes_final-merged.csv"
     
-    # Ruta de salida
-    data_dir_out = repo_root / "data" / "cleaned"
-    data_clean = data_dir_out / "donantes-clean.csv"
     
     # Cargar datos
     print(f"Cargando datos desde {data_path}")
@@ -186,14 +183,18 @@ def main(args=None):
     print("Renombrando columnas al formato final...")
     df_final = rename_final_columns(df_final)
     
+    # Ruta de salida
+    data_dir_out = repo_root / "data" / "cleaned"
+    data_clean_out = data_dir_out / "donantes-clean.csv"
+
     # Exportar datos
     print("Exportando datos limpios...")
-    df_exportado = export_data(df_final, data_clean)
+    df_exportado = export_data(df_final, data_clean_out)
     
     # Verificar si se solicita
     if args and args.verificar:
         print("Verificando datos exportados...")
-        df_verificacion = pd.read_csv(data_clean)
+        df_verificacion = pd.read_csv(data_clean_out)
         verify_data(df_verificacion)
 
 if __name__ == "__main__":
