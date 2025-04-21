@@ -11,7 +11,7 @@
 - Excel / Google Sheets
 - Looker Studio
 
-[Dashboard](https://lookerstudio.google.com/u/0/reporting/91a40e92-eb80-4d9b-b6a9-88db2b82c413/page/p_j9ieyp3vmd)
+[Dashboard](https://lookerstudio.google.com/reporting/235b00a9-912a-42d5-abf5-b8c75514ede2)
 
 ---
 - re-hacer diagrama
