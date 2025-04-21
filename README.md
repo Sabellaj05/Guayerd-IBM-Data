@@ -5,8 +5,9 @@
 - Python
 - SQL / MySQL
 - [Beekeeper Studio](https://www.beekeeperstudio.io/)
-- [Docker](https://www.docker.com/) and docker-compose
-- Google Cloud
+- [Docker](https://www.docker.com/)
+- [Terraform](https://www.terraform.io/)
+- [Google Cloud](https://cloud.google.com)
 - Excel / Google Sheets
 - Looker Studio
 

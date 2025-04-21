@@ -7,8 +7,7 @@ import pandas as pd
 import numpy as np
 from mysql.connector import connect, Error, IntegrityError
 from pathlib import Path
-
-
+import sys
 
 def create_connection(db_config: dict):
     """
@@ -453,13 +452,30 @@ def setup_database_connection() -> tuple:
     returns:
         - tuple con (conexion, cursor)
     """
-    load_dotenv()
+    # Check if we should use .env.example for local Docker environment
+    if os.environ.get("USE_ENV_EXAMPLE") == "1":
+        # Load environment variables from .env.example
+        local_env_file = Path(__file__).resolve().parent / ".env.example"
+        if not local_env_file.exists():
+            print(f"Error: .env.example file not found at {local_env_file}")
+            sys.exit(1)
+        print(f"Loading environment from {local_env_file}")
+        load_dotenv(dotenv_path=local_env_file)
+    else:
+        # Load environment variables from .env (production)
+        load_dotenv()
+    
+    # Get database configuration from environment variables
     db_config = {
         "host": os.getenv("DATABASE_HOST"),
         "user": os.getenv("DATABASE_USER"),
         "password": os.getenv("DATABASE_PASSWORD"),
         "database": os.getenv("DATABASE_NAME")
     }
+    
+    # Print connection info (excluding password)
+    connection_info = {k: v for k, v in db_config.items() if k != "password"}
+    print(f"Connecting to database with: {connection_info}")
     
     conn = create_connection(db_config)
     cursor = crear_cursor(conn)

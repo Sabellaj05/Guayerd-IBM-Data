@@ -4,44 +4,78 @@ Main orchestration script for running the full ETL pipeline.
 This script runs all the necessary scripts in the correct order to process data and load it into the database.
 
 Order of execution:
-1. merge_data.py
-2. clean_donantes.py
-3. clean_proveedores.py
-4. db-ingestion.py
+1. merge_data.py - Combina los datos crudos de distintos periodos
+2. clean_donantes.py - Limpia y procesa los datos de donantes
+3. clean_proveedores.py - Limpia y procesa los datos de los proveedores
+4. db-ingestion.py - Carga los datos limpios acorde al schema de la db previamente creada (_DATABASE/ddl.sql)
+
+Usage:
+  python main.py [--prod]
+
+Options:
+  --prod: Use production environment (otherwise uses local environment)
 """
 
+import argparse
 import os
+import subprocess
 import sys
-import importlib.util
 import time
 from pathlib import Path
 
-def import_and_execute_script(script_path):
-    """Import a Python script as a module and execute its main function if available.
+def parse_arguments():
+    """Parse command line arguments for the ETL pipeline."""
+    parser = argparse.ArgumentParser(description="Run the ETL pipeline")
+    parser.add_argument("--prod", action="store_true", help="Use production environment (otherwise uses local environment)")
+    return parser.parse_args()
+
+def setup_environment(use_prod):
+    """Set up the environment by checking appropriate .env files exist.
     
     Args:
-        script_path: Path to the script to import and execute
-        
+        use_prod: Boolean indicating whether to use production environment
+    
     Returns:
-        The imported module
+        None
     """
-    script_name = os.path.basename(script_path).replace('.py', '')
-    spec = importlib.util.spec_from_file_location(script_name, script_path)
-    module = importlib.util.module_from_spec(spec)
-    sys.modules[script_name] = module
-    spec.loader.exec_module(module)
+    repo_root = Path(__file__).resolve().parent.parent
+    src_dir = repo_root / "src"
     
-    # If the module has a main function, execute it
-    if hasattr(module, 'main'):
-        module.main()
+    # Define .env file paths
+    env_example = src_dir / ".env.example"  # Local environment template
+    env_file = src_dir / ".env"            # Production environment file
     
-    return module
+    # Just check that the appropriate file exists
+    if use_prod:
+        if not env_file.exists():
+            print(f"❌ Production environment file {env_file} not found")
+            sys.exit(1)
+
+        print(f"✅ Using production environment (.env)")
+
+    else:
+        # For local mode, we just need .env.example to exist
+        # The db-ingestion.py script will handle loading it
+        if not env_example.exists():
+            print(f"❌ Local environment file {env_example} not found")
+            sys.exit(1)
+        print(f"✅ Using local environment (.env.example)")
+        
+        # We need to set an environment variable to tell scripts to use .env.example (local)
+        os.environ["USE_ENV_EXAMPLE"] = "1"
 
 def run_script(script_path):
-    """Run a Python script and print status information.
+    """Run a Python script as a subprocess and handle its output.
+    
+    This function executes another Python script as a separate process
+    and captures its output and errors. This approach allows each script
+    to run independently with its own environment.
     
     Args:
-        script_path: Path to the script to run
+        script_path: Path to the Python script to run
+    
+    Returns:
+        The return code from the script execution (0 for success)
     """
     script_name = os.path.basename(script_path)
     print(f"\n{'=' * 80}")
@@ -50,31 +84,51 @@ def run_script(script_path):
     
     start_time = time.time()
     
-    # Try to import and run the script
+    # Build the command - run the script with the same Python interpreter
+    cmd = [sys.executable, script_path]
+    
+    # Run the script as a subprocess
     try:
-        # Save the original sys.argv and restore it after execution
-        original_argv = sys.argv.copy()
-        sys.argv = [script_path]
+        # subprocess.run executes the command and waits for it to complete
+        process = subprocess.run(
+            cmd,
+            check=True,
+            text=True,
+            capture_output=True,
+            env=os.environ.copy()  # Pass current environment variables to subprocess
+        )
         
-        # Import and execute the script
-        import_and_execute_script(script_path)
-        
-        # Restore the original sys.argv
-        sys.argv = original_argv
+        # Print output from the script
+        if process.stdout:
+            print(process.stdout)
         
         execution_time = time.time() - start_time
         print(f"\n✅ {script_name} completed successfully in {execution_time:.2f} seconds")
-    except Exception as e:
-        print(f"\n❌ Error running {script_name}: {str(e)}")
-        sys.exit(1)
+        return 0
+    
+    except subprocess.CalledProcessError as e:
+        # This exception is raised when the command returns a non-zero exit code
+        print(f"\n❌ Error running {script_name} (exit code {e.returncode}):")
+        if e.stdout:
+            print(e.stdout)
+        if e.stderr:
+            print(f"Error output:\n{e.stderr}")
+        return e.returncode
 
 def main():
     """Main function to run all scripts in the correct order."""
+    # Parse command line arguments
+    args = parse_arguments()
+    
+    # Set up environment based on arguments
+    use_prod = args.prod
+    setup_environment(use_prod)
+    
     # Get the current directory (src)
     src_dir = Path(__file__).parent.absolute()
     pipeline_dir = src_dir / "pipeline"
     
-    # Script execution order - merge_data.py first, then cleaning scripts, then db-ingestion.py
+    # Prepare script paths
     scripts = [
         pipeline_dir / "merge_data.py",
         pipeline_dir / "clean_donantes.py",
@@ -87,10 +141,17 @@ def main():
     
     # Run each script in order
     for script in scripts:
+        script_path = str(script)
         if not script.exists():
-            print(f"\n❌ Script not found: {script}")
+            print(f"\n❌ Script not found: {script_path}")
             sys.exit(1)
-        run_script(str(script))
+        
+        result = run_script(script_path)
+        
+        # Stop the pipeline if any script fails
+        if result != 0:
+            print(f"\n❌ ETL pipeline failed at {os.path.basename(script_path)}")
+            sys.exit(result)
     
     total_time = time.time() - start_time
     print(f"\n✨ ETL pipeline completed successfully in {total_time:.2f} seconds")
